@@ -1,0 +1,1440 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.70 (git sha1 28ba3cb92, Release, GNU /usr/bin/c++ 13.3.0)
+
+1. Executing Verilog-2005 frontend: /foss/designs/runs/RUN_2026-10-30_16-26-03/tmp/b2a29dfb5175477fb62ce015edc5cf66.bb.v
+Parsing SystemVerilog input from `/foss/designs/runs/RUN_2026-10-30_16-26-03/tmp/b2a29dfb5175477fb62ce015edc5cf66.bb.v' to AST representation.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_20_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_40_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_60_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_80_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_2'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a222oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__conb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__diode_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd1_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s2s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s4s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s6s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fah_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcin_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcon_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_bleeder_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputisolatch_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrckapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__macro_sparecell'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probe_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probec_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvpwrvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /foss/designs/runs/RUN_2026-10-30_16-26-03/tmp/c57bdb4e645640aa96b41b03fb820ca6.bb.v
+Parsing SystemVerilog input from `/foss/designs/runs/RUN_2026-10-30_16-26-03/tmp/c57bdb4e645640aa96b41b03fb820ca6.bb.v' to AST representation.
+Generating RTLIL representation for module `\sky130_ef_io__analog_esd_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__analog_noesd_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__analog_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_10um'.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_1um'.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_20um'.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_5um'.
+Generating RTLIL representation for module `\sky130_ef_io__connect_vcchib_vccd_and_vswitch_vddio_slice_20um'.
+Generating RTLIL representation for module `\sky130_ef_io__connect_vdda_vddio_and_vssa_vssio_slice_20um'.
+Generating RTLIL representation for module `\sky130_ef_io__corner_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__gpiov2_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__gpiov2_pad_wrapped'.
+Generating RTLIL representation for module `\sky130_ef_io__top_power_hvc'.
+Generating RTLIL representation for module `\sky130_ef_io__vccd_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vccd_lvc_clamped2_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vccd_lvc_clamped3_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vccd_lvc_clamped_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vccd_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vdda_hvc_clamped_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vdda_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vdda_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vddio_hvc_clamped_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vddio_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vddio_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssa_hvc_clamped_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssa_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssa_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssd_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssd_lvc_clamped2_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssd_lvc_clamped3_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssd_lvc_clamped_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssd_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssio_hvc_clamped_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssio_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssio_lvc_pad'.
+Generating RTLIL representation for module `\sky130_fd_io__com_bus_slice'.
+Generating RTLIL representation for module `\sky130_fd_io__top_gpio_ovtv2'.
+Generating RTLIL representation for module `\sky130_fd_io__top_gpiov2'.
+Generating RTLIL representation for module `\sky130_fd_io__top_ground_hvc_wpad'.
+Generating RTLIL representation for module `\sky130_fd_io__top_ground_lvc_wpad'.
+Generating RTLIL representation for module `\sky130_fd_io__top_power_hvc_wpad'.
+Generating RTLIL representation for module `\sky130_fd_io__top_power_hvc_wpadv2'.
+Generating RTLIL representation for module `\sky130_fd_io__top_power_lvc_wpad'.
+Generating RTLIL representation for module `\sky130_fd_io__top_refgen'.
+Generating RTLIL representation for module `\sky130_fd_io__top_refgen_new'.
+Generating RTLIL representation for module `\sky130_fd_io__top_sio'.
+Generating RTLIL representation for module `\sky130_fd_io__top_sio_macro'.
+Generating RTLIL representation for module `\sky130_fd_io__top_xres4v2'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /foss/designs/rtl/priority_encoder.v
+Parsing SystemVerilog input from `/foss/designs/rtl/priority_encoder.v' to AST representation.
+Storing AST representation for module `$abstract\priority_encoder'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /foss/designs/rtl/tcam_array.v
+Parsing SystemVerilog input from `/foss/designs/rtl/tcam_array.v' to AST representation.
+Storing AST representation for module `$abstract\tcam_array'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /foss/designs/rtl/tcam_ctrl.v
+Parsing SystemVerilog input from `/foss/designs/rtl/tcam_ctrl.v' to AST representation.
+Storing AST representation for module `$abstract\tcam_ctrl'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /foss/designs/rtl/tcam_top.v
+Parsing SystemVerilog input from `/foss/designs/rtl/tcam_top.v' to AST representation.
+Storing AST representation for module `$abstract\tcam_top'.
+Successfully finished Verilog frontend.
+
+7. Executing HIERARCHY pass (managing design hierarchy).
+
+8. Executing AST frontend in derive mode using pre-parsed AST for module `\tcam_top'.
+Generating RTLIL representation for module `\tcam_top'.
+
+8.1. Analyzing design hierarchy..
+Top module:  \tcam_top
+
+8.2. Executing AST frontend in derive mode using pre-parsed AST for module `\priority_encoder'.
+Generating RTLIL representation for module `\priority_encoder'.
+
+8.3. Executing AST frontend in derive mode using pre-parsed AST for module `\tcam_array'.
+Generating RTLIL representation for module `\tcam_array'.
+
+8.4. Executing AST frontend in derive mode using pre-parsed AST for module `\tcam_ctrl'.
+Generating RTLIL representation for module `\tcam_ctrl'.
+
+8.5. Analyzing design hierarchy..
+Top module:  \tcam_top
+Used module:     \priority_encoder
+Used module:     \tcam_array
+Used module:     \tcam_ctrl
+
+8.6. Analyzing design hierarchy..
+Top module:  \tcam_top
+Used module:     \priority_encoder
+Used module:     \tcam_array
+Used module:     \tcam_ctrl
+Removing unused module `$abstract\tcam_top'.
+Removing unused module `$abstract\tcam_ctrl'.
+Removing unused module `$abstract\tcam_array'.
+Removing unused module `$abstract\priority_encoder'.
+Removed 4 unused modules.
+Renaming module tcam_top to tcam_top.
+
+9. Executing PROC pass (convert processes to netlists).
+
+9.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+9.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 2 switch rules as full_case in process $proc$/foss/designs/rtl/tcam_array.v:22$273 in module tcam_array.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/rtl/tcam_array.v:18$265 in module tcam_array.
+Marked 16 switch rules as full_case in process $proc$/foss/designs/rtl/priority_encoder.v:9$2 in module priority_encoder.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/rtl/tcam_ctrl.v:14$1728 in module tcam_ctrl.
+Removed a total of 0 dead cases.
+
+9.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 264 assignments to connections.
+
+9.4. Executing PROC_INIT pass (extract init attributes).
+
+9.5. Executing PROC_ARST pass (detect async resets in processes).
+
+9.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~21 debug messages>
+
+9.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1724'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1721'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1718'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1715'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1712'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1709'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1706'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1703'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1700'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1697'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1694'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1691'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1688'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1685'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1682'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1679'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1676'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1673'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1670'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1667'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1664'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1661'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1658'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1655'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1652'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1649'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1646'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1643'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1640'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1637'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1634'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1631'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1628'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1625'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1622'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1619'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1616'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1613'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1610'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1607'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1604'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1601'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1598'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1595'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1592'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1589'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1586'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1583'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1580'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1577'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1574'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1571'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1568'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1565'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1562'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1559'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1556'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1553'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1550'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1547'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1544'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1541'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1538'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1535'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1532'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1529'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1526'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1523'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1520'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1517'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1514'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1511'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1508'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1505'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1502'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1499'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1496'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1493'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1490'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1487'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1484'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1481'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1478'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1475'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1472'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1469'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1466'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1463'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1460'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1457'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1454'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1451'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1448'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1445'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1442'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1439'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1436'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1433'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1430'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1427'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1424'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1421'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1418'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1415'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1412'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1409'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1406'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1403'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1400'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1397'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1394'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1391'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1388'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1385'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1382'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1379'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1376'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1373'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1370'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1367'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1364'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1361'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1358'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1355'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1352'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1349'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1346'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1343'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1340'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1337'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1334'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1331'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1328'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1325'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1322'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1319'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1316'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1313'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1310'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1307'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1304'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1301'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1298'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1295'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1292'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1289'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1286'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1283'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1280'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1277'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1274'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1271'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1268'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1265'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1262'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1259'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1256'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1253'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1250'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1247'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1244'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1241'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1238'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1235'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1232'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1229'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1226'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1223'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1220'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1217'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1214'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1211'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1208'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1205'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1202'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1199'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1196'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1193'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1190'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1187'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1184'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1181'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1178'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1175'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1172'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1169'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1166'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1163'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1160'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1157'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1154'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1151'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1148'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1145'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1142'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1139'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1136'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1133'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1130'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1127'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1124'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1121'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1118'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1115'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1112'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1109'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1106'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1103'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1100'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1097'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1094'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1091'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1088'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1085'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1082'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1079'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1076'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1073'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1070'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1067'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1064'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1061'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1058'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1055'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1052'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1049'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1046'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1043'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1040'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1037'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1034'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1031'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1028'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1025'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1022'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1019'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1016'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1013'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1010'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1007'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1004'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1001'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$998'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$995'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$992'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$989'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$986'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$983'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$980'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$977'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$974'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$971'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$968'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$965'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$962'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$959'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+     1/4: $2$lookahead\valid$272[15:0]$279
+     2/4: $2$bitselwrite$pos$/foss/designs/rtl/tcam_array.v:24$7[3:0]$278
+     3/4: $1$lookahead\valid$272[15:0]$277
+     4/4: $1$bitselwrite$pos$/foss/designs/rtl/tcam_array.v:24$7[3:0]$276
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+     1/3: $1$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$271
+     2/3: $1$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_DATA[15:0]$270
+     3/3: $1$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_ADDR[3:0]$269
+Creating decoders for process `\priority_encoder.$proc$/foss/designs/rtl/priority_encoder.v:9$2'.
+     1/16: $16\addr[3:0]
+     2/16: $15\addr[3:0]
+     3/16: $14\addr[3:0]
+     4/16: $13\addr[3:0]
+     5/16: $12\addr[3:0]
+     6/16: $11\addr[3:0]
+     7/16: $10\addr[3:0]
+     8/16: $9\addr[3:0]
+     9/16: $8\addr[3:0]
+    10/16: $7\addr[3:0]
+    11/16: $6\addr[3:0]
+    12/16: $5\addr[3:0]
+    13/16: $4\addr[3:0]
+    14/16: $3\addr[3:0]
+    15/16: $2\addr[3:0]
+    16/16: $1\addr[3:0]
+Creating decoders for process `\tcam_ctrl.$proc$/foss/designs/rtl/tcam_ctrl.v:14$1728'.
+     1/2: $0\sw[7:0]
+     2/2: $0\rule_sh[15:0]
+
+9.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$264' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1724'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$263' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1721'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$262' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1718'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$261' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1715'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$260' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1712'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$259' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1709'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$258' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1706'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$257' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1703'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$256' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1700'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$255' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1697'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$254' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1694'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$253' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1691'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$252' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1688'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$251' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1685'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$250' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1682'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$249' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1679'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$248' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1676'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$247' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1673'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$246' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1670'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$245' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1667'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$244' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1664'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$243' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1661'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$242' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1658'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$241' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1655'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$240' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1652'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$239' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1649'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$238' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1646'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$237' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1643'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$236' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1640'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$235' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1637'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$234' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1634'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$233' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1631'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$232' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1628'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$231' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1625'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$230' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1622'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$229' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1619'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$228' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1616'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$227' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1613'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$226' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1610'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$225' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1607'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$224' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1604'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$223' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1601'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$222' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1598'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$221' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1595'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$220' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1592'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$219' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1589'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$218' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1586'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$217' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1583'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$216' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1580'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$215' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1577'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$214' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1574'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$213' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1571'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$212' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1568'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$211' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1565'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$210' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1562'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$209' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1559'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$208' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1556'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$207' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1553'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$206' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1550'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$205' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1547'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$204' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1544'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$203' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1541'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$202' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1538'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$201' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1535'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$200' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1532'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$199' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1529'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$198' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1526'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$197' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1523'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$196' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1520'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$195' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1517'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$194' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1514'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$193' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1511'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$192' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1508'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$191' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1505'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$190' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1502'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$189' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1499'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$188' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1496'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$187' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1493'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$186' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1490'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$185' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1487'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$184' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1484'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$183' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1481'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$182' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1478'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$181' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1475'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$180' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1472'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$179' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1469'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$178' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1466'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$177' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1463'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$176' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1460'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$175' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1457'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$174' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1454'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$173' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1451'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$172' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1448'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$171' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1445'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$170' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1442'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$169' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1439'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$168' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1436'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$167' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1433'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$166' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1430'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$165' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1427'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$164' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1424'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$163' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1421'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$162' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1418'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$161' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1415'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$160' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1412'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$159' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1409'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$158' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1406'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$157' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1403'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$156' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1400'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$155' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1397'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$154' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1394'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$153' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1391'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$152' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1388'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$151' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1385'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$150' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1382'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$149' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1379'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$148' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1376'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$147' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1373'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$146' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1370'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$145' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1367'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$144' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1364'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$143' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1361'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$142' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1358'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$141' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1355'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$140' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1352'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$139' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1349'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$138' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1346'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$137' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1343'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$136' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1340'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$135' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1337'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$134' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1334'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$133' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1331'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$132' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1328'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$131' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1325'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$130' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1322'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$129' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1319'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$128' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1316'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$127' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1313'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$126' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1310'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$125' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1307'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$124' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1304'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$123' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1301'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$122' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1298'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$121' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1295'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$120' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1292'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$119' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1289'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$118' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1286'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$117' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1283'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$116' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1280'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$115' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1277'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$114' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1274'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$113' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1271'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$112' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1268'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$111' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1265'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$110' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1262'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$109' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1259'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$108' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1256'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$107' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1253'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$106' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1250'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$105' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1247'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$104' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1244'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$103' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1241'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$102' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1238'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$101' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1235'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$100' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1232'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$99' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1229'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$98' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1226'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$97' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1223'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$96' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1220'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$95' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1217'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$94' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1214'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$93' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1211'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$92' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1208'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$91' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1205'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$90' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1202'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$89' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1199'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$88' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1196'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$87' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1193'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$86' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1190'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$85' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1187'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$84' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1184'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$83' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1181'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$82' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1178'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$81' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1175'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$80' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1172'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$79' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1169'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$78' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1166'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$77' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1163'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$76' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1160'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$75' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1157'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$74' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1154'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$73' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1151'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$72' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1148'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$71' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1145'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$70' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1142'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$69' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1139'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$68' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1136'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$67' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1133'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$66' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1130'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$65' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1127'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$64' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1124'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$63' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1121'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$62' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1118'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$61' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1115'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$60' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1112'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$59' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1109'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$58' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1106'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$57' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1103'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$56' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1100'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$55' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1097'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$54' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1094'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$53' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1091'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$52' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1088'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$51' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1085'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$50' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1082'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$49' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1079'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$48' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1076'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$47' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1073'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$46' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1070'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$45' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1067'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$44' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1064'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$43' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1061'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$42' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1058'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$41' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1055'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$40' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1052'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$39' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1049'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$38' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1046'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$37' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1043'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$36' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1040'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$35' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1037'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$34' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1034'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$33' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1031'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$32' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1028'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$31' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1025'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$30' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1022'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$29' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1019'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$28' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1016'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$27' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1013'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$26' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1010'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$25' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1007'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$24' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1004'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$23' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1001'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$22' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$998'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$21' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$995'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$20' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$992'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$19' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$989'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$18' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$986'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$17' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$983'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$16' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$980'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$15' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$977'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$14' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$974'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$13' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$971'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$12' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$968'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$11' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$965'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$10' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$962'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$9' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$959'.
+No latch inferred for signal `\priority_encoder.\addr' from process `\priority_encoder.$proc$/foss/designs/rtl/priority_encoder.v:9$2'.
+No latch inferred for signal `\priority_encoder.\k' from process `\priority_encoder.$proc$/foss/designs/rtl/priority_encoder.v:9$2'.
+
+9.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\tcam_array.\valid' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+  created $dff cell `$procdff$1815' with positive edge clock.
+Creating register for signal `\tcam_array.$bitselwrite$pos$/foss/designs/rtl/tcam_array.v:24$7' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+  created $dff cell `$procdff$1816' with positive edge clock.
+Creating register for signal `\tcam_array.$lookahead\valid$272' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+  created $dff cell `$procdff$1817' with positive edge clock.
+Creating register for signal `\tcam_array.$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_ADDR' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+  created $dff cell `$procdff$1818' with positive edge clock.
+Creating register for signal `\tcam_array.$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_DATA' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+  created $dff cell `$procdff$1819' with positive edge clock.
+Creating register for signal `\tcam_array.$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+  created $dff cell `$procdff$1820' with positive edge clock.
+Creating register for signal `\tcam_ctrl.\rule_sh' using process `\tcam_ctrl.$proc$/foss/designs/rtl/tcam_ctrl.v:14$1728'.
+  created $dff cell `$procdff$1821' with positive edge clock.
+Creating register for signal `\tcam_ctrl.\sw' using process `\tcam_ctrl.$proc$/foss/designs/rtl/tcam_ctrl.v:14$1728'.
+  created $dff cell `$procdff$1822' with positive edge clock.
+
+9.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+9.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1724'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1721'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1718'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1715'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1712'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1709'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1706'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1703'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1700'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1697'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1694'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1691'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1688'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1685'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1682'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1679'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1676'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1673'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1670'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1667'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1664'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1661'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1658'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1655'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1652'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1649'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1646'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1643'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1640'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1637'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1634'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1631'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1628'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1625'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1622'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1619'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1616'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1613'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1610'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1607'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1604'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1601'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1598'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1595'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1592'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1589'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1586'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1583'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1580'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1577'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1574'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1571'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1568'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1565'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1562'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1559'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1556'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1553'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1550'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1547'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1544'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1541'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1538'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1535'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1532'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1529'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1526'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1523'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1520'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1517'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1514'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1511'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1508'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1505'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1502'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1499'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1496'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1493'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1490'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1487'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1484'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1481'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1478'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1475'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1472'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1469'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1466'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1463'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1460'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1457'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1454'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1451'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1448'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1445'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1442'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1439'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1436'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1433'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1430'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1427'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1424'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1421'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1418'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1415'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1412'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1409'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1406'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1403'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1400'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1397'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1394'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1391'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1388'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1385'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1382'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1379'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1376'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1373'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1370'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1367'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1364'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1361'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1358'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1355'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1352'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1349'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1346'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1343'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1340'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1337'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1334'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1331'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1328'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1325'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1322'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1319'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1316'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1313'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1310'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1307'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1304'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1301'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1298'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1295'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1292'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1289'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1286'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1283'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1280'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1277'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1274'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1271'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1268'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1265'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1262'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1259'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1256'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1253'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1250'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1247'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1244'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1241'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1238'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1235'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1232'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1229'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1226'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1223'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1220'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1217'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1214'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1211'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1208'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1205'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1202'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1199'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1196'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1193'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1190'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1187'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1184'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1181'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1178'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1175'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1172'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1169'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1166'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1163'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1160'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1157'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1154'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1151'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1148'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1145'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1142'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1139'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1136'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1133'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1130'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1127'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1124'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1121'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1118'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1115'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1112'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1109'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1106'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1103'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1100'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1097'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1094'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1091'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1088'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1085'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1082'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1079'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1076'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1073'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1070'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1067'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1064'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1061'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1058'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1055'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1052'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1049'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1046'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1043'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1040'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1037'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1034'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1031'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1028'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1025'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1022'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1019'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1016'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1013'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1010'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1007'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1004'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1001'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$998'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$995'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$992'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$989'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$986'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$983'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$980'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$977'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$974'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$971'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$968'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$965'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$962'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$959'.
+Found and cleaned up 2 empty switches in `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+Found and cleaned up 1 empty switch in `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+Found and cleaned up 16 empty switches in `\priority_encoder.$proc$/foss/designs/rtl/priority_encoder.v:9$2'.
+Removing empty process `priority_encoder.$proc$/foss/designs/rtl/priority_encoder.v:9$2'.
+Found and cleaned up 2 empty switches in `\tcam_ctrl.$proc$/foss/designs/rtl/tcam_ctrl.v:14$1728'.
+Removing empty process `tcam_ctrl.$proc$/foss/designs/rtl/tcam_ctrl.v:14$1728'.
+Cleaned up 21 empty switches.
+
+9.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+Optimizing module tcam_array.
+Optimizing module priority_encoder.
+<suppressed ~1 debug messages>
+Optimizing module tcam_ctrl.
+
+10. Executing FLATTEN pass (flatten design).
+Deleting now unused module tcam_array.
+Deleting now unused module priority_encoder.
+Deleting now unused module tcam_ctrl.
+<suppressed ~3 debug messages>
+
+11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 11 unused cells and 747 unused wires.
+<suppressed ~31 debug messages>

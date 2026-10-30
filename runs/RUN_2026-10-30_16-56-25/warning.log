@@ -1,0 +1,1736 @@
+'PNR_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+'SIGNOFF_SDC_FILE' is not defined. Using generic fallback SDC for OpenROAD PnR steps.
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[IFP-0028] Core area lower left (2.000, 2.000) snapped to (2.300, 2.720).
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib.gz line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib.gz line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib.gz line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib.gz line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 18 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[RSZ-0020] found 2 floating nets.
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib.gz line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib.gz line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib.gz line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib.gz line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 18 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib.gz line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib.gz line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib.gz line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib.gz line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 18 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib.gz line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib.gz line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 18, library sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib.gz line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ss_100C_1v60_3v00_3v00.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1111] cell sky130_ef_io__gpiov2_pad_ss_ss_100C_1v60_3v00/sky130_ef_io__gpiov2_pad OUT -> PAD timing group combinational not found in cell sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30/sky130_ef_io__gpiov2_pad.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib.gz line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 18, library sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_ff_n40C_1v95_5v50_5v50.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 18, library sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50 already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_ff_ff_n40C_1v95_5v50.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 18, library slices_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 18, library sky130_ef_io__analog_stubs already exists.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 18 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[EST-0026] Missing route to pin fanout54/A in net _0000_.
+[EST-0026] Missing route to pin _0669_/Y in net _0000_.
+[EST-0026] Missing route to pin fanout54/A in net _0000_.
+[EST-0026] Missing route to pin _0669_/Y in net _0000_.
+[EST-0026] Missing route to pin fanout54/A in net _0000_.
+[EST-0026] Missing route to pin _0669_/Y in net _0000_.
+[EST-0026] Missing route to pin fanout54/A in net _0000_.
+[EST-0026] Missing route to pin _0669_/Y in net _0000_.
+[EST-0026] Missing route to pin fanout54/A in net _0000_.
+[EST-0026] Missing route to pin _0669_/Y in net _0000_.
+[EST-0026] Missing route to pin fanout54/A in net _0000_.
+[EST-0026] Missing route to pin _0669_/Y in net _0000_.
+[EST-0026] Missing route to pin fanout54/A in net _0000_.
+[EST-0026] Missing route to pin _0669_/Y in net _0000_.
+[EST-0026] Missing route to pin fanout54/A in net _0000_.
+[EST-0026] Missing route to pin _0669_/Y in net _0000_.
+[EST-0026] Missing route to pin fanout54/A in net _0000_.
+[EST-0026] Missing route to pin _0669_/Y in net _0000_.
+[EST-0026] Missing route to pin fanout63/A in net _0001_.
+[EST-0026] Missing route to pin _0665_/Y in net _0001_.
+[EST-0026] Missing route to pin fanout63/A in net _0001_.
+[EST-0026] Missing route to pin _0665_/Y in net _0001_.
+[EST-0026] Missing route to pin fanout63/A in net _0001_.
+[EST-0026] Missing route to pin _0665_/Y in net _0001_.
+[EST-0026] Missing route to pin fanout63/A in net _0001_.
+[EST-0026] Missing route to pin _0665_/Y in net _0001_.
+[EST-0026] Missing route to pin fanout63/A in net _0001_.
+[EST-0026] Missing route to pin _0665_/Y in net _0001_.
+[EST-0026] Missing route to pin fanout63/A in net _0001_.
+[EST-0026] Missing route to pin _0665_/Y in net _0001_.
+[EST-0026] Missing route to pin fanout63/A in net _0001_.
+[EST-0026] Missing route to pin _0665_/Y in net _0001_.
+[EST-0026] Missing route to pin fanout63/A in net _0001_.
+[EST-0026] Missing route to pin _0665_/Y in net _0001_.
+[EST-0026] Missing route to pin fanout63/A in net _0001_.
+[EST-0026] Missing route to pin _0665_/Y in net _0001_.
+[EST-0026] Missing route to pin fanout50/A in net _0002_.
+[EST-0026] Missing route to pin _0674_/Y in net _0002_.
+[EST-0026] Missing route to pin fanout50/A in net _0002_.
+[EST-0026] Missing route to pin _0674_/Y in net _0002_.
+[EST-0026] Missing route to pin fanout50/A in net _0002_.
+[EST-0026] Missing route to pin _0674_/Y in net _0002_.
+[EST-0026] Missing route to pin fanout50/A in net _0002_.
+[EST-0026] Missing route to pin _0674_/Y in net _0002_.
+[EST-0026] Missing route to pin fanout50/A in net _0002_.
+[EST-0026] Missing route to pin _0674_/Y in net _0002_.
+[EST-0026] Missing route to pin fanout50/A in net _0002_.
+[EST-0026] Missing route to pin _0674_/Y in net _0002_.
+[EST-0026] Missing route to pin fanout50/A in net _0002_.
+[EST-0026] Missing route to pin _0674_/Y in net _0002_.
+[EST-0026] Missing route to pin fanout50/A in net _0002_.
+[EST-0026] Missing route to pin _0674_/Y in net _0002_.
+[EST-0026] Missing route to pin fanout50/A in net _0002_.
+[EST-0026] Missing route to pin _0674_/Y in net _0002_.
+[EST-0026] Missing route to pin fanout39/A in net _0003_.
+[EST-0026] Missing route to pin _1435_/DE in net _0003_.
+[EST-0026] Missing route to pin _1434_/DE in net _0003_.
+[EST-0026] Missing route to pin _0768_/Y in net _0003_.
+[EST-0026] Missing route to pin fanout39/A in net _0003_.
+[EST-0026] Missing route to pin _1435_/DE in net _0003_.
+[EST-0026] Missing route to pin _1434_/DE in net _0003_.
+[EST-0026] Missing route to pin _0768_/Y in net _0003_.
+[EST-0026] Missing route to pin fanout39/A in net _0003_.
+[EST-0026] Missing route to pin _1435_/DE in net _0003_.
+[EST-0026] Missing route to pin _1434_/DE in net _0003_.
+[EST-0026] Missing route to pin _0768_/Y in net _0003_.
+[EST-0026] Missing route to pin fanout39/A in net _0003_.
+[EST-0026] Missing route to pin _1435_/DE in net _0003_.
+[EST-0026] Missing route to pin _1434_/DE in net _0003_.
+[EST-0026] Missing route to pin _0768_/Y in net _0003_.
+[EST-0026] Missing route to pin fanout39/A in net _0003_.
+[EST-0026] Missing route to pin _1435_/DE in net _0003_.
+[EST-0026] Missing route to pin _1434_/DE in net _0003_.
+[EST-0026] Missing route to pin _0768_/Y in net _0003_.
+[EST-0026] Missing route to pin fanout39/A in net _0003_.
+[EST-0026] Missing route to pin _1435_/DE in net _0003_.
+[EST-0026] Missing route to pin _1434_/DE in net _0003_.
+[EST-0026] Missing route to pin _0768_/Y in net _0003_.
+[EST-0026] Missing route to pin fanout39/A in net _0003_.
+[EST-0026] Missing route to pin _1435_/DE in net _0003_.
+[EST-0026] Missing route to pin _1434_/DE in net _0003_.
+[EST-0026] Missing route to pin _0768_/Y in net _0003_.
+[EST-0026] Missing route to pin fanout39/A in net _0003_.
+[EST-0026] Missing route to pin _1435_/DE in net _0003_.
+[EST-0026] Missing route to pin _1434_/DE in net _0003_.
+[EST-0026] Missing route to pin _0768_/Y in net _0003_.
+[EST-0026] Missing route to pin fanout39/A in net _0003_.
+[EST-0026] Missing route to pin _1435_/DE in net _0003_.
+[EST-0026] Missing route to pin _1434_/DE in net _0003_.
+[EST-0026] Missing route to pin _0768_/Y in net _0003_.
+[EST-0026] Missing route to pin fanout32/A in net _0005_.
+[EST-0026] Missing route to pin _0790_/Y in net _0005_.
+[EST-0026] Missing route to pin fanout32/A in net _0005_.
+[EST-0026] Missing route to pin _0790_/Y in net _0005_.
+[EST-0026] Missing route to pin fanout32/A in net _0005_.
+[EST-0026] Missing route to pin _0790_/Y in net _0005_.
+[EST-0026] Missing route to pin fanout32/A in net _0005_.
+[EST-0026] Missing route to pin _0790_/Y in net _0005_.
+[EST-0026] Missing route to pin fanout32/A in net _0005_.
+[EST-0026] Missing route to pin _0790_/Y in net _0005_.
+[EST-0026] Missing route to pin fanout32/A in net _0005_.
+[EST-0026] Missing route to pin _0790_/Y in net _0005_.
+[EST-0026] Missing route to pin fanout32/A in net _0005_.
+[EST-0026] Missing route to pin _0790_/Y in net _0005_.
+[EST-0026] Missing route to pin fanout32/A in net _0005_.
+[EST-0026] Missing route to pin _0790_/Y in net _0005_.
+[EST-0026] Missing route to pin fanout32/A in net _0005_.
+[EST-0026] Missing route to pin _0790_/Y in net _0005_.
+[EST-0026] Missing route to pin fanout68/A in net _0006_.
+[EST-0026] Missing route to pin _0662_/Y in net _0006_.
+[EST-0026] Missing route to pin fanout68/A in net _0006_.
+[EST-0026] Missing route to pin _0662_/Y in net _0006_.
+[EST-0026] Missing route to pin fanout68/A in net _0006_.
+[EST-0026] Missing route to pin _0662_/Y in net _0006_.
+[EST-0026] Missing route to pin fanout68/A in net _0006_.
+[EST-0026] Missing route to pin _0662_/Y in net _0006_.
+[EST-0026] Missing route to pin fanout68/A in net _0006_.
+[EST-0026] Missing route to pin _0662_/Y in net _0006_.
+[EST-0026] Missing route to pin fanout68/A in net _0006_.
+[EST-0026] Missing route to pin _0662_/Y in net _0006_.
+[EST-0026] Missing route to pin fanout68/A in net _0006_.
+[EST-0026] Missing route to pin _0662_/Y in net _0006_.
+[EST-0026] Missing route to pin fanout68/A in net _0006_.
+[EST-0026] Missing route to pin _0662_/Y in net _0006_.
+[EST-0026] Missing route to pin fanout68/A in net _0006_.
+[EST-0026] Missing route to pin _0662_/Y in net _0006_.
+[EST-0026] Missing route to pin fanout36/A in net _0008_.
+[EST-0026] Missing route to pin _0779_/Y in net _0008_.
+[EST-0026] Missing route to pin fanout36/A in net _0008_.
+[EST-0026] Missing route to pin _0779_/Y in net _0008_.
+[EST-0026] Missing route to pin fanout36/A in net _0008_.
+[EST-0026] Missing route to pin _0779_/Y in net _0008_.
+[EST-0026] Missing route to pin fanout36/A in net _0008_.
+[EST-0026] Missing route to pin _0779_/Y in net _0008_.
+[EST-0026] Missing route to pin fanout36/A in net _0008_.
+[EST-0026] Missing route to pin _0779_/Y in net _0008_.
+[EST-0026] Missing route to pin fanout36/A in net _0008_.
+[EST-0026] Missing route to pin _0779_/Y in net _0008_.
+[EST-0026] Missing route to pin fanout36/A in net _0008_.
+[EST-0026] Missing route to pin _0779_/Y in net _0008_.
+[EST-0026] Missing route to pin fanout36/A in net _0008_.
+[EST-0026] Missing route to pin _0779_/Y in net _0008_.
+[EST-0026] Missing route to pin fanout36/A in net _0008_.
+[EST-0026] Missing route to pin _0779_/Y in net _0008_.
+[EST-0026] Missing route to pin fanout76/A in net _0009_.
+[EST-0026] Missing route to pin _0645_/Y in net _0009_.
+[EST-0026] Missing route to pin fanout76/A in net _0009_.
+[EST-0026] Missing route to pin _0645_/Y in net _0009_.
+[EST-0026] Missing route to pin fanout76/A in net _0009_.
+[EST-0026] Missing route to pin _0645_/Y in net _0009_.
+[EST-0026] Missing route to pin fanout76/A in net _0009_.
+[EST-0026] Missing route to pin _0645_/Y in net _0009_.
+[EST-0026] Missing route to pin fanout76/A in net _0009_.
+[EST-0026] Missing route to pin _0645_/Y in net _0009_.
+[EST-0026] Missing route to pin fanout76/A in net _0009_.
+[EST-0026] Missing route to pin _0645_/Y in net _0009_.
+[EST-0026] Missing route to pin fanout76/A in net _0009_.
+[EST-0026] Missing route to pin _0645_/Y in net _0009_.
+[EST-0026] Missing route to pin fanout76/A in net _0009_.
+[EST-0026] Missing route to pin _0645_/Y in net _0009_.
+[EST-0026] Missing route to pin fanout76/A in net _0009_.
+[EST-0026] Missing route to pin _0645_/Y in net _0009_.
+[EST-0026] Missing route to pin fanout72/A in net _0010_.
+[EST-0026] Missing route to pin _0646_/Y in net _0010_.
+[EST-0026] Missing route to pin fanout72/A in net _0010_.
+[EST-0026] Missing route to pin _0646_/Y in net _0010_.
+[EST-0026] Missing route to pin fanout72/A in net _0010_.
+[EST-0026] Missing route to pin _0646_/Y in net _0010_.
+[EST-0026] Missing route to pin fanout72/A in net _0010_.
+[EST-0026] Missing route to pin _0646_/Y in net _0010_.
+[EST-0026] Missing route to pin fanout72/A in net _0010_.
+[EST-0026] Missing route to pin _0646_/Y in net _0010_.
+[EST-0026] Missing route to pin fanout72/A in net _0010_.
+[EST-0026] Missing route to pin _0646_/Y in net _0010_.
+[EST-0026] Missing route to pin fanout72/A in net _0010_.
+[EST-0026] Missing route to pin _0646_/Y in net _0010_.
+[EST-0026] Missing route to pin fanout72/A in net _0010_.
+[EST-0026] Missing route to pin _0646_/Y in net _0010_.
+[EST-0026] Missing route to pin fanout72/A in net _0010_.
+[EST-0026] Missing route to pin _0646_/Y in net _0010_.
+[EST-0026] Missing route to pin fanout83/A in net _0011_.
+[EST-0026] Missing route to pin _1307_/DE in net _0011_.
+[EST-0026] Missing route to pin _0635_/Y in net _0011_.
+[EST-0026] Missing route to pin fanout83/A in net _0011_.
+[EST-0026] Missing route to pin _1307_/DE in net _0011_.
+[EST-0026] Missing route to pin _0635_/Y in net _0011_.
+[EST-0026] Missing route to pin fanout83/A in net _0011_.
+[EST-0026] Missing route to pin _1307_/DE in net _0011_.
+[EST-0026] Missing route to pin _0635_/Y in net _0011_.
+[EST-0026] Missing route to pin fanout83/A in net _0011_.
+[EST-0026] Missing route to pin _1307_/DE in net _0011_.
+[EST-0026] Missing route to pin _0635_/Y in net _0011_.
+[EST-0026] Missing route to pin fanout83/A in net _0011_.
+[EST-0026] Missing route to pin _1307_/DE in net _0011_.
+[EST-0026] Missing route to pin _0635_/Y in net _0011_.
+[EST-0026] Missing route to pin fanout83/A in net _0011_.
+[EST-0026] Missing route to pin _1307_/DE in net _0011_.
+[EST-0026] Missing route to pin _0635_/Y in net _0011_.
+[EST-0026] Missing route to pin fanout83/A in net _0011_.
+[EST-0026] Missing route to pin _1307_/DE in net _0011_.
+[EST-0026] Missing route to pin _0635_/Y in net _0011_.
+[EST-0026] Missing route to pin fanout83/A in net _0011_.
+[EST-0026] Missing route to pin _1307_/DE in net _0011_.
+[EST-0026] Missing route to pin _0635_/Y in net _0011_.
+[EST-0026] Missing route to pin fanout83/A in net _0011_.
+[EST-0026] Missing route to pin _1307_/DE in net _0011_.
+[EST-0026] Missing route to pin _0635_/Y in net _0011_.
+[EST-0026] Missing route to pin fanout80/A in net _0012_.
+[EST-0026] Missing route to pin _0638_/Y in net _0012_.
+[EST-0026] Missing route to pin fanout80/A in net _0012_.
+[EST-0026] Missing route to pin _0638_/Y in net _0012_.
+[EST-0026] Missing route to pin fanout80/A in net _0012_.
+[EST-0026] Missing route to pin _0638_/Y in net _0012_.
+[EST-0026] Missing route to pin fanout80/A in net _0012_.
+[EST-0026] Missing route to pin _0638_/Y in net _0012_.
+[EST-0026] Missing route to pin fanout80/A in net _0012_.
+[EST-0026] Missing route to pin _0638_/Y in net _0012_.
+[EST-0026] Missing route to pin fanout80/A in net _0012_.
+[EST-0026] Missing route to pin _0638_/Y in net _0012_.
+[EST-0026] Missing route to pin fanout80/A in net _0012_.
+[EST-0026] Missing route to pin _0638_/Y in net _0012_.
+[EST-0026] Missing route to pin fanout80/A in net _0012_.
+[EST-0026] Missing route to pin _0638_/Y in net _0012_.
+[EST-0026] Missing route to pin fanout80/A in net _0012_.
+[EST-0026] Missing route to pin _0638_/Y in net _0012_.
+[EST-0026] Missing route to pin fanout42/A in net _0013_.
+[EST-0026] Missing route to pin fanout41/A in net _0013_.
+[EST-0026] Missing route to pin _0735_/Y in net _0013_.
+[EST-0026] Missing route to pin fanout42/A in net _0013_.
+[EST-0026] Missing route to pin fanout41/A in net _0013_.
+[EST-0026] Missing route to pin _0735_/Y in net _0013_.
+[EST-0026] Missing route to pin fanout42/A in net _0013_.
+[EST-0026] Missing route to pin fanout41/A in net _0013_.
+[EST-0026] Missing route to pin _0735_/Y in net _0013_.
+[EST-0026] Missing route to pin fanout42/A in net _0013_.
+[EST-0026] Missing route to pin fanout41/A in net _0013_.
+[EST-0026] Missing route to pin _0735_/Y in net _0013_.
+[EST-0026] Missing route to pin fanout42/A in net _0013_.
+[EST-0026] Missing route to pin fanout41/A in net _0013_.
+[EST-0026] Missing route to pin _0735_/Y in net _0013_.
+[EST-0026] Missing route to pin fanout42/A in net _0013_.
+[EST-0026] Missing route to pin fanout41/A in net _0013_.
+[EST-0026] Missing route to pin _0735_/Y in net _0013_.
+[EST-0026] Missing route to pin fanout42/A in net _0013_.
+[EST-0026] Missing route to pin fanout41/A in net _0013_.
+[EST-0026] Missing route to pin _0735_/Y in net _0013_.
+[EST-0026] Missing route to pin fanout42/A in net _0013_.
+[EST-0026] Missing route to pin fanout41/A in net _0013_.
+[EST-0026] Missing route to pin _0735_/Y in net _0013_.
+[EST-0026] Missing route to pin fanout42/A in net _0013_.
+[EST-0026] Missing route to pin fanout41/A in net _0013_.
+[EST-0026] Missing route to pin _0735_/Y in net _0013_.
+[EST-0026] Missing route to pin fanout23/A in net _0014_.
+[EST-0026] Missing route to pin _1056_/Y in net _0014_.
+[EST-0026] Missing route to pin fanout23/A in net _0014_.
+[EST-0026] Missing route to pin _1056_/Y in net _0014_.
+[EST-0026] Missing route to pin fanout23/A in net _0014_.
+[EST-0026] Missing route to pin _1056_/Y in net _0014_.
+[EST-0026] Missing route to pin fanout23/A in net _0014_.
+[EST-0026] Missing route to pin _1056_/Y in net _0014_.
+[EST-0026] Missing route to pin fanout23/A in net _0014_.
+[EST-0026] Missing route to pin _1056_/Y in net _0014_.
+[EST-0026] Missing route to pin fanout23/A in net _0014_.
+[EST-0026] Missing route to pin _1056_/Y in net _0014_.
+[EST-0026] Missing route to pin fanout23/A in net _0014_.
+[EST-0026] Missing route to pin _1056_/Y in net _0014_.
+[EST-0026] Missing route to pin fanout23/A in net _0014_.
+[EST-0026] Missing route to pin _1056_/Y in net _0014_.
+[EST-0026] Missing route to pin fanout23/A in net _0014_.
+[EST-0026] Missing route to pin _1056_/Y in net _0014_.
+[EST-0026] Missing route to pin fanout28/A in net _0015_.
+[EST-0026] Missing route to pin _0801_/Y in net _0015_.
+[EST-0026] Missing route to pin fanout28/A in net _0015_.
+[EST-0026] Missing route to pin _0801_/Y in net _0015_.
+[EST-0026] Missing route to pin fanout28/A in net _0015_.
+[EST-0026] Missing route to pin _0801_/Y in net _0015_.
+[EST-0026] Missing route to pin fanout28/A in net _0015_.
+[EST-0026] Missing route to pin _0801_/Y in net _0015_.
+[EST-0026] Missing route to pin fanout28/A in net _0015_.
+[EST-0026] Missing route to pin _0801_/Y in net _0015_.
+[EST-0026] Missing route to pin fanout28/A in net _0015_.
+[EST-0026] Missing route to pin _0801_/Y in net _0015_.
+[EST-0026] Missing route to pin fanout28/A in net _0015_.
+[EST-0026] Missing route to pin _0801_/Y in net _0015_.
+[EST-0026] Missing route to pin fanout28/A in net _0015_.
+[EST-0026] Missing route to pin _0801_/Y in net _0015_.
+[EST-0026] Missing route to pin fanout28/A in net _0015_.
+[EST-0026] Missing route to pin _0801_/Y in net _0015_.
+[EST-0026] Missing route to pin _1486_/D in net _0016_.
+[EST-0026] Missing route to pin _0676_/X in net _0016_.
+[EST-0026] Missing route to pin _1486_/D in net _0016_.
+[EST-0026] Missing route to pin _0676_/X in net _0016_.
+[EST-0026] Missing route to pin _1486_/D in net _0016_.
+[EST-0026] Missing route to pin _0676_/X in net _0016_.
+[EST-0026] Missing route to pin _1486_/D in net _0016_.
+[EST-0026] Missing route to pin _0676_/X in net _0016_.
+[EST-0026] Missing route to pin _1486_/D in net _0016_.
+[EST-0026] Missing route to pin _0676_/X in net _0016_.
+[EST-0026] Missing route to pin _1486_/D in net _0016_.
+[EST-0026] Missing route to pin _0676_/X in net _0016_.
+[EST-0026] Missing route to pin _1486_/D in net _0016_.
+[EST-0026] Missing route to pin _0676_/X in net _0016_.
+[EST-0026] Missing route to pin _1486_/D in net _0016_.
+[EST-0026] Missing route to pin _0676_/X in net _0016_.
+[EST-0026] Missing route to pin _1486_/D in net _0016_.
+[EST-0026] Missing route to pin _0676_/X in net _0016_.
+[EST-0026] Missing route to pin _1487_/D in net _0017_.
+[EST-0026] Missing route to pin _0673_/Y in net _0017_.
+[EST-0026] Missing route to pin _1487_/D in net _0017_.
+[EST-0026] Missing route to pin _0673_/Y in net _0017_.
+[EST-0026] Missing route to pin _1487_/D in net _0017_.
+[EST-0026] Missing route to pin _0673_/Y in net _0017_.
+[EST-0026] Missing route to pin _1487_/D in net _0017_.
+[EST-0026] Missing route to pin _0673_/Y in net _0017_.
+[EST-0026] Missing route to pin _1487_/D in net _0017_.
+[EST-0026] Missing route to pin _0673_/Y in net _0017_.
+[EST-0026] Missing route to pin _1487_/D in net _0017_.
+[EST-0026] Missing route to pin _0673_/Y in net _0017_.
+[EST-0026] Missing route to pin _1487_/D in net _0017_.
+[EST-0026] Missing route to pin _0673_/Y in net _0017_.
+[EST-0026] Missing route to pin _1487_/D in net _0017_.
+[EST-0026] Missing route to pin _0673_/Y in net _0017_.
+[EST-0026] Missing route to pin _1487_/D in net _0017_.
+[EST-0026] Missing route to pin _0673_/Y in net _0017_.
+[EST-0026] Missing route to pin _1484_/D in net _0018_.
+[EST-0026] Missing route to pin _0671_/X in net _0018_.
+[EST-0026] Missing route to pin _1484_/D in net _0018_.
+[EST-0026] Missing route to pin _0671_/X in net _0018_.
+[EST-0026] Missing route to pin _1484_/D in net _0018_.
+[EST-0026] Missing route to pin _0671_/X in net _0018_.
+[EST-0026] Missing route to pin _1484_/D in net _0018_.
+[EST-0026] Missing route to pin _0671_/X in net _0018_.
+[EST-0026] Missing route to pin _1484_/D in net _0018_.
+[EST-0026] Missing route to pin _0671_/X in net _0018_.
+[EST-0026] Missing route to pin _1484_/D in net _0018_.
+[EST-0026] Missing route to pin _0671_/X in net _0018_.
+[EST-0026] Missing route to pin _1484_/D in net _0018_.
+[EST-0026] Missing route to pin _0671_/X in net _0018_.
+[EST-0026] Missing route to pin _1484_/D in net _0018_.
+[EST-0026] Missing route to pin _0671_/X in net _0018_.
+[EST-0026] Missing route to pin _1484_/D in net _0018_.
+[EST-0026] Missing route to pin _0671_/X in net _0018_.
+[EST-0026] Missing route to pin _1485_/D in net _0019_.
+[EST-0026] Missing route to pin _0667_/X in net _0019_.
+[EST-0026] Missing route to pin _1485_/D in net _0019_.
+[EST-0026] Missing route to pin _0667_/X in net _0019_.
+[EST-0026] Missing route to pin _1485_/D in net _0019_.
+[EST-0026] Missing route to pin _0667_/X in net _0019_.
+[EST-0026] Missing route to pin _1485_/D in net _0019_.
+[EST-0026] Missing route to pin _0667_/X in net _0019_.
+[EST-0026] Missing route to pin _1485_/D in net _0019_.
+[EST-0026] Missing route to pin _0667_/X in net _0019_.
+[EST-0026] Missing route to pin _1485_/D in net _0019_.
+[EST-0026] Missing route to pin _0667_/X in net _0019_.
+[EST-0026] Missing route to pin _1485_/D in net _0019_.
+[EST-0026] Missing route to pin _0667_/X in net _0019_.
+[EST-0026] Missing route to pin _1485_/D in net _0019_.
+[EST-0026] Missing route to pin _0667_/X in net _0019_.
+[EST-0026] Missing route to pin _1485_/D in net _0019_.
+[EST-0026] Missing route to pin _0667_/X in net _0019_.
+[EST-0026] Missing route to pin _1491_/D in net _0021_.
+[EST-0026] Missing route to pin _0661_/Y in net _0021_.
+[EST-0026] Missing route to pin _1491_/D in net _0021_.
+[EST-0026] Missing route to pin _0661_/Y in net _0021_.
+[EST-0026] Missing route to pin _1491_/D in net _0021_.
+[EST-0026] Missing route to pin _0661_/Y in net _0021_.
+[EST-0026] Missing route to pin _1491_/D in net _0021_.
+[EST-0026] Missing route to pin _0661_/Y in net _0021_.
+[EST-0026] Missing route to pin _1491_/D in net _0021_.
+[EST-0026] Missing route to pin _0661_/Y in net _0021_.
+[EST-0026] Missing route to pin _1491_/D in net _0021_.
+[EST-0026] Missing route to pin _0661_/Y in net _0021_.
+[EST-0026] Missing route to pin _1491_/D in net _0021_.
+[EST-0026] Missing route to pin _0661_/Y in net _0021_.
+[EST-0026] Missing route to pin _1491_/D in net _0021_.
+[EST-0026] Missing route to pin _0661_/Y in net _0021_.
+[EST-0026] Missing route to pin _1491_/D in net _0021_.
+[EST-0026] Missing route to pin _0661_/Y in net _0021_.
+[EST-0026] Missing route to pin _1488_/D in net _0022_.
+[EST-0026] Missing route to pin _0659_/X in net _0022_.
+[EST-0026] Missing route to pin _1488_/D in net _0022_.
+[EST-0026] Missing route to pin _0659_/X in net _0022_.
+[EST-0026] Missing route to pin _1488_/D in net _0022_.
+[EST-0026] Missing route to pin _0659_/X in net _0022_.
+[EST-0026] Missing route to pin _1488_/D in net _0022_.
+[EST-0026] Missing route to pin _0659_/X in net _0022_.
+[EST-0026] Missing route to pin _1488_/D in net _0022_.
+[EST-0026] Missing route to pin _0659_/X in net _0022_.
+[EST-0026] Missing route to pin _1488_/D in net _0022_.
+[EST-0026] Missing route to pin _0659_/X in net _0022_.
+[EST-0026] Missing route to pin _1488_/D in net _0022_.
+[EST-0026] Missing route to pin _0659_/X in net _0022_.
+[EST-0026] Missing route to pin _1488_/D in net _0022_.
+[EST-0026] Missing route to pin _0659_/X in net _0022_.
+[EST-0026] Missing route to pin _1488_/D in net _0022_.
+[EST-0026] Missing route to pin _0659_/X in net _0022_.
+[EST-0026] Missing route to pin _1489_/D in net _0023_.
+[EST-0026] Missing route to pin _0656_/Y in net _0023_.
+[EST-0026] Missing route to pin _1489_/D in net _0023_.
+[EST-0026] Missing route to pin _0656_/Y in net _0023_.
+[EST-0026] Missing route to pin _1489_/D in net _0023_.
+[EST-0026] Missing route to pin _0656_/Y in net _0023_.
+[EST-0026] Missing route to pin _1489_/D in net _0023_.
+[EST-0026] Missing route to pin _0656_/Y in net _0023_.
+[EST-0026] Missing route to pin _1489_/D in net _0023_.
+[EST-0026] Missing route to pin _0656_/Y in net _0023_.
+[EST-0026] Missing route to pin _1489_/D in net _0023_.
+[EST-0026] Missing route to pin _0656_/Y in net _0023_.
+[EST-0026] Missing route to pin _1489_/D in net _0023_.
+[EST-0026] Missing route to pin _0656_/Y in net _0023_.
+[EST-0026] Missing route to pin _1489_/D in net _0023_.
+[EST-0026] Missing route to pin _0656_/Y in net _0023_.
+[EST-0026] Missing route to pin _1489_/D in net _0023_.
+[EST-0026] Missing route to pin _0656_/Y in net _0023_.
+[EST-0026] Missing route to pin _1495_/D in net _0025_.
+[EST-0026] Missing route to pin _0652_/Y in net _0025_.
+[EST-0026] Missing route to pin _1495_/D in net _0025_.
+[EST-0026] Missing route to pin _0652_/Y in net _0025_.
+[EST-0026] Missing route to pin _1495_/D in net _0025_.
+[EST-0026] Missing route to pin _0652_/Y in net _0025_.
+[EST-0026] Missing route to pin _1495_/D in net _0025_.
+[EST-0026] Missing route to pin _0652_/Y in net _0025_.
+[EST-0026] Missing route to pin _1495_/D in net _0025_.
+[EST-0026] Missing route to pin _0652_/Y in net _0025_.
+[EST-0026] Missing route to pin _1495_/D in net _0025_.
+[EST-0026] Missing route to pin _0652_/Y in net _0025_.
+[EST-0026] Missing route to pin _1495_/D in net _0025_.
+[EST-0026] Missing route to pin _0652_/Y in net _0025_.
+[EST-0026] Missing route to pin _1495_/D in net _0025_.
+[EST-0026] Missing route to pin _0652_/Y in net _0025_.
+[EST-0026] Missing route to pin _1495_/D in net _0025_.
+[EST-0026] Missing route to pin _0652_/Y in net _0025_.
+[EST-0026] Missing route to pin _1492_/D in net _0026_.
+[EST-0026] Missing route to pin _0650_/X in net _0026_.
+[EST-0026] Missing route to pin _1492_/D in net _0026_.
+[EST-0026] Missing route to pin _0650_/X in net _0026_.
+[EST-0026] Missing route to pin _1492_/D in net _0026_.
+[EST-0026] Missing route to pin _0650_/X in net _0026_.
+[EST-0026] Missing route to pin _1492_/D in net _0026_.
+[EST-0026] Missing route to pin _0650_/X in net _0026_.
+[EST-0026] Missing route to pin _1492_/D in net _0026_.
+[EST-0026] Missing route to pin _0650_/X in net _0026_.
+[EST-0026] Missing route to pin _1492_/D in net _0026_.
+[EST-0026] Missing route to pin _0650_/X in net _0026_.
+[EST-0026] Missing route to pin _1492_/D in net _0026_.
+[EST-0026] Missing route to pin _0650_/X in net _0026_.
+[EST-0026] Missing route to pin _1492_/D in net _0026_.
+[EST-0026] Missing route to pin _0650_/X in net _0026_.
+[EST-0026] Missing route to pin _1492_/D in net _0026_.
+[EST-0026] Missing route to pin _0650_/X in net _0026_.
+[EST-0026] Missing route to pin _1498_/D in net _0028_.
+[EST-0026] Missing route to pin _0644_/X in net _0028_.
+[EST-0026] Missing route to pin _1498_/D in net _0028_.
+[EST-0026] Missing route to pin _0644_/X in net _0028_.
+[EST-0026] Missing route to pin _1498_/D in net _0028_.
+[EST-0026] Missing route to pin _0644_/X in net _0028_.
+[EST-0026] Missing route to pin _1498_/D in net _0028_.
+[EST-0026] Missing route to pin _0644_/X in net _0028_.
+[EST-0026] Missing route to pin _1498_/D in net _0028_.
+[EST-0026] Missing route to pin _0644_/X in net _0028_.
+[EST-0026] Missing route to pin _1498_/D in net _0028_.
+[EST-0026] Missing route to pin _0644_/X in net _0028_.
+[EST-0026] Missing route to pin _1498_/D in net _0028_.
+[EST-0026] Missing route to pin _0644_/X in net _0028_.
+[EST-0026] Missing route to pin _1498_/D in net _0028_.
+[EST-0026] Missing route to pin _0644_/X in net _0028_.
+[EST-0026] Missing route to pin _1498_/D in net _0028_.
+[EST-0026] Missing route to pin _0644_/X in net _0028_.
+[EST-0026] Missing route to pin _1496_/D in net _0030_.
+[EST-0026] Missing route to pin _0640_/X in net _0030_.
+[EST-0026] Missing route to pin _1496_/D in net _0030_.
+[EST-0026] Missing route to pin _0640_/X in net _0030_.
+[EST-0026] Missing route to pin _1496_/D in net _0030_.
+[EST-0026] Missing route to pin _0640_/X in net _0030_.
+[EST-0026] Missing route to pin _1496_/D in net _0030_.
+[EST-0026] Missing route to pin _0640_/X in net _0030_.
+[EST-0026] Missing route to pin _1496_/D in net _0030_.
+[EST-0026] Missing route to pin _0640_/X in net _0030_.
+[EST-0026] Missing route to pin _1496_/D in net _0030_.
+[EST-0026] Missing route to pin _0640_/X in net _0030_.
+[EST-0026] Missing route to pin _1496_/D in net _0030_.
+[EST-0026] Missing route to pin _0640_/X in net _0030_.
+[EST-0026] Missing route to pin _1496_/D in net _0030_.
+[EST-0026] Missing route to pin _0640_/X in net _0030_.
+[EST-0026] Missing route to pin _1496_/D in net _0030_.
+[EST-0026] Missing route to pin _0640_/X in net _0030_.
+[EST-0026] Missing route to pin _1503_/D in net _0033_.
+[EST-0026] Missing route to pin _0630_/Y in net _0033_.
+[EST-0026] Missing route to pin _1503_/D in net _0033_.
+[EST-0026] Missing route to pin _0630_/Y in net _0033_.
+[EST-0026] Missing route to pin _1503_/D in net _0033_.
+[EST-0026] Missing route to pin _0630_/Y in net _0033_.
+[EST-0026] Missing route to pin _1503_/D in net _0033_.
+[EST-0026] Missing route to pin _0630_/Y in net _0033_.
+[EST-0026] Missing route to pin _1503_/D in net _0033_.
+[EST-0026] Missing route to pin _0630_/Y in net _0033_.
+[EST-0026] Missing route to pin _1503_/D in net _0033_.
+[EST-0026] Missing route to pin _0630_/Y in net _0033_.
+[EST-0026] Missing route to pin _1503_/D in net _0033_.
+[EST-0026] Missing route to pin _0630_/Y in net _0033_.
+[EST-0026] Missing route to pin _1503_/D in net _0033_.
+[EST-0026] Missing route to pin _0630_/Y in net _0033_.
+[EST-0026] Missing route to pin _1503_/D in net _0033_.
+[EST-0026] Missing route to pin _0630_/Y in net _0033_.
+[EST-0026] Missing route to pin _1500_/D in net _0034_.
+[EST-0026] Missing route to pin _0627_/Y in net _0034_.
+[EST-0026] Missing route to pin _1500_/D in net _0034_.
+[EST-0026] Missing route to pin _0627_/Y in net _0034_.
+[EST-0026] Missing route to pin _1500_/D in net _0034_.
+[EST-0026] Missing route to pin _0627_/Y in net _0034_.
+[EST-0026] Missing route to pin _1500_/D in net _0034_.
+[EST-0026] Missing route to pin _0627_/Y in net _0034_.
+[EST-0026] Missing route to pin _1500_/D in net _0034_.
+[EST-0026] Missing route to pin _0627_/Y in net _0034_.
+[EST-0026] Missing route to pin _1500_/D in net _0034_.
+[EST-0026] Missing route to pin _0627_/Y in net _0034_.
+[EST-0026] Missing route to pin _1500_/D in net _0034_.
+[EST-0026] Missing route to pin _0627_/Y in net _0034_.
+[EST-0026] Missing route to pin _1500_/D in net _0034_.
+[EST-0026] Missing route to pin _0627_/Y in net _0034_.
+[EST-0026] Missing route to pin _1500_/D in net _0034_.
+[EST-0026] Missing route to pin _0627_/Y in net _0034_.
+[EST-0026] Missing route to pin _1501_/D in net _0035_.
+[EST-0026] Missing route to pin _0623_/Y in net _0035_.
+[EST-0026] Missing route to pin _1501_/D in net _0035_.
+[EST-0026] Missing route to pin _0623_/Y in net _0035_.
+[EST-0026] Missing route to pin _1501_/D in net _0035_.
+[EST-0026] Missing route to pin _0623_/Y in net _0035_.
+[EST-0026] Missing route to pin _1501_/D in net _0035_.
+[EST-0026] Missing route to pin _0623_/Y in net _0035_.
+[EST-0026] Missing route to pin _1501_/D in net _0035_.
+[EST-0026] Missing route to pin _0623_/Y in net _0035_.
+[EST-0026] Missing route to pin _1501_/D in net _0035_.
+[EST-0026] Missing route to pin _0623_/Y in net _0035_.
+[EST-0026] Missing route to pin _1501_/D in net _0035_.
+[EST-0026] Missing route to pin _0623_/Y in net _0035_.
+[EST-0026] Missing route to pin _1501_/D in net _0035_.
+[EST-0026] Missing route to pin _0623_/Y in net _0035_.
+[EST-0026] Missing route to pin _1501_/D in net _0035_.
+[EST-0026] Missing route to pin _0623_/Y in net _0035_.
+[EST-0026] Missing route to pin _1507_/D in net _0037_.
+[EST-0026] Missing route to pin _0617_/Y in net _0037_.
+[EST-0026] Missing route to pin _1507_/D in net _0037_.
+[EST-0026] Missing route to pin _0617_/Y in net _0037_.
+[EST-0026] Missing route to pin _1507_/D in net _0037_.
+[EST-0026] Missing route to pin _0617_/Y in net _0037_.
+[EST-0026] Missing route to pin _1507_/D in net _0037_.
+[EST-0026] Missing route to pin _0617_/Y in net _0037_.
+[EST-0026] Missing route to pin _1507_/D in net _0037_.
+[EST-0026] Missing route to pin _0617_/Y in net _0037_.
+[EST-0026] Missing route to pin _1507_/D in net _0037_.
+[EST-0026] Missing route to pin _0617_/Y in net _0037_.
+[EST-0026] Missing route to pin _1507_/D in net _0037_.
+[EST-0026] Missing route to pin _0617_/Y in net _0037_.
+[EST-0026] Missing route to pin _1507_/D in net _0037_.
+[EST-0026] Missing route to pin _0617_/Y in net _0037_.
+[EST-0026] Missing route to pin _1507_/D in net _0037_.
+[EST-0026] Missing route to pin _0617_/Y in net _0037_.
+[EST-0026] Missing route to pin _1504_/D in net _0038_.
+[EST-0026] Missing route to pin _0614_/Y in net _0038_.
+[EST-0026] Missing route to pin _1504_/D in net _0038_.
+[EST-0026] Missing route to pin _0614_/Y in net _0038_.
+[EST-0026] Missing route to pin _1504_/D in net _0038_.
+[EST-0026] Missing route to pin _0614_/Y in net _0038_.
+[EST-0026] Missing route to pin _1504_/D in net _0038_.
+[EST-0026] Missing route to pin _0614_/Y in net _0038_.
+[EST-0026] Missing route to pin _1504_/D in net _0038_.
+[EST-0026] Missing route to pin _0614_/Y in net _0038_.
+[EST-0026] Missing route to pin _1504_/D in net _0038_.
+[EST-0026] Missing route to pin _0614_/Y in net _0038_.
+[EST-0026] Missing route to pin _1504_/D in net _0038_.
+[EST-0026] Missing route to pin _0614_/Y in net _0038_.
+[EST-0026] Missing route to pin _1504_/D in net _0038_.
+[EST-0026] Missing route to pin _0614_/Y in net _0038_.
+[EST-0026] Missing route to pin _1504_/D in net _0038_.
+[EST-0026] Missing route to pin _0614_/Y in net _0038_.
+[EST-0026] Missing route to pin _1505_/D in net _0039_.
+[EST-0026] Missing route to pin _1225_/Y in net _0039_.
+[EST-0026] Missing route to pin _1505_/D in net _0039_.
+[EST-0026] Missing route to pin _1225_/Y in net _0039_.
+[EST-0026] Missing route to pin _1505_/D in net _0039_.
+[EST-0026] Missing route to pin _1225_/Y in net _0039_.
+[EST-0026] Missing route to pin _1505_/D in net _0039_.
+[EST-0026] Missing route to pin _1225_/Y in net _0039_.
+[EST-0026] Missing route to pin _1505_/D in net _0039_.
+[EST-0026] Missing route to pin _1225_/Y in net _0039_.
+[EST-0026] Missing route to pin _1505_/D in net _0039_.
+[EST-0026] Missing route to pin _1225_/Y in net _0039_.
+[EST-0026] Missing route to pin _1505_/D in net _0039_.
+[EST-0026] Missing route to pin _1225_/Y in net _0039_.
+[EST-0026] Missing route to pin _1505_/D in net _0039_.
+[EST-0026] Missing route to pin _1225_/Y in net _0039_.
+[EST-0026] Missing route to pin _1505_/D in net _0039_.
+[EST-0026] Missing route to pin _1225_/Y in net _0039_.
+[EST-0026] Missing route to pin _1511_/D in net _0041_.
+[EST-0026] Missing route to pin _1219_/Y in net _0041_.
+[EST-0026] Missing route to pin _1511_/D in net _0041_.
+[EST-0026] Missing route to pin _1219_/Y in net _0041_.
+[EST-0026] Missing route to pin _1511_/D in net _0041_.
+[EST-0026] Missing route to pin _1219_/Y in net _0041_.
+[EST-0026] Missing route to pin _1511_/D in net _0041_.
+[EST-0026] Missing route to pin _1219_/Y in net _0041_.
+[EST-0026] Missing route to pin _1511_/D in net _0041_.
+[EST-0026] Missing route to pin _1219_/Y in net _0041_.
+[EST-0026] Missing route to pin _1511_/D in net _0041_.
+[EST-0026] Missing route to pin _1219_/Y in net _0041_.
+[EST-0026] Missing route to pin _1511_/D in net _0041_.
+[EST-0026] Missing route to pin _1219_/Y in net _0041_.
+[EST-0026] Missing route to pin _1511_/D in net _0041_.
+[EST-0026] Missing route to pin _1219_/Y in net _0041_.
+[EST-0026] Missing route to pin _1511_/D in net _0041_.
+[EST-0026] Missing route to pin _1219_/Y in net _0041_.
+[EST-0026] Missing route to pin _1508_/D in net _0042_.
+[EST-0026] Missing route to pin _1213_/Y in net _0042_.
+[EST-0026] Missing route to pin _1508_/D in net _0042_.
+[EST-0026] Missing route to pin _1213_/Y in net _0042_.
+[EST-0026] Missing route to pin _1508_/D in net _0042_.
+[EST-0026] Missing route to pin _1213_/Y in net _0042_.
+[EST-0026] Missing route to pin _1508_/D in net _0042_.
+[EST-0026] Missing route to pin _1213_/Y in net _0042_.
+[EST-0026] Missing route to pin _1508_/D in net _0042_.
+[EST-0026] Missing route to pin _1213_/Y in net _0042_.
+[EST-0026] Missing route to pin _1508_/D in net _0042_.
+[EST-0026] Missing route to pin _1213_/Y in net _0042_.
+[EST-0026] Missing route to pin _1508_/D in net _0042_.
+[EST-0026] Missing route to pin _1213_/Y in net _0042_.
+[EST-0026] Missing route to pin _1508_/D in net _0042_.
+[EST-0026] Missing route to pin _1213_/Y in net _0042_.
+[EST-0026] Missing route to pin _1508_/D in net _0042_.
+[EST-0026] Missing route to pin _1213_/Y in net _0042_.
+[EST-0026] Missing route to pin _1509_/D in net _0043_.
+[EST-0026] Missing route to pin _1210_/Y in net _0043_.
+[EST-0026] Missing route to pin _1509_/D in net _0043_.
+[EST-0026] Missing route to pin _1210_/Y in net _0043_.
+[EST-0026] Missing route to pin _1509_/D in net _0043_.
+[EST-0026] Missing route to pin _1210_/Y in net _0043_.
+[EST-0026] Missing route to pin _1509_/D in net _0043_.
+[EST-0026] Missing route to pin _1210_/Y in net _0043_.
+[EST-0026] Missing route to pin _1509_/D in net _0043_.
+[EST-0026] Missing route to pin _1210_/Y in net _0043_.
+[EST-0026] Missing route to pin _1509_/D in net _0043_.
+[EST-0026] Missing route to pin _1210_/Y in net _0043_.
+[EST-0026] Missing route to pin _1509_/D in net _0043_.
+[EST-0026] Missing route to pin _1210_/Y in net _0043_.
+[EST-0026] Missing route to pin _1509_/D in net _0043_.
+[EST-0026] Missing route to pin _1210_/Y in net _0043_.
+[EST-0026] Missing route to pin _1509_/D in net _0043_.
+[EST-0026] Missing route to pin _1210_/Y in net _0043_.
+[EST-0026] Missing route to pin _1514_/D in net _0044_.
+[EST-0026] Missing route to pin _1207_/Y in net _0044_.
+[EST-0026] Missing route to pin _1514_/D in net _0044_.
+[EST-0026] Missing route to pin _1207_/Y in net _0044_.
+[EST-0026] Missing route to pin _1514_/D in net _0044_.
+[EST-0026] Missing route to pin _1207_/Y in net _0044_.
+[EST-0026] Missing route to pin _1514_/D in net _0044_.
+[EST-0026] Missing route to pin _1207_/Y in net _0044_.
+[EST-0026] Missing route to pin _1514_/D in net _0044_.
+[EST-0026] Missing route to pin _1207_/Y in net _0044_.
+[EST-0026] Missing route to pin _1514_/D in net _0044_.
+[EST-0026] Missing route to pin _1207_/Y in net _0044_.
+[EST-0026] Missing route to pin _1514_/D in net _0044_.
+[EST-0026] Missing route to pin _1207_/Y in net _0044_.
+[EST-0026] Missing route to pin _1514_/D in net _0044_.
+[EST-0026] Missing route to pin _1207_/Y in net _0044_.
+[EST-0026] Missing route to pin _1514_/D in net _0044_.
+[EST-0026] Missing route to pin _1207_/Y in net _0044_.
+[EST-0026] Missing route to pin _1512_/D in net _0046_.
+[EST-0026] Missing route to pin _1200_/Y in net _0046_.
+[EST-0026] Missing route to pin _1512_/D in net _0046_.
+[EST-0026] Missing route to pin _1200_/Y in net _0046_.
+[EST-0026] Missing route to pin _1512_/D in net _0046_.
+[EST-0026] Missing route to pin _1200_/Y in net _0046_.
+[EST-0026] Missing route to pin _1512_/D in net _0046_.
+[EST-0026] Missing route to pin _1200_/Y in net _0046_.
+[EST-0026] Missing route to pin _1512_/D in net _0046_.
+[EST-0026] Missing route to pin _1200_/Y in net _0046_.
+[EST-0026] Missing route to pin _1512_/D in net _0046_.
+[EST-0026] Missing route to pin _1200_/Y in net _0046_.
+[EST-0026] Missing route to pin _1512_/D in net _0046_.
+[EST-0026] Missing route to pin _1200_/Y in net _0046_.
+[EST-0026] Missing route to pin _1512_/D in net _0046_.
+[EST-0026] Missing route to pin _1200_/Y in net _0046_.
+[EST-0026] Missing route to pin _1512_/D in net _0046_.
+[EST-0026] Missing route to pin _1200_/Y in net _0046_.
+[EST-0026] Missing route to pin _1513_/D in net _0047_.
+[EST-0026] Missing route to pin _1197_/Y in net _0047_.
+[EST-0026] Missing route to pin _1513_/D in net _0047_.
+[EST-0026] Missing route to pin _1197_/Y in net _0047_.
+[EST-0026] Missing route to pin _1513_/D in net _0047_.
+[EST-0026] Missing route to pin _1197_/Y in net _0047_.
+[EST-0026] Missing route to pin _1513_/D in net _0047_.
+[EST-0026] Missing route to pin _1197_/Y in net _0047_.
+[EST-0026] Missing route to pin _1513_/D in net _0047_.
+[EST-0026] Missing route to pin _1197_/Y in net _0047_.
+[EST-0026] Missing route to pin _1513_/D in net _0047_.
+[EST-0026] Missing route to pin _1197_/Y in net _0047_.
+[EST-0026] Missing route to pin _1513_/D in net _0047_.
+[EST-0026] Missing route to pin _1197_/Y in net _0047_.
+[EST-0026] Missing route to pin _1513_/D in net _0047_.
+[EST-0026] Missing route to pin _1197_/Y in net _0047_.
+[EST-0026] Missing route to pin _1513_/D in net _0047_.
+[EST-0026] Missing route to pin _1197_/Y in net _0047_.
+[EST-0026] Missing route to pin _1519_/D in net _0049_.
+[EST-0026] Missing route to pin _1156_/Y in net _0049_.
+[EST-0026] Missing route to pin _1519_/D in net _0049_.
+[EST-0026] Missing route to pin _1156_/Y in net _0049_.
+[EST-0026] Missing route to pin _1519_/D in net _0049_.
+[EST-0026] Missing route to pin _1156_/Y in net _0049_.
+[EST-0026] Missing route to pin _1519_/D in net _0049_.
+[EST-0026] Missing route to pin _1156_/Y in net _0049_.
+[EST-0026] Missing route to pin _1519_/D in net _0049_.
+[EST-0026] Missing route to pin _1156_/Y in net _0049_.
+[EST-0026] Missing route to pin _1519_/D in net _0049_.
+[EST-0026] Missing route to pin _1156_/Y in net _0049_.
+[EST-0026] Missing route to pin _1519_/D in net _0049_.
+[EST-0026] Missing route to pin _1156_/Y in net _0049_.
+[EST-0026] Missing route to pin _1519_/D in net _0049_.
+[EST-0026] Missing route to pin _1156_/Y in net _0049_.
+[EST-0026] Missing route to pin _1519_/D in net _0049_.
+[EST-0026] Missing route to pin _1156_/Y in net _0049_.
+[EST-0026] Missing route to pin _1517_/D in net _0051_.
+[EST-0026] Missing route to pin _1090_/Y in net _0051_.
+[EST-0026] Missing route to pin _1517_/D in net _0051_.
+[EST-0026] Missing route to pin _1090_/Y in net _0051_.
+[EST-0026] Missing route to pin _1517_/D in net _0051_.
+[EST-0026] Missing route to pin _1090_/Y in net _0051_.
+[EST-0026] Missing route to pin _1517_/D in net _0051_.
+[EST-0026] Missing route to pin _1090_/Y in net _0051_.
+[EST-0026] Missing route to pin _1517_/D in net _0051_.
+[EST-0026] Missing route to pin _1090_/Y in net _0051_.
+[EST-0026] Missing route to pin _1517_/D in net _0051_.
+[EST-0026] Missing route to pin _1090_/Y in net _0051_.
+[EST-0026] Missing route to pin _1517_/D in net _0051_.
+[EST-0026] Missing route to pin _1090_/Y in net _0051_.
+[EST-0026] Missing route to pin _1517_/D in net _0051_.
+[EST-0026] Missing route to pin _1090_/Y in net _0051_.
+[EST-0026] Missing route to pin _1517_/D in net _0051_.
+[EST-0026] Missing route to pin _1090_/Y in net _0051_.
+[EST-0026] Missing route to pin _1523_/D in net _0053_.
+[EST-0026] Missing route to pin _1023_/Y in net _0053_.
+[EST-0026] Missing route to pin _1523_/D in net _0053_.
+[EST-0026] Missing route to pin _1023_/Y in net _0053_.
+[EST-0026] Missing route to pin _1523_/D in net _0053_.
+[EST-0026] Missing route to pin _1023_/Y in net _0053_.
+[EST-0026] Missing route to pin _1523_/D in net _0053_.
+[EST-0026] Missing route to pin _1023_/Y in net _0053_.
+[EST-0026] Missing route to pin _1523_/D in net _0053_.
+[EST-0026] Missing route to pin _1023_/Y in net _0053_.
+[EST-0026] Missing route to pin _1523_/D in net _0053_.
+[EST-0026] Missing route to pin _1023_/Y in net _0053_.
+[EST-0026] Missing route to pin _1523_/D in net _0053_.
+[EST-0026] Missing route to pin _1023_/Y in net _0053_.
+[EST-0026] Missing route to pin _1523_/D in net _0053_.
+[EST-0026] Missing route to pin _1023_/Y in net _0053_.
+[EST-0026] Missing route to pin _1523_/D in net _0053_.
+[EST-0026] Missing route to pin _1023_/Y in net _0053_.
+[EST-0026] Missing route to pin _1520_/D in net _0054_.
+[EST-0026] Missing route to pin _0968_/Y in net _0054_.
+[EST-0026] Missing route to pin _1520_/D in net _0054_.
+[EST-0026] Missing route to pin _0968_/Y in net _0054_.
+[EST-0026] Missing route to pin _1520_/D in net _0054_.
+[EST-0026] Missing route to pin _0968_/Y in net _0054_.
+[EST-0026] Missing route to pin _1520_/D in net _0054_.
+[EST-0026] Missing route to pin _0968_/Y in net _0054_.
+[EST-0026] Missing route to pin _1520_/D in net _0054_.
+[EST-0026] Missing route to pin _0968_/Y in net _0054_.
+[EST-0026] Missing route to pin _1520_/D in net _0054_.
+[EST-0026] Missing route to pin _0968_/Y in net _0054_.
+[EST-0026] Missing route to pin _1520_/D in net _0054_.
+[EST-0026] Missing route to pin _0968_/Y in net _0054_.
+[EST-0026] Missing route to pin _1520_/D in net _0054_.
+[EST-0026] Missing route to pin _0968_/Y in net _0054_.
+[EST-0026] Missing route to pin _1520_/D in net _0054_.
+[EST-0026] Missing route to pin _0968_/Y in net _0054_.
+[EST-0026] Missing route to pin _1056_/A in net _0056_.
+[EST-0026] Missing route to pin _0801_/A in net _0056_.
+[EST-0026] Missing route to pin _0735_/A in net _0056_.
+[EST-0026] Missing route to pin _0638_/A in net _0056_.
+[EST-0026] Missing route to pin _0611_/Y in net _0056_.
+[EST-0026] Missing route to pin _1056_/A in net _0056_.
+[EST-0026] Missing route to pin _0801_/A in net _0056_.
+[EST-0026] Missing route to pin _0735_/A in net _0056_.
+[EST-0026] Missing route to pin _0638_/A in net _0056_.
+[EST-0026] Missing route to pin _0611_/Y in net _0056_.
+[EST-0026] Missing route to pin _1056_/A in net _0056_.
+[EST-0026] Missing route to pin _0801_/A in net _0056_.
+[EST-0026] Missing route to pin _0735_/A in net _0056_.
+[EST-0026] Missing route to pin _0638_/A in net _0056_.
+[EST-0026] Missing route to pin _0611_/Y in net _0056_.
+[EST-0026] Missing route to pin _1056_/A in net _0056_.
+[EST-0026] Missing route to pin _0801_/A in net _0056_.
+[EST-0026] Missing route to pin _0735_/A in net _0056_.
+[EST-0026] Missing route to pin _0638_/A in net _0056_.
+[EST-0026] Missing route to pin _0611_/Y in net _0056_.
+[EST-0026] Missing route to pin _1056_/A in net _0056_.
+[EST-0026] Missing route to pin _0801_/A in net _0056_.
+[EST-0026] Missing route to pin _0735_/A in net _0056_.
+[EST-0026] Missing route to pin _0638_/A in net _0056_.
+[EST-0026] Missing route to pin _0611_/Y in net _0056_.
+[EST-0026] Missing route to pin _1056_/A in net _0056_.
+[EST-0026] Missing route to pin _0801_/A in net _0056_.
+[EST-0026] Missing route to pin _0735_/A in net _0056_.
+[EST-0026] Missing route to pin _0638_/A in net _0056_.
+[EST-0026] Missing route to pin _0611_/Y in net _0056_.
+[EST-0026] Missing route to pin _1056_/A in net _0056_.
+[EST-0026] Missing route to pin _0801_/A in net _0056_.
+[EST-0026] Missing route to pin _0735_/A in net _0056_.
+[EST-0026] Missing route to pin _0638_/A in net _0056_.
+[EST-0026] Missing route to pin _0611_/Y in net _0056_.
+[EST-0026] Missing route to pin _1056_/A in net _0056_.
+[EST-0026] Missing route to pin _0801_/A in net _0056_.
+[EST-0026] Missing route to pin _0735_/A in net _0056_.
+[EST-0026] Missing route to pin _0638_/A in net _0056_.
+[EST-0026] Missing route to pin _0611_/Y in net _0056_.
+[EST-0026] Missing route to pin _1056_/A in net _0056_.
+[EST-0026] Missing route to pin _0801_/A in net _0056_.
+[EST-0026] Missing route to pin _0735_/A in net _0056_.
+[EST-0026] Missing route to pin _0638_/A in net _0056_.
+[EST-0026] Missing route to pin _0611_/Y in net _0056_.
+[EST-0026] Missing route to pin _0723_/A in net _0057_.
+[EST-0026] Missing route to pin _0679_/C in net _0057_.
+[EST-0026] Missing route to pin _0613_/B in net _0057_.
+[EST-0026] Missing route to pin _0612_/Y in net _0057_.
+[EST-0026] Missing route to pin _0723_/A in net _0057_.
+[EST-0026] Missing route to pin _0679_/C in net _0057_.
+[EST-0026] Missing route to pin _0613_/B in net _0057_.
+[EST-0026] Missing route to pin _0612_/Y in net _0057_.
+[EST-0026] Missing route to pin _0723_/A in net _0057_.
+[EST-0026] Missing route to pin _0679_/C in net _0057_.
+[EST-0026] Missing route to pin _0613_/B in net _0057_.
+[EST-0026] Missing route to pin _0612_/Y in net _0057_.
+[EST-0026] Missing route to pin _0723_/A in net _0057_.
+[EST-0026] Missing route to pin _0679_/C in net _0057_.
+[EST-0026] Missing route to pin _0613_/B in net _0057_.
+[EST-0026] Missing route to pin _0612_/Y in net _0057_.
+[EST-0026] Missing route to pin _0723_/A in net _0057_.
+[EST-0026] Missing route to pin _0679_/C in net _0057_.
+[EST-0026] Missing route to pin _0613_/B in net _0057_.
+[EST-0026] Missing route to pin _0612_/Y in net _0057_.
+[EST-0026] Missing route to pin _0723_/A in net _0057_.
+[EST-0026] Missing route to pin _0679_/C in net _0057_.
+[EST-0026] Missing route to pin _0613_/B in net _0057_.
+[EST-0026] Missing route to pin _0612_/Y in net _0057_.
+[EST-0026] Missing route to pin _0723_/A in net _0057_.
+[EST-0026] Missing route to pin _0679_/C in net _0057_.
+[EST-0026] Missing route to pin _0613_/B in net _0057_.
+[EST-0026] Missing route to pin _0612_/Y in net _0057_.
+[EST-0026] Missing route to pin _0723_/A in net _0057_.
+[EST-0026] Missing route to pin _0679_/C in net _0057_.
+[EST-0026] Missing route to pin _0613_/B in net _0057_.
+[EST-0026] Missing route to pin _0612_/Y in net _0057_.
+[EST-0026] Missing route to pin _0723_/A in net _0057_.
+[EST-0026] Missing route to pin _0679_/C in net _0057_.
+[EST-0026] Missing route to pin _0613_/B in net _0057_.
+[EST-0026] Missing route to pin _0612_/Y in net _0057_.
+[EST-0026] Missing route to pin _0945_/A in net _0058_.
+[EST-0026] Missing route to pin _0724_/B in net _0058_.
+[EST-0026] Missing route to pin _0723_/Y in net _0058_.
+[EST-0026] Missing route to pin _0945_/A in net _0058_.
+[EST-0026] Missing route to pin _0724_/B in net _0058_.
+[EST-0026] Missing route to pin _0723_/Y in net _0058_.
+[EST-0026] Missing route to pin _0945_/A in net _0058_.
+[EST-0026] Missing route to pin _0724_/B in net _0058_.
+[EST-0026] Missing route to pin _0723_/Y in net _0058_.
+[EST-0026] Missing route to pin _0945_/A in net _0058_.
+[EST-0026] Missing route to pin _0724_/B in net _0058_.
+[EST-0026] Missing route to pin _0723_/Y in net _0058_.
+[EST-0026] Missing route to pin _0945_/A in net _0058_.
+[EST-0026] Missing route to pin _0724_/B in net _0058_.
+[EST-0026] Missing route to pin _0723_/Y in net _0058_.
+[EST-0026] Missing route to pin _0945_/A in net _0058_.
+[EST-0026] Missing route to pin _0724_/B in net _0058_.
+[EST-0026] Missing route to pin _0723_/Y in net _0058_.
+[EST-0026] Missing route to pin _0945_/A in net _0058_.
+[EST-0026] Missing route to pin _0724_/B in net _0058_.
+[EST-0026] Missing route to pin _0723_/Y in net _0058_.
+[EST-0026] Missing route to pin _0945_/A in net _0058_.
+[EST-0026] Missing route to pin _0724_/B in net _0058_.
+[EST-0026] Missing route to pin _0723_/Y in net _0058_.
+[EST-0026] Missing route to pin _0945_/A in net _0058_.
+[EST-0026] Missing route to pin _0724_/B in net _0058_.
+[EST-0026] Missing route to pin _0723_/Y in net _0058_.
+[EST-0026] Missing route to pin _0945_/C in net _0059_.
+[EST-0026] Missing route to pin _0834_/Y in net _0059_.
+[EST-0026] Missing route to pin _0712_/B in net _0059_.
+[EST-0026] Missing route to pin _0945_/C in net _0059_.
+[EST-0026] Missing route to pin _0834_/Y in net _0059_.
+[EST-0026] Missing route to pin _0712_/B in net _0059_.
+[EST-0026] Missing route to pin _0945_/C in net _0059_.
+[EST-0026] Missing route to pin _0834_/Y in net _0059_.
+[EST-0026] Missing route to pin _0712_/B in net _0059_.
+[EST-0026] Missing route to pin _0945_/C in net _0059_.
+[EST-0026] Missing route to pin _0834_/Y in net _0059_.
+[EST-0026] Missing route to pin _0712_/B in net _0059_.
+[EST-0026] Missing route to pin _0945_/C in net _0059_.
+[EST-0026] Missing route to pin _0834_/Y in net _0059_.
+[EST-0026] Missing route to pin _0712_/B in net _0059_.
+[EST-0026] Missing route to pin _0945_/C in net _0059_.
+[EST-0026] Missing route to pin _0834_/Y in net _0059_.
+[EST-0026] Missing route to pin _0712_/B in net _0059_.
+[EST-0026] Missing route to pin _0945_/C in net _0059_.
+[EST-0026] Missing route to pin _0834_/Y in net _0059_.
+[EST-0026] Missing route to pin _0712_/B in net _0059_.
+[EST-0026] Missing route to pin _0945_/C in net _0059_.
+[EST-0026] Missing route to pin _0834_/Y in net _0059_.
+[EST-0026] Missing route to pin _0712_/B in net _0059_.
+[EST-0026] Missing route to pin _0945_/C in net _0059_.
+[EST-0026] Missing route to pin _0834_/Y in net _0059_.
+[EST-0026] Missing route to pin _0712_/B in net _0059_.
+[EST-0026] Missing route to pin _1056_/B in net _0060_.
+[EST-0026] Missing route to pin _0945_/Y in net _0060_.
+[EST-0026] Missing route to pin _0674_/B in net _0060_.
+[EST-0026] Missing route to pin _0662_/B in net _0060_.
+[EST-0026] Missing route to pin _0646_/B in net _0060_.
+[EST-0026] Missing route to pin _1056_/B in net _0060_.
+[EST-0026] Missing route to pin _0945_/Y in net _0060_.
+[EST-0026] Missing route to pin _0674_/B in net _0060_.
+[EST-0026] Missing route to pin _0662_/B in net _0060_.
+[EST-0026] Missing route to pin _0646_/B in net _0060_.
+[EST-0026] Missing route to pin _1056_/B in net _0060_.
+[EST-0026] Missing route to pin _0945_/Y in net _0060_.
+[EST-0026] Missing route to pin _0674_/B in net _0060_.
+[EST-0026] Missing route to pin _0662_/B in net _0060_.
+[EST-0026] Missing route to pin _0646_/B in net _0060_.
+[EST-0026] Missing route to pin _1056_/B in net _0060_.
+[EST-0026] Missing route to pin _0945_/Y in net _0060_.
+[EST-0026] Missing route to pin _0674_/B in net _0060_.
+[EST-0026] Missing route to pin _0662_/B in net _0060_.
+[EST-0026] Missing route to pin _0646_/B in net _0060_.
+[EST-0026] Missing route to pin _1056_/B in net _0060_.
+[EST-0026] Missing route to pin _0945_/Y in net _0060_.
+[EST-0026] Missing route to pin _0674_/B in net _0060_.
+[EST-0026] Missing route to pin _0662_/B in net _0060_.
+[EST-0026] Missing route to pin _0646_/B in net _0060_.
+[EST-0026] Missing route to pin _1056_/B in net _0060_.
+[EST-0026] Missing route to pin _0945_/Y in net _0060_.
+[EST-0026] Missing route to pin _0674_/B in net _0060_.
+[EST-0026] Missing route to pin _0662_/B in net _0060_.
+[EST-0026] Missing route to pin _0646_/B in net _0060_.
+[EST-0026] Missing route to pin _1056_/B in net _0060_.
+[EST-0026] Missing route to pin _0945_/Y in net _0060_.
+[EST-0026] Missing route to pin _0674_/B in net _0060_.
+[EST-0026] Missing route to pin _0662_/B in net _0060_.
+[EST-0026] Missing route to pin _0646_/B in net _0060_.
+[EST-0026] Missing route to pin _1056_/B in net _0060_.
+[EST-0026] Missing route to pin _0945_/Y in net _0060_.
+[EST-0026] Missing route to pin _0674_/B in net _0060_.
+[EST-0026] Missing route to pin _0662_/B in net _0060_.
+[EST-0026] Missing route to pin _0646_/B in net _0060_.
+[EST-0026] Missing route to pin _1056_/B in net _0060_.
+[EST-0026] Missing route to pin _0945_/Y in net _0060_.
+[EST-0026] Missing route to pin _0674_/B in net _0060_.
+[EST-0026] Missing route to pin _0662_/B in net _0060_.
+[EST-0026] Missing route to pin _0646_/B in net _0060_.
+[EST-0026] Missing route to pin _1206_/A in net _0062_.
+[EST-0026] Missing route to pin _1195_/Y in net _0062_.
+[EST-0026] Missing route to pin _1206_/A in net _0062_.
+[EST-0026] Missing route to pin _1195_/Y in net _0062_.
+[EST-0026] Missing route to pin _1206_/A in net _0062_.
+[EST-0026] Missing route to pin _1195_/Y in net _0062_.
+[EST-0026] Missing route to pin _1206_/A in net _0062_.
+[EST-0026] Missing route to pin _1195_/Y in net _0062_.
+[EST-0026] Missing route to pin _1206_/A in net _0062_.
+[EST-0026] Missing route to pin _1195_/Y in net _0062_.
+[EST-0026] Missing route to pin _1206_/A in net _0062_.
+[EST-0026] Missing route to pin _1195_/Y in net _0062_.
+[EST-0026] Missing route to pin _1206_/A in net _0062_.
+[EST-0026] Missing route to pin _1195_/Y in net _0062_.
+[EST-0026] Missing route to pin _1206_/A in net _0062_.
+[EST-0026] Missing route to pin _1195_/Y in net _0062_.
+[EST-0026] Missing route to pin _1206_/A in net _0062_.
+[EST-0026] Missing route to pin _1195_/Y in net _0062_.
+[EST-0026] Missing route to pin _1206_/Y in net _0063_.
+[EST-0026] Missing route to pin _0779_/A in net _0063_.
+[EST-0026] Missing route to pin _0646_/A in net _0063_.
+[EST-0026] Missing route to pin _0645_/A in net _0063_.
+[EST-0026] Missing route to pin _0635_/A in net _0063_.
+[EST-0026] Missing route to pin _1206_/Y in net _0063_.
+[EST-0026] Missing route to pin _0779_/A in net _0063_.
+[EST-0026] Missing route to pin _0646_/A in net _0063_.
+[EST-0026] Missing route to pin _0645_/A in net _0063_.
+[EST-0026] Missing route to pin _0635_/A in net _0063_.
+[EST-0026] Missing route to pin _1206_/Y in net _0063_.
+[EST-0026] Missing route to pin _0779_/A in net _0063_.
+[EST-0026] Missing route to pin _0646_/A in net _0063_.
+[EST-0026] Missing route to pin _0645_/A in net _0063_.
+[EST-0026] Missing route to pin _0635_/A in net _0063_.
+[EST-0026] Missing route to pin _1206_/Y in net _0063_.
+[EST-0026] Missing route to pin _0779_/A in net _0063_.
+[EST-0026] Missing route to pin _0646_/A in net _0063_.
+[EST-0026] Missing route to pin _0645_/A in net _0063_.
+[EST-0026] Missing route to pin _0635_/A in net _0063_.
+[EST-0026] Missing route to pin _1206_/Y in net _0063_.
+[EST-0026] Missing route to pin _0779_/A in net _0063_.
+[EST-0026] Missing route to pin _0646_/A in net _0063_.
+[EST-0026] Missing route to pin _0645_/A in net _0063_.
+[EST-0026] Missing route to pin _0635_/A in net _0063_.
+[EST-0026] Missing route to pin _1206_/Y in net _0063_.
+[EST-0026] Missing route to pin _0779_/A in net _0063_.
+[EST-0026] Missing route to pin _0646_/A in net _0063_.
+[EST-0026] message limit (1000) reached. This message will no longer print.
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-0032] Invalid thread number specification: None.
+[ORD-0032] Invalid thread number specification: None.
+[ORD-0032] Invalid thread number specification: None.
+'VSRC_LOC_FILES' was not given a value, which may make the results of IR drop analysis inaccurate. If you are not integrating a top-level chip for manufacture, you may ignore this warning, otherwise, see the documentation for 'VSRC_LOC_FILES'.
+[ORD-0032] Invalid thread number specification: None.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+[STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+[ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+Max Slew violations found in the following corners:
+* max_ss_100C_1v60
+* min_ss_100C_1v60
+* nom_ss_100C_1v60

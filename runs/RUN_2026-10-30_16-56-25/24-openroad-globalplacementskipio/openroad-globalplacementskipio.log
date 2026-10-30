@@ -1,0 +1,133 @@
+[WARNING ORD-0032] Invalid thread number specification: None.
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz'…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz'…
+[WARNING STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz'…
+[WARNING STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz line 43, default_fanout_load is 0.0.
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz'…
+[WARNING STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz'…
+[WARNING STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz line 42, default_fanout_load is 0.0.
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz'…
+[WARNING STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz line 33, default_fanout_load is 0.0.
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz'…
+[WARNING STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz line 33, default_fanout_load is 0.0.
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz'…
+[WARNING STA-1173] /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz line 43, default_fanout_load is 0.0.
+Reading OpenROAD database at '/foss/designs/runs/RUN_2026-10-30_16-56-25/21-openroad-generatepdn/tcam_top.odb'…
+[WARNING ORD-2056] The following 2 liberty cell(s) do not have LEF masters and will be marked as dont-use:
+  sky130_ef_io__analog_minesd_pad
+  sky130_ef_io__analog_minesd_pad_short
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 20.0
+[INFO] Setting input delay to: 20.0
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5.0%
++ global_placement -density 0.65 -skip_io -pad_right 0 -pad_left 0 -init_wirelength_coef 0.25
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  2.300  2.720 ) ( 177.560 111.520 ) um
+[INFO GPL-0036] Movable instances area:      11514.794 um^2
+[INFO GPL-0037] Total instances area:        12156.659 um^2
+[INFO GPL-0035] Pin density area adjust:       265.466 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:              1266
+[INFO GPL-0007] Movable instances:                 913
+[INFO GPL-0008] Fixed instances:                   353
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                    927
+[INFO GPL-0011] Number of pins:                   3143
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 180.000 115.000 ) um
+[INFO GPL-0013] Core BBox: (  2.300  2.720 ) ( 177.560 111.520 ) um
+[INFO GPL-0016] Core area:                   19068.288 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                 19068.288 um^2
+[INFO GPL-0017] Fixed instances area:          641.866 um^2
+[INFO GPL-0018] Movable instances area:      11780.259 um^2
+[INFO GPL-0019] Utilization:                    63.931 %
+[INFO GPL-0020] Standard cells area:         11780.259 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 913	Region center = 0
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.6500
+[INFO GPL-0024] Movable insts average area:     12.903 um^2
+[INFO GPL-0025] Ideal bin area:                 19.850 um^2
+[INFO GPL-0026] Ideal bin count:                   960
+[INFO GPL-0027] Total bin area:              19068.288 um^2
+[INFO GPL-0028] Bin count (X, Y):          16 ,     16
+[INFO GPL-0029] Bin size (W * H):      10.954 *  6.800 um
+[INFO GPL-0030] Number of bins:                    256
+[INFO GPL-0007] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9838 |  2.572140e+03 |   +0.00% |  2.30e-14 |      
+       10 |   0.9803 |  8.094300e+02 |  -68.53% |  3.75e-14 |      
+       20 |   0.9733 |  7.185420e+02 |  -11.23% |  6.11e-14 |      
+       30 |   0.9726 |  7.010720e+02 |   -2.43% |  9.95e-14 |      
+       40 |   0.9733 |  7.039780e+02 |   +0.41% |  1.62e-13 |      
+       50 |   0.9735 |  7.035730e+02 |   -0.06% |  2.64e-13 |      
+       60 |   0.9732 |  7.014920e+02 |   -0.30% |  4.30e-13 |      
+       70 |   0.9727 |  7.003480e+02 |   -0.16% |  7.01e-13 |      
+       80 |   0.9724 |  6.997310e+02 |   -0.09% |  1.14e-12 |      
+       90 |   0.9716 |  7.010010e+02 |   +0.18% |  1.86e-12 |      
+      100 |   0.9699 |  7.089050e+02 |   +1.13% |  3.03e-12 |      
+      110 |   0.9676 |  7.393490e+02 |   +4.29% |  4.93e-12 |      
+      120 |   0.9674 |  8.397570e+02 |  +13.58% |  8.03e-12 |      
+      130 |   0.9638 |  1.208640e+03 |  +43.93% |  1.31e-11 |      
+      140 |   0.9447 |  2.178184e+03 |  +80.22% |  2.13e-11 |      
+      150 |   0.9023 |  3.936672e+03 |  +80.73% |  3.47e-11 |      
+      160 |   0.8958 |  4.190312e+03 |   +6.44% |  5.65e-11 |      
+      170 |   0.8675 |  4.984462e+03 |  +18.95% |  9.21e-11 |      
+      180 |   0.8326 |  5.884436e+03 |  +18.06% |  1.50e-10 |      
+      190 |   0.7981 |  6.757283e+03 |  +14.83% |  2.44e-10 |      
+      200 |   0.7605 |  7.761017e+03 |  +14.85% |  3.98e-10 |      
+      210 |   0.7108 |  8.544916e+03 |  +10.10% |  6.48e-10 |      
+      220 |   0.6644 |  9.512962e+03 |  +11.33% |  1.06e-09 |      
+      230 |   0.6206 |  1.039499e+04 |   +9.27% |  1.72e-09 |      
+      240 |   0.5668 |  1.112086e+04 |   +6.98% |  2.80e-09 |      
+      250 |   0.5057 |  1.182288e+04 |   +6.31% |  4.56e-09 |      
+      260 |   0.4390 |  1.254986e+04 |   +6.15% |  7.43e-09 |      
+      270 |   0.3626 |  1.315188e+04 |   +4.80% |  1.21e-08 |      
+      280 |   0.3085 |  1.346013e+04 |   +2.34% |  1.86e-08 |      
+      290 |   0.2632 |  1.356780e+04 |   +0.80% |  2.73e-08 |      
+      300 |   0.2393 |  1.375278e+04 |   +1.36% |  4.03e-08 |      
+      310 |   0.2104 |  1.391666e+04 |   +1.19% |  5.93e-08 |      
+      320 |   0.1820 |  1.400523e+04 |   +0.64% |  8.74e-08 |      
+      330 |   0.1588 |  1.409615e+04 |   +0.65% |  1.29e-07 |      
+      340 |   0.1356 |  1.411439e+04 |   +0.13% |  1.90e-07 |      
+      350 |   0.1067 |  1.423146e+04 |   +0.83% |  2.79e-07 |      
+      353 |   0.1000 |  1.425779e+04 |          |  3.26e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 353
+[INFO GPL-1002] Placed Cell Area            11780.2592
+[INFO GPL-1003] Available Free Area         18426.4224
+[INFO GPL-1004] Minimum Feasible Density        0.6400 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.7103
+[INFO GPL-1008]     - For 80% usage of free space: 0.7991
+[INFO GPL-1014] Final placement area: 11780.26 (+0.00%)
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                                80     300.29
+  Tap cell                                273     341.58
+  Buffer                                   32     185.18
+  Inverter                                 51     218.96
+  Sequential cell                         296    8488.14
+  Multi-Input combinational cell          534    2622.52
+  Total                                  1266   12156.66
+Writing OpenROAD database to '/foss/designs/runs/RUN_2026-10-30_16-56-25/24-openroad-globalplacementskipio/tcam_top.odb'…
+Writing netlist to '/foss/designs/runs/RUN_2026-10-30_16-56-25/24-openroad-globalplacementskipio/tcam_top.nl.v'…
+Writing powered netlist to '/foss/designs/runs/RUN_2026-10-30_16-56-25/24-openroad-globalplacementskipio/tcam_top.pnl.v'…
+Writing layout to '/foss/designs/runs/RUN_2026-10-30_16-56-25/24-openroad-globalplacementskipio/tcam_top.def'…
+Writing timing constraints to '/foss/designs/runs/RUN_2026-10-30_16-56-25/24-openroad-globalplacementskipio/tcam_top.sdc'…

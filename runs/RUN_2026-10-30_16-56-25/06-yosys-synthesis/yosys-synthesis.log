@@ -1,0 +1,3038 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.70 (git sha1 28ba3cb92, Release, GNU /usr/bin/c++ 13.3.0)
+Found gzip magic in file `/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz', decompressing using zlib.
+
+1. Executing Liberty frontend: /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib.gz
+Imported 428 cell types from liberty file.
+Found gzip magic in file `/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz', decompressing using zlib.
+
+2. Executing Liberty frontend: /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz
+Imported 1 cell types from liberty file.
+Found gzip magic in file `/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz', decompressing using zlib.
+
+3. Executing Liberty frontend: /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib.gz
+Imported 1 cell types from liberty file.
+Found gzip magic in file `/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz', decompressing using zlib.
+
+4. Executing Liberty frontend: /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz
+Imported 1 cell types from liberty file.
+Found gzip magic in file `/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz', decompressing using zlib.
+
+5. Executing Liberty frontend: /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib.gz
+Imported 1 cell types from liberty file.
+Found gzip magic in file `/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz', decompressing using zlib.
+
+6. Executing Liberty frontend: /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib.gz
+Imported 1 cell types from liberty file.
+Found gzip magic in file `/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz', decompressing using zlib.
+
+7. Executing Liberty frontend: /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/slices_stubs.lib.gz
+Imported 2 cell types from liberty file.
+Found gzip magic in file `/foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz', decompressing using zlib.
+
+8. Executing Liberty frontend: /foss/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__analog_stubs.lib.gz
+Imported 5 cell types from liberty file.
+[INFO] Using SDC file '/foss/designs/runs/RUN_2026-10-30_16-56-25/06-yosys-synthesis/synthesis.abc.sdc' for ABC…
+
+9. Executing Verilog-2005 frontend: /foss/designs/rtl/priority_encoder.v
+Parsing SystemVerilog input from `/foss/designs/rtl/priority_encoder.v' to AST representation.
+Storing AST representation for module `$abstract\priority_encoder'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: /foss/designs/rtl/tcam_array.v
+Parsing SystemVerilog input from `/foss/designs/rtl/tcam_array.v' to AST representation.
+Storing AST representation for module `$abstract\tcam_array'.
+Successfully finished Verilog frontend.
+
+11. Executing Verilog-2005 frontend: /foss/designs/rtl/tcam_ctrl.v
+Parsing SystemVerilog input from `/foss/designs/rtl/tcam_ctrl.v' to AST representation.
+Storing AST representation for module `$abstract\tcam_ctrl'.
+Successfully finished Verilog frontend.
+
+12. Executing Verilog-2005 frontend: /foss/designs/rtl/tcam_top.v
+Parsing SystemVerilog input from `/foss/designs/rtl/tcam_top.v' to AST representation.
+Storing AST representation for module `$abstract\tcam_top'.
+Successfully finished Verilog frontend.
+
+13. Executing HIERARCHY pass (managing design hierarchy).
+
+14. Executing AST frontend in derive mode using pre-parsed AST for module `\tcam_top'.
+Generating RTLIL representation for module `\tcam_top'.
+
+14.1. Analyzing design hierarchy..
+Top module:  \tcam_top
+
+14.2. Executing AST frontend in derive mode using pre-parsed AST for module `\priority_encoder'.
+Generating RTLIL representation for module `\priority_encoder'.
+
+14.3. Executing AST frontend in derive mode using pre-parsed AST for module `\tcam_array'.
+Generating RTLIL representation for module `\tcam_array'.
+
+14.4. Executing AST frontend in derive mode using pre-parsed AST for module `\tcam_ctrl'.
+Generating RTLIL representation for module `\tcam_ctrl'.
+
+14.5. Analyzing design hierarchy..
+Top module:  \tcam_top
+Used module:     \priority_encoder
+Used module:     \tcam_array
+Used module:     \tcam_ctrl
+
+14.6. Analyzing design hierarchy..
+Top module:  \tcam_top
+Used module:     \priority_encoder
+Used module:     \tcam_array
+Used module:     \tcam_ctrl
+Removing unused module `$abstract\tcam_top'.
+Removing unused module `$abstract\tcam_ctrl'.
+Removing unused module `$abstract\tcam_array'.
+Removing unused module `$abstract\priority_encoder'.
+Removed 4 unused modules.
+Renaming module tcam_top to tcam_top.
+
+15. Executing ATTRMAP pass (move or copy attributes).
+
+16. Executing TRIBUF pass.
+
+17. Executing HIERARCHY pass (managing design hierarchy).
+
+17.1. Analyzing design hierarchy..
+Top module:  \tcam_top
+Used module:     \priority_encoder
+Used module:     \tcam_array
+Used module:     \tcam_ctrl
+
+17.2. Analyzing design hierarchy..
+Top module:  \tcam_top
+Used module:     \priority_encoder
+Used module:     \tcam_array
+Used module:     \tcam_ctrl
+Removed 0 unused modules.
+
+18. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+19. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 2 switch rules as full_case in process $proc$/foss/designs/rtl/tcam_array.v:22$273 in module tcam_array.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/rtl/tcam_array.v:18$265 in module tcam_array.
+Marked 16 switch rules as full_case in process $proc$/foss/designs/rtl/priority_encoder.v:9$2 in module priority_encoder.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/rtl/tcam_ctrl.v:14$1728 in module tcam_ctrl.
+Removed a total of 0 dead cases.
+
+20. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 264 assignments to connections.
+
+21. Executing PROC_INIT pass (extract init attributes).
+
+22. Executing PROC_ARST pass (detect async resets in processes).
+
+23. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~21 debug messages>
+
+24. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1724'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1721'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1718'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1715'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1712'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1709'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1706'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1703'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1700'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1697'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1694'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1691'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1688'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1685'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1682'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1679'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1676'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1673'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1670'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1667'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1664'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1661'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1658'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1655'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1652'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1649'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1646'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1643'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1640'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1637'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1634'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1631'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1628'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1625'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1622'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1619'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1616'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1613'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1610'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1607'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1604'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1601'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1598'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1595'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1592'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1589'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1586'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1583'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1580'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1577'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1574'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1571'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1568'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1565'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1562'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1559'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1556'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1553'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1550'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1547'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1544'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1541'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1538'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1535'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1532'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1529'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1526'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1523'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1520'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1517'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1514'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1511'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1508'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1505'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1502'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1499'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1496'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1493'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1490'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1487'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1484'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1481'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1478'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1475'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1472'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1469'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1466'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1463'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1460'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1457'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1454'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1451'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1448'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1445'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1442'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1439'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1436'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1433'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1430'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1427'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1424'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1421'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1418'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1415'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1412'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1409'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1406'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1403'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1400'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1397'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1394'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1391'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1388'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1385'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1382'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1379'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1376'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1373'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1370'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1367'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1364'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1361'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1358'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1355'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1352'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1349'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1346'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1343'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1340'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1337'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1334'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1331'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1328'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1325'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1322'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1319'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1316'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1313'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1310'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1307'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1304'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1301'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1298'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1295'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1292'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1289'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1286'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1283'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1280'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1277'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1274'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1271'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1268'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1265'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1262'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1259'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1256'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1253'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1250'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1247'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1244'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1241'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1238'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1235'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1232'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1229'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1226'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1223'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1220'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1217'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1214'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1211'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1208'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1205'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1202'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1199'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1196'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1193'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1190'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1187'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1184'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1181'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1178'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1175'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1172'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1169'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1166'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1163'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1160'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1157'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1154'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1151'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1148'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1145'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1142'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1139'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1136'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1133'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1130'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1127'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1124'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1121'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1118'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1115'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1112'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1109'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1106'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1103'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1100'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1097'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1094'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1091'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1088'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1085'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1082'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1079'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1076'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1073'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1070'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1067'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1064'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1061'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1058'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1055'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1052'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1049'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1046'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1043'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1040'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1037'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1034'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1031'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1028'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1025'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1022'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1019'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1016'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1013'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1010'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1007'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1004'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1001'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$998'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$995'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$992'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$989'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$986'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$983'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$980'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$977'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$974'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$971'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$968'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$965'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$962'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$959'.
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+     1/4: $2$lookahead\valid$272[15:0]$279
+     2/4: $2$bitselwrite$pos$/foss/designs/rtl/tcam_array.v:24$7[3:0]$278
+     3/4: $1$lookahead\valid$272[15:0]$277
+     4/4: $1$bitselwrite$pos$/foss/designs/rtl/tcam_array.v:24$7[3:0]$276
+Creating decoders for process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+     1/3: $1$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$271
+     2/3: $1$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_DATA[15:0]$270
+     3/3: $1$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_ADDR[3:0]$269
+Creating decoders for process `\priority_encoder.$proc$/foss/designs/rtl/priority_encoder.v:9$2'.
+     1/16: $16\addr[3:0]
+     2/16: $15\addr[3:0]
+     3/16: $14\addr[3:0]
+     4/16: $13\addr[3:0]
+     5/16: $12\addr[3:0]
+     6/16: $11\addr[3:0]
+     7/16: $10\addr[3:0]
+     8/16: $9\addr[3:0]
+     9/16: $8\addr[3:0]
+    10/16: $7\addr[3:0]
+    11/16: $6\addr[3:0]
+    12/16: $5\addr[3:0]
+    13/16: $4\addr[3:0]
+    14/16: $3\addr[3:0]
+    15/16: $2\addr[3:0]
+    16/16: $1\addr[3:0]
+Creating decoders for process `\tcam_ctrl.$proc$/foss/designs/rtl/tcam_ctrl.v:14$1728'.
+     1/2: $0\sw[7:0]
+     2/2: $0\rule_sh[15:0]
+
+25. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$264' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1724'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$263' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1721'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$262' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1718'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$261' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1715'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$260' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1712'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$259' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1709'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$258' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1706'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$257' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1703'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$256' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1700'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$255' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1697'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$254' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1694'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$253' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1691'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$252' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1688'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$251' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1685'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$250' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1682'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$249' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1679'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$248' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1676'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$247' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1673'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$246' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1670'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$245' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1667'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$244' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1664'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$243' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1661'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$242' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1658'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$241' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1655'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$240' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1652'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$239' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1649'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$238' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1646'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$237' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1643'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$236' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1640'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$235' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1637'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$234' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1634'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$233' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1631'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$232' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1628'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$231' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1625'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$230' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1622'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$229' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1619'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$228' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1616'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$227' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1613'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$226' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1610'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$225' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1607'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$224' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1604'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$223' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1601'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$222' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1598'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$221' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1595'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$220' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1592'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$219' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1589'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$218' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1586'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$217' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1583'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$216' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1580'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$215' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1577'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$214' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1574'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$213' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1571'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$212' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1568'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$211' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1565'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$210' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1562'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$209' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1559'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$208' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1556'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$207' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1553'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$206' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1550'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$205' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1547'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$204' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1544'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$203' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1541'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$202' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1538'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$201' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1535'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$200' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1532'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$199' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1529'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$198' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1526'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$197' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1523'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$196' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1520'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$195' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1517'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$194' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1514'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$193' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1511'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$192' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1508'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$191' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1505'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$190' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1502'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$189' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1499'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$188' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1496'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$187' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1493'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$186' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1490'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$185' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1487'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$184' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1484'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$183' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1481'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$182' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1478'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$181' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1475'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$180' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1472'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$179' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1469'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$178' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1466'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$177' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1463'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$176' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1460'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$175' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1457'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$174' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1454'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$173' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1451'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$172' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1448'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$171' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1445'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$170' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1442'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$169' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1439'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$168' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1436'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$167' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1433'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$166' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1430'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$165' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1427'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$164' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1424'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$163' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1421'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$162' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1418'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$161' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1415'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$160' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1412'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$159' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1409'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$158' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1406'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$157' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1403'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$156' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1400'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$155' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1397'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$154' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1394'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$153' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1391'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$152' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1388'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$151' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1385'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$150' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1382'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$149' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1379'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$148' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1376'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$147' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1373'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$146' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1370'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$145' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1367'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$144' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1364'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$143' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1361'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$142' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1358'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$141' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1355'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$140' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1352'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$139' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1349'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$138' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1346'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$137' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1343'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$136' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1340'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$135' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1337'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$134' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1334'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$133' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1331'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$132' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1328'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$131' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1325'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$130' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1322'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$129' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1319'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$128' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1316'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$127' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1313'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$126' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1310'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$125' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1307'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$124' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1304'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$123' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1301'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$122' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1298'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$121' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1295'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$120' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1292'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$119' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1289'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$118' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1286'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$117' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1283'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$116' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1280'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$115' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1277'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$114' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1274'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$113' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1271'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$112' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1268'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$111' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1265'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$110' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1262'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$109' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1259'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$108' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1256'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$107' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1253'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$106' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1250'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$105' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1247'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$104' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1244'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$103' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1241'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$102' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1238'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$101' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1235'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$100' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1232'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$99' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1229'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$98' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1226'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$97' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1223'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$96' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1220'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$95' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1217'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$94' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1214'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$93' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1211'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$92' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1208'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$91' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1205'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$90' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1202'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$89' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1199'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$88' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1196'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$87' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1193'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$86' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1190'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$85' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1187'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$84' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1184'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$83' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1181'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$82' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1178'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$81' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1175'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$80' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1172'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$79' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1169'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$78' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1166'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$77' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1163'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$76' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1160'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$75' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1157'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$74' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1154'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$73' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1151'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$72' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1148'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$71' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1145'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$70' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1142'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$69' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1139'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$68' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1136'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$67' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1133'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$66' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1130'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$65' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1127'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$64' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1124'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$63' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1121'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$62' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1118'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$61' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1115'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$60' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1112'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$59' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1109'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$58' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1106'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$57' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1103'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$56' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1100'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$55' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1097'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$54' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1094'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$53' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1091'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$52' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1088'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$51' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1085'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$50' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1082'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$49' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1079'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$48' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1076'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$47' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1073'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$46' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1070'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$45' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1067'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$44' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1064'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$43' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1061'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$42' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1058'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$41' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1055'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$40' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1052'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$39' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1049'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$38' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1046'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$37' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1043'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$36' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1040'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$35' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1037'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$34' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1034'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$33' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1031'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$32' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1028'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$31' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1025'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$30' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1022'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$29' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1019'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$28' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1016'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$27' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1013'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$26' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1010'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$25' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1007'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$24' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1004'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$23' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1001'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$22' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$998'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$21' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$995'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$20' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$992'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$19' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$989'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$18' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$986'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$17' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$983'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$16' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$980'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$15' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$977'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$14' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$974'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$13' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$971'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$12' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$968'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$11' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$965'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:33$10' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$962'.
+No latch inferred for signal `\tcam_array.$mem2bits$\mem$/foss/designs/rtl/tcam_array.v:32$9' from process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$959'.
+No latch inferred for signal `\priority_encoder.\addr' from process `\priority_encoder.$proc$/foss/designs/rtl/priority_encoder.v:9$2'.
+No latch inferred for signal `\priority_encoder.\k' from process `\priority_encoder.$proc$/foss/designs/rtl/priority_encoder.v:9$2'.
+
+26. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\tcam_array.\valid' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+  created $dff cell `$procdff$1815' with positive edge clock.
+Creating register for signal `\tcam_array.$bitselwrite$pos$/foss/designs/rtl/tcam_array.v:24$7' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+  created $dff cell `$procdff$1816' with positive edge clock.
+Creating register for signal `\tcam_array.$lookahead\valid$272' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+  created $dff cell `$procdff$1817' with positive edge clock.
+Creating register for signal `\tcam_array.$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_ADDR' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+  created $dff cell `$procdff$1818' with positive edge clock.
+Creating register for signal `\tcam_array.$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_DATA' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+  created $dff cell `$procdff$1819' with positive edge clock.
+Creating register for signal `\tcam_array.$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN' using process `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+  created $dff cell `$procdff$1820' with positive edge clock.
+Creating register for signal `\tcam_ctrl.\rule_sh' using process `\tcam_ctrl.$proc$/foss/designs/rtl/tcam_ctrl.v:14$1728'.
+  created $dff cell `$procdff$1821' with positive edge clock.
+Creating register for signal `\tcam_ctrl.\sw' using process `\tcam_ctrl.$proc$/foss/designs/rtl/tcam_ctrl.v:14$1728'.
+  created $dff cell `$procdff$1822' with positive edge clock.
+
+27. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+28. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1724'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1721'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1718'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1715'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1712'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1709'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1706'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1703'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1700'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1697'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1694'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1691'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1688'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1685'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1682'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1679'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1676'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1673'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1670'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1667'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1664'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1661'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1658'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1655'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1652'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1649'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1646'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1643'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1640'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1637'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1634'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1631'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1628'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1625'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1622'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1619'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1616'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1613'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1610'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1607'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1604'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1601'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1598'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1595'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1592'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1589'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1586'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1583'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1580'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1577'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1574'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1571'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1568'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1565'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1562'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1559'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1556'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1553'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1550'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1547'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1544'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1541'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1538'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1535'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1532'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1529'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1526'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1523'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1520'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1517'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1514'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1511'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1508'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1505'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1502'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1499'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1496'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1493'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1490'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1487'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1484'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1481'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1478'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1475'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1472'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1469'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1466'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1463'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1460'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1457'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1454'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1451'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1448'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1445'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1442'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1439'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1436'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1433'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1430'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1427'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1424'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1421'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1418'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1415'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1412'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1409'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1406'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1403'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1400'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1397'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1394'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1391'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1388'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1385'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1382'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1379'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1376'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1373'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1370'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1367'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1364'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1361'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1358'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1355'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1352'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1349'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1346'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1343'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1340'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1337'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1334'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1331'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1328'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1325'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1322'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1319'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1316'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1313'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1310'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1307'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1304'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1301'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1298'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1295'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1292'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1289'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1286'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1283'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1280'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1277'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1274'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1271'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1268'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1265'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1262'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1259'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1256'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1253'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1250'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1247'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1244'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1241'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1238'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1235'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1232'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1229'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1226'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1223'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1220'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1217'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1214'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1211'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1208'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1205'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1202'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1199'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1196'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1193'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1190'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1187'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1184'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1181'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1178'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1175'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1172'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1169'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1166'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1163'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1160'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1157'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1154'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1151'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1148'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1145'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1142'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1139'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1136'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1133'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1130'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1127'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1124'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1121'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1118'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1115'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1112'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1109'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1106'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1103'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1100'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1097'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1094'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1091'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1088'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1085'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1082'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1079'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1076'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1073'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1070'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1067'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1064'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1061'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1058'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1055'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1052'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1049'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1046'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1043'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1040'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1037'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1034'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1031'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1028'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1025'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1022'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1019'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1016'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1013'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1010'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1007'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$1004'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$1001'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$998'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$995'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$992'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$989'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$986'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$983'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$980'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$977'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$974'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$971'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$968'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$965'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:33$962'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:32$959'.
+Found and cleaned up 2 empty switches in `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:22$273'.
+Found and cleaned up 1 empty switch in `\tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+Removing empty process `tcam_array.$proc$/foss/designs/rtl/tcam_array.v:18$265'.
+Found and cleaned up 16 empty switches in `\priority_encoder.$proc$/foss/designs/rtl/priority_encoder.v:9$2'.
+Removing empty process `priority_encoder.$proc$/foss/designs/rtl/priority_encoder.v:9$2'.
+Found and cleaned up 2 empty switches in `\tcam_ctrl.$proc$/foss/designs/rtl/tcam_ctrl.v:14$1728'.
+Removing empty process `tcam_ctrl.$proc$/foss/designs/rtl/tcam_ctrl.v:14$1728'.
+Cleaned up 21 empty switches.
+
+29. Executing CHECK pass (checking for obvious problems).
+Checking module tcam_top...
+Checking module tcam_array...
+Checking module priority_encoder...
+Checking module tcam_ctrl...
+Found and reported 0 problems.
+
+30. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+Optimizing module tcam_array.
+Optimizing module priority_encoder.
+<suppressed ~1 debug messages>
+Optimizing module tcam_ctrl.
+
+31. Executing FLATTEN pass (flatten design).
+Deleting now unused module tcam_array.
+Deleting now unused module priority_encoder.
+Deleting now unused module tcam_ctrl.
+<suppressed ~3 debug messages>
+
+32. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+33. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 8 unused cells and 728 unused wires.
+<suppressed ~9 debug messages>
+
+34. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+35. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 975 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Computing hashes of 614 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Computing hashes of 613 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+<suppressed ~1086 debug messages>
+Removed a total of 362 cells.
+
+36. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \tcam_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+    dead port 1/2 on $mux $flatten\u_arr.$procmux$1733.
+Removed 1 multiplexer ports.
+<suppressed ~545 debug messages>
+
+37. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \tcam_top.
+    Consolidated identical input bits for $mux cell $flatten\u_arr.$procmux$1748:
+      Old ports: A=16'0000000000000000, B=16'1111111111111111, Y=$flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268
+      New ports: A=1'0, B=1'1, Y=$flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0]
+      New connections: $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [15:1] = { $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] $flatten\u_arr.$0$memwr$\mem$/foss/designs/rtl/tcam_array.v:19$8_EN[15:0]$268 [0] }
+  Optimizing cells in module \tcam_top.
+Performed a total of 1 changes.
+
+38. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 612 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+39. Executing OPT_DFF pass (perform DFF optimizations).
+
+40. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 0 unused cells and 379 unused wires.
+<suppressed ~1 debug messages>
+
+41. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+42. Rerunning OPT passes. (Maybe there is more to do…)
+
+43. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \tcam_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~544 debug messages>
+
+44. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \tcam_top.
+Performed a total of 0 changes.
+
+45. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 612 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+46. Executing OPT_DFF pass (perform DFF optimizations).
+
+47. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+
+48. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+49. Executing FSM pass (extract and optimize FSM).
+
+49.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+49.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+49.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+49.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+
+49.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+49.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+49.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+49.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+50. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+51. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 612 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+52. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \tcam_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~544 debug messages>
+
+53. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \tcam_top.
+Performed a total of 0 changes.
+
+54. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 612 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+55. Executing OPT_DFF pass (perform DFF optimizations).
+Adding SRST signal on $flatten\u_ctrl.$procdff$1822 ($dff) from module tcam_top (D = $flatten\u_ctrl.$procmux$1804_Y, Q = \u_ctrl.sw, rval = 8'00000000).
+Adding EN signal on $auto$ff.cc:337:slice$1827 ($sdff) from module tcam_top (D = { \u_ctrl.sw [1:0] \data }, Q = \u_ctrl.sw).
+Adding SRST signal on $flatten\u_ctrl.$procdff$1821 ($dff) from module tcam_top (D = $flatten\u_ctrl.$procmux$1810_Y, Q = \u_ctrl.rule_sh, rval = 16'0000000000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1829 ($sdff) from module tcam_top (D = { \u_ctrl.rule_sh [9:0] \data }, Q = \u_ctrl.rule_sh).
+Adding SRST signal on $flatten\u_arr.$procdff$1815 ($dff) from module tcam_top (D = $flatten\u_arr.$2$lookahead\valid$272[15:0]$279, Q = \u_arr.valid, rval = 16'0000000000000000).
+Adding EN signal on $auto$ff.cc:337:slice$1831 ($sdff) from module tcam_top (D = $flatten\u_arr.$or$/foss/designs/rtl/tcam_array.v:24$286_Y, Q = \u_arr.valid).
+
+56. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 6 unused cells and 6 unused wires.
+<suppressed ~7 debug messages>
+
+57. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+58. Rerunning OPT passes. (Maybe there is more to do…)
+
+59. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \tcam_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~535 debug messages>
+
+60. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \tcam_top.
+Performed a total of 0 changes.
+
+61. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 606 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+62. Executing OPT_DFF pass (perform DFF optimizations).
+
+63. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+
+64. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+65. Executing WREDUCE pass (reducing word size of cells).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1009 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1057 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1105 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1153 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1201 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1249 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1297 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1345 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1393 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1441 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1489 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1537 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1585 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1633 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$1681 (u_arr.mem).
+Removed top 28 address bits (of 32) from memory read port tcam_top.$flatten\u_arr.$memrd$\mem$/foss/designs/rtl/tcam_array.v:32$961 (u_arr.mem).
+Removed top 1 bits (of 2) from port B of cell tcam_top.$flatten\u_ctrl.$procmux$1811_CMP0 ($eq).
+Converting cell tcam_top.$flatten\u_arr.$neg$/foss/designs/rtl/tcam_array.v:24$284 ($neg) from signed to unsigned.
+Removed top 1 bits (of 5) from port A of cell tcam_top.$flatten\u_arr.$neg$/foss/designs/rtl/tcam_array.v:24$284 ($neg).
+Removed top 15 bits (of 16) from port B of cell tcam_top.$flatten\u_pe.$sub$/foss/designs/rtl/priority_encoder.v:15$4 ($sub).
+
+66. Executing PEEPOPT pass (run peephole optimizers).
+
+67. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+
+68. Executing BOOTH pass (map to Booth multipliers).
+Mapped 0 multipliers.
+
+69. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module tcam_top:
+  creating $macc model for $flatten\u_arr.$neg$/foss/designs/rtl/tcam_array.v:24$284 ($neg).
+  creating $macc model for $flatten\u_pe.$sub$/foss/designs/rtl/priority_encoder.v:15$4 ($sub).
+  creating $alu model for $macc $flatten\u_pe.$sub$/foss/designs/rtl/priority_encoder.v:15$4.
+  creating $alu model for $macc $flatten\u_arr.$neg$/foss/designs/rtl/tcam_array.v:24$284.
+  creating $alu cell for $flatten\u_arr.$neg$/foss/designs/rtl/tcam_array.v:24$284: $auto$alumacc.cc:578:replace_alu$1833
+  creating $alu cell for $flatten\u_pe.$sub$/foss/designs/rtl/priority_encoder.v:15$4: $auto$alumacc.cc:578:replace_alu$1836
+  created 2 $alu and 0 $macc cells.
+
+70. Executing ARITH_TREE pass.
+
+71. Executing SHARE pass (SAT-based resource sharing).
+
+72. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+73. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 606 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+74. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \tcam_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~535 debug messages>
+
+75. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \tcam_top.
+Performed a total of 0 changes.
+
+76. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 606 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+77. Executing OPT_DFF pass (perform DFF optimizations).
+
+78. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+
+79. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+80. Executing MEMORY pass.
+
+80.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+80.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+80.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+  Analyzing tcam_top.u_arr.mem write port 0.
+
+80.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+80.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+Checking read port `\u_arr.mem'[0] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[1] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[2] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[3] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[4] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[5] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[6] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[7] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[8] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[9] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[10] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[11] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[12] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[13] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[14] in module `\tcam_top':
+    no output FF found.
+Checking read port `\u_arr.mem'[15] in module `\tcam_top':
+    no output FF found.
+Checking read port address `\u_arr.mem'[0] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[1] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[2] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[3] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[4] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[5] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[6] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[7] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[8] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[9] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[10] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[11] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[12] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[13] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[14] in module `\tcam_top':
+    no address FF found.
+Checking read port address `\u_arr.mem'[15] in module `\tcam_top':
+    no address FF found.
+
+80.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+
+80.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+Consolidating read ports of memory tcam_top.u_arr.mem by address:
+  Merging ports 0, 15 (address 4'0000).
+  Merging ports 1, 2 (address 4'1111).
+  Merging ports 1, 3 (address 4'1110).
+  Merging ports 1, 4 (address 4'1100).
+  Merging ports 1, 5 (address 4'1100).
+  Merging ports 1, 6 (address 4'1000).
+  Merging ports 1, 7 (address 4'1000).
+  Merging ports 1, 8 (address 4'1000).
+  Merging ports 1, 9 (address 4'1000).
+  Merging ports 11, 12 (address 4'0101).
+  Merging ports 13, 14 (address 4'0011).
+Consolidating read ports of memory tcam_top.u_arr.mem by address:
+  Merging ports 0, 4 (address 4'0000).
+  Merging ports 2, 3 (address 4'0110).
+Consolidating read ports of memory tcam_top.u_arr.mem by address:
+  Merging ports 0, 2 (address 4'0000).
+Consolidating read ports of memory tcam_top.u_arr.mem by address:
+
+80.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+80.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 0 unused cells and 12 unused wires.
+<suppressed ~1 debug messages>
+
+80.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+81. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+
+82. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+<suppressed ~3 debug messages>
+
+83. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 587 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+84. Executing OPT_DFF pass (perform DFF optimizations).
+
+85. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 0 unused cells and 3 unused wires.
+<suppressed ~1 debug messages>
+
+86. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+Mapping memory \u_arr.mem in module \tcam_top:
+  created 16 $dff cells and 0 static cells of width 16.
+  read interface: 0 $dff and 1 $mux cells.
+  write interface: 16 write mux blocks.
+
+87. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+<suppressed ~9 debug messages>
+
+88. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 662 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+89. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \tcam_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~561 debug messages>
+
+90. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \tcam_top.
+    Consolidated identical input bits for $mux cell $flatten\u_pe.$procmux$1802:
+      Old ports: A=4'0000, B=4'1111, Y=$flatten\u_pe.$1\addr[3:0]
+      New ports: A=1'0, B=1'1, Y=$flatten\u_pe.$1\addr[3:0] [0]
+      New connections: $flatten\u_pe.$1\addr[3:0] [3:1] = { $flatten\u_pe.$1\addr[3:0] [0] $flatten\u_pe.$1\addr[3:0] [0] $flatten\u_pe.$1\addr[3:0] [0] }
+  Optimizing cells in module \tcam_top.
+    Consolidated identical input bits for $mux cell $flatten\u_pe.$procmux$1799:
+      Old ports: A=$flatten\u_pe.$1\addr[3:0], B=4'1110, Y=$flatten\u_pe.$2\addr[3:0]
+      New ports: A={ $flatten\u_pe.$1\addr[3:0] [0] $flatten\u_pe.$1\addr[3:0] [0] }, B=2'10, Y=$flatten\u_pe.$2\addr[3:0] [1:0]
+      New connections: $flatten\u_pe.$2\addr[3:0] [3:2] = { $flatten\u_pe.$2\addr[3:0] [1] $flatten\u_pe.$2\addr[3:0] [1] }
+  Optimizing cells in module \tcam_top.
+    Consolidated identical input bits for $mux cell $flatten\u_pe.$procmux$1796:
+      Old ports: A=$flatten\u_pe.$2\addr[3:0], B=4'1101, Y=$flatten\u_pe.$3\addr[3:0]
+      New ports: A={ $flatten\u_pe.$2\addr[3:0] [1] $flatten\u_pe.$2\addr[3:0] [1:0] }, B=3'101, Y=$flatten\u_pe.$3\addr[3:0] [2:0]
+      New connections: $flatten\u_pe.$3\addr[3:0] [3] = $flatten\u_pe.$3\addr[3:0] [2]
+  Optimizing cells in module \tcam_top.
+    Consolidated identical input bits for $mux cell $flatten\u_pe.$procmux$1793:
+      Old ports: A=$flatten\u_pe.$3\addr[3:0], B=4'1100, Y=$flatten\u_pe.$4\addr[3:0]
+      New ports: A=$flatten\u_pe.$3\addr[3:0] [2:0], B=3'100, Y=$flatten\u_pe.$4\addr[3:0] [2:0]
+      New connections: $flatten\u_pe.$4\addr[3:0] [3] = $flatten\u_pe.$4\addr[3:0] [2]
+  Optimizing cells in module \tcam_top.
+Performed a total of 4 changes.
+
+91. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 662 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+92. Executing OPT_SHARE pass.
+
+93. Executing OPT_DFF pass (perform DFF optimizations).
+
+94. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 0 unused cells and 24 unused wires.
+<suppressed ~1 debug messages>
+
+95. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+<suppressed ~1 debug messages>
+
+96. Rerunning OPT passes. (Maybe there is more to do…)
+
+97. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \tcam_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~560 debug messages>
+
+98. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \tcam_top.
+Performed a total of 0 changes.
+
+99. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 661 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+100. Executing OPT_SHARE pass.
+
+101. Executing OPT_DFF pass (perform DFF optimizations).
+Adding EN signal on $memory\u_arr.mem[0]$1885 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[0]).
+Adding EN signal on $memory\u_arr.mem[1]$1887 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[1]).
+Adding EN signal on $memory\u_arr.mem[2]$1889 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[2]).
+Adding EN signal on $memory\u_arr.mem[3]$1891 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[3]).
+Adding EN signal on $memory\u_arr.mem[4]$1893 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[4]).
+Adding EN signal on $memory\u_arr.mem[5]$1895 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[5]).
+Adding EN signal on $memory\u_arr.mem[6]$1897 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[6]).
+Adding EN signal on $memory\u_arr.mem[7]$1899 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[7]).
+Adding EN signal on $memory\u_arr.mem[8]$1901 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[8]).
+Adding EN signal on $memory\u_arr.mem[9]$1903 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[9]).
+Adding EN signal on $memory\u_arr.mem[10]$1905 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[10]).
+Adding EN signal on $memory\u_arr.mem[11]$1907 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[11]).
+Adding EN signal on $memory\u_arr.mem[12]$1909 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[12]).
+Adding EN signal on $memory\u_arr.mem[13]$1911 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[13]).
+Adding EN signal on $memory\u_arr.mem[14]$1913 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[14]).
+Adding EN signal on $memory\u_arr.mem[15]$1915 ($dff) from module tcam_top (D = \u_ctrl.rule_sh, Q = \u_arr.mem[15]).
+
+102. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 16 unused cells and 17 unused wires.
+<suppressed ~17 debug messages>
+
+103. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+104. Rerunning OPT passes. (Maybe there is more to do…)
+
+105. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \tcam_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~528 debug messages>
+
+106. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \tcam_top.
+Performed a total of 0 changes.
+
+107. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 645 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+108. Executing OPT_SHARE pass.
+
+109. Executing OPT_DFF pass (perform DFF optimizations).
+
+110. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+
+111. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+112. Executing TECHMAP pass (map to technology primitives).
+
+112.1. Executing Verilog-2005 frontend: /foss/tools/yosys/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/foss/tools/yosys/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+112.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $dffe.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $not.
+Using template $paramod$a1665ef28c749ebcdbe9aecd466e644647b56463\_90_alu for cells of type $alu.
+Using template $paramod$3ace65afedd5f6a6849996376b6c02262a5f23eb\_90_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $sdffe.
+Using extmapper simplemap for cells of type $eq.
+Using extmapper simplemap for cells of type $reduce_and.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $or.
+Using template $paramod$constmap:343d5bf964fbde3314566bd95cd7027785ed71af$paramod$21c03ec725157176e885a706babcf9521550823c\_90_shift_shiftx for cells of type $shift.
+Using extmapper simplemap for cells of type $reduce_bool.
+Using extmapper simplemap for cells of type $reduce_or.
+Using extmapper simplemap for cells of type $pos.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000000101 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000101 for cells of type $lcu.
+Using extmapper simplemap for cells of type $xor.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000010000 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000010000 for cells of type $lcu.
+No more expansions possible.
+<suppressed ~1244 debug messages>
+
+113. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+<suppressed ~295 debug messages>
+
+114. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 1289 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Computing hashes of 1283 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Computing hashes of 1281 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Computing hashes of 1280 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+<suppressed ~27 debug messages>
+Removed a total of 9 cells.
+
+115. Executing OPT_DFF pass (perform DFF optimizations).
+
+116. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 13 unused cells and 155 unused wires.
+<suppressed ~14 debug messages>
+
+117. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+118. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 1267 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+119. Executing OPT_DFF pass (perform DFF optimizations).
+
+120. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+
+121. Executing ABC pass (technology mapping using ABC).
+
+121.1. Summary of detected clock domains:
+  3 cells in clk={ }, en={ }, arst={ }, srst={ }
+  147 cells in clk=\clk, en=$flatten\u_ctrl.$procmux$1805_CMP, arst={ }, srst=\rst
+  19 cells in clk=\clk, en=$flatten\u_ctrl.$procmux$1811_CMP, arst={ }, srst=\rst
+  542 cells in clk=\clk, en=\commit, arst={ }, srst=\rst
+  36 cells in clk=\clk, en=$memory\u_arr.mem$wren[0][0][0]$y$1935, arst={ }, srst={ }
+  36 cells in clk=\clk, en=$memory\u_arr.mem$wren[1][0][0]$y$1945, arst={ }, srst={ }
+  36 cells in clk=\clk, en=$memory\u_arr.mem$wren[2][0][0]$y$1955, arst={ }, srst={ }
+  35 cells in clk=\clk, en=$memory\u_arr.mem$wren[3][0][0]$y$1963, arst={ }, srst={ }
+  36 cells in clk=\clk, en=$memory\u_arr.mem$wren[4][0][0]$y$1973, arst={ }, srst={ }
+  34 cells in clk=\clk, en=$memory\u_arr.mem$wren[5][0][0]$y$1979, arst={ }, srst={ }
+  34 cells in clk=\clk, en=$memory\u_arr.mem$wren[6][0][0]$y$1985, arst={ }, srst={ }
+  34 cells in clk=\clk, en=$memory\u_arr.mem$wren[7][0][0]$y$1991, arst={ }, srst={ }
+  36 cells in clk=\clk, en=$memory\u_arr.mem$wren[8][0][0]$y$2001, arst={ }, srst={ }
+  34 cells in clk=\clk, en=$memory\u_arr.mem$wren[9][0][0]$y$2007, arst={ }, srst={ }
+  34 cells in clk=\clk, en=$memory\u_arr.mem$wren[10][0][0]$y$2013, arst={ }, srst={ }
+  34 cells in clk=\clk, en=$memory\u_arr.mem$wren[11][0][0]$y$2019, arst={ }, srst={ }
+  35 cells in clk=\clk, en=$memory\u_arr.mem$wren[12][0][0]$y$2027, arst={ }, srst={ }
+  34 cells in clk=\clk, en=$memory\u_arr.mem$wren[13][0][0]$y$2033, arst={ }, srst={ }
+  34 cells in clk=\clk, en=$memory\u_arr.mem$wren[14][0][0]$y$2039, arst={ }, srst={ }
+  34 cells in clk=\clk, en=$memory\u_arr.mem$wren[15][0][0]$y$2045, arst={ }, srst={ }
+
+121.2. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+No matching clock domain found. Not extracting any FF cells.
+
+121.3. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $flatten\u_ctrl.$procmux$1805_CMP, synchronously reset by \rst
+
+121.4. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $flatten\u_ctrl.$procmux$1811_CMP, synchronously reset by \rst
+
+121.5. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by \commit, synchronously reset by \rst
+
+121.5.1. Executed ABC.
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+121.6. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[0][0][0]$y$1935
+
+121.7. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[1][0][0]$y$1945
+
+121.8. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[2][0][0]$y$1955
+
+121.9. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[3][0][0]$y$1963
+
+121.10. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[4][0][0]$y$1973
+
+121.11. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[5][0][0]$y$1979
+
+121.12. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[6][0][0]$y$1985
+
+121.13. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[7][0][0]$y$1991
+
+121.14. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[8][0][0]$y$2001
+
+121.15. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[9][0][0]$y$2007
+
+121.16. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[10][0][0]$y$2013
+
+121.16.1. Executed ABC.
+Extracted 139 gates and 405 wires to a netlist network with 266 inputs and 138 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 15 2026 14:24:00)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.16.2. Re-integrating ABC results.
+ABC RESULTS:            ANDNOT cells:        1
+ABC RESULTS:               MUX cells:      128
+ABC RESULTS:               NOT cells:        9
+ABC RESULTS:        internal signals:        1
+ABC RESULTS:           input signals:      266
+ABC RESULTS:          output signals:      138
+Removing temp directory.
+
+121.16.1. Executed ABC.
+Extracted 3 gates and 5 wires to a netlist network with 2 inputs and 2 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 15 2026 14:24:00)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.16.2. Re-integrating ABC results.
+ABC RESULTS:            ANDNOT cells:        1
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:        internal signals:        1
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+121.17. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[11][0][0]$y$2019
+
+121.18. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[12][0][0]$y$2027
+
+121.19. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[13][0][0]$y$2033
+
+121.20. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[14][0][0]$y$2039
+
+121.21. Extracting gate netlist of module `\tcam_top' to `<abc-temp-dir>/input.blif'..
+Found matching posedge clock domain: \clk, enabled by $memory\u_arr.mem$wren[15][0][0]$y$2045
+
+121.21.1. Executed ABC.
+Extracted 526 gates and 809 wires to a netlist network with 281 inputs and 23 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 15 2026 14:24:00)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:      170
+ABC RESULTS:            ANDNOT cells:      141
+ABC RESULTS:              NAND cells:       40
+ABC RESULTS:               NOR cells:        2
+ABC RESULTS:                OR cells:       30
+ABC RESULTS:             ORNOT cells:        2
+ABC RESULTS:              XNOR cells:        3
+ABC RESULTS:               XOR cells:        1
+ABC RESULTS:        internal signals:      505
+ABC RESULTS:           input signals:      281
+ABC RESULTS:          output signals:       23
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 20 gates and 50 wires to a netlist network with 29 inputs and 20 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 07> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       12
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        1
+ABC RESULTS:           input signals:       29
+ABC RESULTS:          output signals:       20
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 20 gates and 49 wires to a netlist network with 28 inputs and 19 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 13> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:            ANDNOT cells:        1
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       28
+ABC RESULTS:          output signals:       19
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 20 gates and 49 wires to a netlist network with 28 inputs and 19 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 19> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:            ANDNOT cells:        1
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       28
+ABC RESULTS:          output signals:       19
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 19 gates and 48 wires to a netlist network with 28 inputs and 18 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 25> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       11
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       28
+ABC RESULTS:          output signals:       18
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 20 gates and 49 wires to a netlist network with 28 inputs and 19 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 31> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:            ANDNOT cells:        1
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       28
+ABC RESULTS:          output signals:       19
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 18 gates and 46 wires to a netlist network with 27 inputs and 17 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 37> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       27
+ABC RESULTS:          output signals:       17
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 18 gates and 46 wires to a netlist network with 27 inputs and 17 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 43> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       27
+ABC RESULTS:          output signals:       17
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 18 gates and 46 wires to a netlist network with 27 inputs and 17 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 07> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       27
+ABC RESULTS:          output signals:       17
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 20 gates and 49 wires to a netlist network with 28 inputs and 19 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 13> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:            ANDNOT cells:        1
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       28
+ABC RESULTS:          output signals:       19
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 18 gates and 46 wires to a netlist network with 27 inputs and 17 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 49> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       27
+ABC RESULTS:          output signals:       17
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 18 gates and 46 wires to a netlist network with 27 inputs and 17 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 19> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       27
+ABC RESULTS:          output signals:       17
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 18 gates and 46 wires to a netlist network with 27 inputs and 17 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 25> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       27
+ABC RESULTS:          output signals:       17
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 19 gates and 48 wires to a netlist network with 28 inputs and 18 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 55> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       11
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       28
+ABC RESULTS:          output signals:       18
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 18 gates and 46 wires to a netlist network with 27 inputs and 17 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 31> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       27
+ABC RESULTS:          output signals:       17
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 18 gates and 46 wires to a netlist network with 27 inputs and 17 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 61> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       27
+ABC RESULTS:          output signals:       17
+Removing temp directory.
+
+121.21.1. Executed ABC.
+Extracted 18 gates and 46 wires to a netlist network with 27 inputs and 17 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: empty
+ABC: abc 37> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+121.21.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       10
+ABC RESULTS:             ORNOT cells:        8
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:       27
+ABC RESULTS:          output signals:       17
+Removing temp directory.
+Removing global temp directory.
+
+122. Executing OPT pass (performing simple optimizations).
+
+122.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+122.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 1128 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Computing hashes of 1118 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+<suppressed ~30 debug messages>
+Removed a total of 10 cells.
+
+122.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+122.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 0 unused cells and 1586 unused wires.
+<suppressed ~20 debug messages>
+
+122.5. Finished fast OPT passes.
+
+123. Executing HIERARCHY pass (managing design hierarchy).
+
+123.1. Analyzing design hierarchy..
+Top module:  \tcam_top
+
+123.2. Analyzing design hierarchy..
+Top module:  \tcam_top
+Removed 0 unused modules.
+
+124. Executing CHECK pass (checking for obvious problems).
+Checking module tcam_top...
+Found and reported 0 problems.
+
+125. Printing statistics.
+
+=== tcam_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1109 wires
+     1493 wire bits
+      301 public wires
+      677 public wire bits
+        8 ports
+       20 port bits
+     1118 cells
+      147   $_ANDNOT_
+      324   $_AND_
+      256   $_DFFE_PP_
+      128   $_MUX_
+       40   $_NAND_
+        2   $_NOR_
+       14   $_NOT_
+      130   $_ORNOT_
+       30   $_OR_
+       40   $_SDFFE_PP0P_
+        3   $_XNOR_
+        1   $_XOR_
+        3   $scopeinfo
+
+126. Executing OPT pass (performing simple optimizations).
+
+126.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+126.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 1118 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+126.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \tcam_top..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+126.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \tcam_top.
+Performed a total of 0 changes.
+
+126.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tcam_top'.
+Computing hashes of 1118 cells of `\tcam_top'.
+Finding duplicate cells in `\tcam_top'.
+Removed a total of 0 cells.
+
+126.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+126.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+
+126.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tcam_top.
+
+126.9. Finished fast OPT passes. (There is nothing left to do.)
+
+127. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 3 unused cells and 33 unused wires.
+<suppressed ~36 debug messages>
+{
+   "creator": "Yosys 0.70 (git sha1 28ba3cb92, Release, GNU /usr/bin/c++ 13.3.0)",
+   "invocation": "stat -json -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/868b83371aed4976ab11585f170f1d00.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/4552561e1cf548a697e5efd1bae8720e.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/01c3567afa6342b4bb8ab13026062249.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/0fb8e7d2d26d43afad6d3bac31e2476d.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/5a7534528fb641a09e464b02714dfba2.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/8f3e60c547004af4930f11e8f4b222e9.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/51ebbe28212449f2bb8ff448ff4d6eca.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/a4ec089560be46748249fca786908d96.lib ",
+   "modules": {
+      "\\tcam_top": {
+         "num_wires":         1076,
+         "num_wire_bits":     1133,
+         "num_pub_wires":     268,
+         "num_pub_wire_bits": 317,
+         "num_ports":         8,
+         "num_port_bits":     20,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         1115,
+         "num_submodules":       0,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 147,
+            "$_AND_": 324,
+            "$_DFFE_PP_": 256,
+            "$_MUX_": 128,
+            "$_NAND_": 40,
+            "$_NOR_": 2,
+            "$_NOT_": 14,
+            "$_ORNOT_": 130,
+            "$_OR_": 30,
+            "$_SDFFE_PP0P_": 40,
+            "$_XNOR_": 3,
+            "$_XOR_": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         1076,
+         "num_wire_bits":     1133,
+         "num_pub_wires":     268,
+         "num_pub_wire_bits": 317,
+         "num_ports":         8,
+         "num_port_bits":     20,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         1115,
+         "num_submodules":       0,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 147,
+            "$_AND_": 324,
+            "$_DFFE_PP_": 256,
+            "$_MUX_": 128,
+            "$_NAND_": 40,
+            "$_NOR_": 2,
+            "$_NOT_": 14,
+            "$_ORNOT_": 130,
+            "$_OR_": 30,
+            "$_SDFFE_PP0P_": 40,
+            "$_XNOR_": 3,
+            "$_XOR_": 1
+         }
+      }
+}
+
+128. Printing statistics.
+
+=== tcam_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1076 wires
+     1133 wire bits
+      268 public wires
+      317 public wire bits
+        8 ports
+       20 port bits
+     1115 cells
+      147   $_ANDNOT_
+      324   $_AND_
+      256   $_DFFE_PP_
+      128   $_MUX_
+       40   $_NAND_
+        2   $_NOR_
+       14   $_NOT_
+      130   $_ORNOT_
+       30   $_OR_
+       40   $_SDFFE_PP0P_
+        3   $_XNOR_
+        1   $_XOR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DFFE_PP_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_SDFFE_PP0P_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+[INFO] Applying tri-state buffer mapping from '/foss/pdks/sky130A/libs.tech/librelane/sky130_fd_sc_hd/tribuff_map.v'…
+
+129. Executing TECHMAP pass (map to technology primitives).
+
+129.1. Executing Verilog-2005 frontend: /foss/pdks/sky130A/libs.tech/librelane/sky130_fd_sc_hd/tribuff_map.v
+Parsing Verilog input from `/foss/pdks/sky130A/libs.tech/librelane/sky130_fd_sc_hd/tribuff_map.v' to AST representation.
+Generating RTLIL representation for module `$_TBUF_'.
+Successfully finished Verilog frontend.
+
+129.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~3 debug messages>
+
+130. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+[INFO] Applying latch mapping from '/foss/pdks/sky130A/libs.tech/librelane/sky130_fd_sc_hd/latch_map.v'…
+
+131. Executing TECHMAP pass (map to technology primitives).
+
+131.1. Executing Verilog-2005 frontend: /foss/pdks/sky130A/libs.tech/librelane/sky130_fd_sc_hd/latch_map.v
+Parsing Verilog input from `/foss/pdks/sky130A/libs.tech/librelane/sky130_fd_sc_hd/latch_map.v' to AST representation.
+Generating RTLIL representation for module `$_DLATCH_P_'.
+Generating RTLIL representation for module `$_DLATCH_N_'.
+Successfully finished Verilog frontend.
+
+131.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+132. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+
+133. Executing DFFLIBMAP pass (mapping DFF/DLATCH cells to sequential cells from liberty file).
+  cell sky130_fd_sc_hd__dfxtp_1 (noninv, pins=3, area=20.02) is a direct match for cell type $_DFF_P_.
+  cell sky130_fd_sc_hd__dfrtn_1 (noninv, pins=4, area=25.02) is a direct match for cell type $_DFF_NN0_.
+  cell sky130_fd_sc_hd__dfrtp_1 (noninv, pins=4, area=25.02) is a direct match for cell type $_DFF_PN0_.
+  cell sky130_fd_sc_hd__dfstp_1 (noninv, pins=4, area=26.28) is a direct match for cell type $_DFF_PN1_.
+  cell sky130_fd_sc_hd__edfxtp_1 (noninv, pins=4, area=30.03) is a direct match for cell type $_DFFE_PP_.
+  cell sky130_fd_sc_hd__dfbbn_1 (noninv, pins=6, area=32.53) is a direct match for cell type $_DFFSR_NNN_.
+  cell sky130_fd_sc_hd__dfbbp_1 (noninv, pins=6, area=32.53) is a direct match for cell type $_DFFSR_PNN_.
+  cell sky130_fd_sc_hd__dlxtn_1 (noninv, pins=3, area=15.01) is a direct match for cell type $_DLATCH_N_.
+  cell sky130_fd_sc_hd__dlxtp_1 (noninv, pins=3, area=15.01) is a direct match for cell type $_DLATCH_P_.
+  cell sky130_fd_sc_hd__dlrtn_1 (noninv, pins=4, area=17.52) is a direct match for cell type $_DLATCH_NN0_.
+  cell sky130_fd_sc_hd__dlrtp_1 (noninv, pins=4, area=16.27) is a direct match for cell type $_DLATCH_PN0_.
+  final dff/dlatch cell mappings:
+    unmapped dff/dlatch cell: $_DFF_N_
+    \sky130_fd_sc_hd__dfxtp_1 _DFF_P_ (.CLK( C), .D( D), .Q( Q));
+    \sky130_fd_sc_hd__dfrtn_1 _DFF_NN0_ (.CLK_N( C), .D( D), .Q( Q), .RESET_B( R));
+    unmapped dff/dlatch cell: $_DFF_NN1_
+    unmapped dff/dlatch cell: $_DFF_NP0_
+    unmapped dff/dlatch cell: $_DFF_NP1_
+    \sky130_fd_sc_hd__dfrtp_1 _DFF_PN0_ (.CLK( C), .D( D), .Q( Q), .RESET_B( R));
+    \sky130_fd_sc_hd__dfstp_1 _DFF_PN1_ (.CLK( C), .D( D), .Q( Q), .SET_B( R));
+    unmapped dff/dlatch cell: $_DFF_PP0_
+    unmapped dff/dlatch cell: $_DFF_PP1_
+    unmapped dff/dlatch cell: $_DFFE_NN_
+    unmapped dff/dlatch cell: $_DFFE_NP_
+    unmapped dff/dlatch cell: $_DFFE_PN_
+    \sky130_fd_sc_hd__edfxtp_1 _DFFE_PP_ (.CLK( C), .D( D), .DE( E), .Q( Q));
+    \sky130_fd_sc_hd__dfbbn_1 _DFFSR_NNN_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B( S));
+    unmapped dff/dlatch cell: $_DFFSR_NNP_
+    unmapped dff/dlatch cell: $_DFFSR_NPN_
+    unmapped dff/dlatch cell: $_DFFSR_NPP_
+    \sky130_fd_sc_hd__dfbbp_1 _DFFSR_PNN_ (.CLK( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B( S));
+    unmapped dff/dlatch cell: $_DFFSR_PNP_
+    unmapped dff/dlatch cell: $_DFFSR_PPN_
+    unmapped dff/dlatch cell: $_DFFSR_PPP_
+    \sky130_fd_sc_hd__dlxtn_1 _DLATCH_N_ (.D( D), .GATE_N( E), .Q( Q));
+    \sky130_fd_sc_hd__dlxtp_1 _DLATCH_P_ (.D( D), .GATE( E), .Q( Q));
+    \sky130_fd_sc_hd__dlrtn_1 _DLATCH_NN0_ (.D( D), .GATE_N( E), .Q( Q), .RESET_B( R));
+    unmapped dff/dlatch cell: $_DLATCH_NN1_
+    unmapped dff/dlatch cell: $_DLATCH_NP0_
+    unmapped dff/dlatch cell: $_DLATCH_NP1_
+    \sky130_fd_sc_hd__dlrtp_1 _DLATCH_PN0_ (.D( D), .GATE( E), .Q( Q), .RESET_B( R));
+    unmapped dff/dlatch cell: $_DLATCH_PN1_
+    unmapped dff/dlatch cell: $_DLATCH_PP0_
+    unmapped dff/dlatch cell: $_DLATCH_PP1_
+    unmapped dff/dlatch cell: $_DLATCHSR_NNN_
+    unmapped dff/dlatch cell: $_DLATCHSR_NNP_
+    unmapped dff/dlatch cell: $_DLATCHSR_NPN_
+    unmapped dff/dlatch cell: $_DLATCHSR_NPP_
+    unmapped dff/dlatch cell: $_DLATCHSR_PNN_
+    unmapped dff/dlatch cell: $_DLATCHSR_PNP_
+    unmapped dff/dlatch cell: $_DLATCHSR_PPN_
+    unmapped dff/dlatch cell: $_DLATCHSR_PPP_
+
+133.1. Executing DFFLEGALIZE pass (convert FFs and LATCHes to types supported by the target).
+Mapping DFF/DLATCH cells in module `\tcam_top':
+  mapped 256 $_DFFE_PP_ cells to \sky130_fd_sc_hd__edfxtp_1 cells.
+  mapped 40 $_DFF_P_ cells to \sky130_fd_sc_hd__dfxtp_1 cells.
+{
+   "creator": "Yosys 0.70 (git sha1 28ba3cb92, Release, GNU /usr/bin/c++ 13.3.0)",
+   "invocation": "stat -json -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/868b83371aed4976ab11585f170f1d00.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/4552561e1cf548a697e5efd1bae8720e.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/01c3567afa6342b4bb8ab13026062249.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/0fb8e7d2d26d43afad6d3bac31e2476d.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/5a7534528fb641a09e464b02714dfba2.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/8f3e60c547004af4930f11e8f4b222e9.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/51ebbe28212449f2bb8ff448ff4d6eca.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/a4ec089560be46748249fca786908d96.lib ",
+   "modules": {
+      "\\tcam_top": {
+         "num_wires":         1156,
+         "num_wire_bits":     1213,
+         "num_pub_wires":     268,
+         "num_pub_wire_bits": 317,
+         "num_ports":         8,
+         "num_port_bits":     20,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         1195,
+         "num_submodules":       0,
+         "area":              8488.140800,
+         "sequential_area":    8488.140800,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 147,
+            "$_AND_": 324,
+            "$_MUX_": 208,
+            "$_NAND_": 40,
+            "$_NOR_": 2,
+            "$_NOT_": 14,
+            "$_ORNOT_": 130,
+            "$_OR_": 30,
+            "$_XNOR_": 3,
+            "$_XOR_": 1,
+            "sky130_fd_sc_hd__dfxtp_1": 40,
+            "sky130_fd_sc_hd__edfxtp_1": 256
+         }
+      }
+   },
+      "design": {
+         "num_wires":         1156,
+         "num_wire_bits":     1213,
+         "num_pub_wires":     268,
+         "num_pub_wire_bits": 317,
+         "num_ports":         8,
+         "num_port_bits":     20,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         1195,
+         "num_submodules":       0,
+         "area":              8488.140800,
+         "sequential_area":    8488.140800,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 147,
+            "$_AND_": 324,
+            "$_MUX_": 208,
+            "$_NAND_": 40,
+            "$_NOR_": 2,
+            "$_NOT_": 14,
+            "$_ORNOT_": 130,
+            "$_OR_": 30,
+            "$_XNOR_": 3,
+            "$_XOR_": 1,
+            "sky130_fd_sc_hd__dfxtp_1": 40,
+            "sky130_fd_sc_hd__edfxtp_1": 256
+         }
+      }
+}
+
+134. Printing statistics.
+
+=== tcam_top ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     1156        - wires
+     1213        - wire bits
+      268        - public wires
+      317        - public wire bits
+        8        - ports
+       20        - port bits
+     1195 8.49E+03 cells
+      147        -   $_ANDNOT_
+      324        -   $_AND_
+      208        -   $_MUX_
+       40        -   $_NAND_
+        2        -   $_NOR_
+       14        -   $_NOT_
+      130        -   $_ORNOT_
+       30        -   $_OR_
+        3        -   $_XNOR_
+        1        -   $_XOR_
+       40  800.768   sky130_fd_sc_hd__dfxtp_1
+      256 7.69E+03   sky130_fd_sc_hd__edfxtp_1
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\tcam_top': 8488.140800
+     of which used for sequential elements: 8488.140800 (100.00%)
+
+[INFO] Using generated ABC strategy script '/foss/designs/runs/RUN_2026-10-30_16-56-25/06-yosys-synthesis/AREA_3.abc'…
+
+135. Executing ABC pass (technology mapping using ABC).
+
+135.1. Summary of detected clock domains:
+  1195 cells in clk={ }, en={ }, arst={ }, srst={ }
+
+135.2. Extracting gate netlist of module `\tcam_top' to `/tmp/yosys-abc-eOM2s2/input.blif'..
+No matching clock domain found. Not extracting any FF cells.
+
+135.2.1. Executed ABC.
+Extracted 899 gates and 1209 wires to a netlist network with 309 inputs and 62 outputs.
+Running ABC script: /tmp/yosys-abc-eOM2s2/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 15 2026 14:24:00)
+ABC: abc 01> empty
+ABC: abc 01> source /tmp/yosys-abc-eOM2s2/abc.script
+ABC: + read_blif /tmp/yosys-abc-eOM2s2/input.blif 
+ABC: + read_scl /tmp/yosys-liberty-scl-cache-1000/yosys_merged_e198f97f.scl 
+ABC: Warning: Detected 9 multi-output cells (for example, "sky130_fd_sc_hd__fa_1").
+ABC: + read_constr -v /foss/designs/runs/RUN_2026-10-30_16-56-25/06-yosys-synthesis/synthesis.abc.sdc 
+ABC: Setting driving cell to be "sky130_fd_sc_hd__inv_2/Y".
+ABC: Setting output load to be 33.442001.
+ABC: + source /foss/designs/runs/RUN_2026-10-30_16-56-25/06-yosys-synthesis/AREA_3.abc 
+ABC: The cell delays are multiplied by the factor: <num_fanins> ^ (0.90).
+ABC: Cannot find the default PI driving cell (sky130_fd_sc_hd__inv_2/Y) in the library.
+ABC: WireLoad = "Small"  Gates =    585 (  8.7 %)   Cap =  6.2 ff (  0.0 %)   Area =     2633.78 (100.0 %)   Delay =  1865.06 ps  ( 15.7 %)               
+ABC: Cannot find the default PI driving cell (sky130_fd_sc_hd__inv_2/Y) in the library.
+ABC: Cannot find the default PI driving cell (sky130_fd_sc_hd__inv_2/Y) in the library.
+ABC: Cannot find the default PI driving cell (sky130_fd_sc_hd__inv_2/Y) in the library.
+ABC: Cannot find the default PI driving cell (sky130_fd_sc_hd__inv_2/Y) in the library.
+ABC: WireLoad = "none"  Gates =    617 ( 13.5 %)   Cap =  6.1 ff (  5.2 %)   Area =     3026.65 ( 84.3 %)   Delay =  1391.88 ps  ( 20.9 %)               
+ABC: Path  0 --      19 : 0   17 pi                        A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout =  56.5 ff  Cmax =   0.0 ff  G =    0  
+ABC: Path  1 --     410 : 1    2 sky130_fd_sc_hd__inv_8    A =  11.26  Df =  24.0  -12.0 ps  S =  20.7 ps  Cin = 17.7 ff  Cout =   6.7 ff  Cmax =1035.5 ff  G =   35  
+ABC: Path  2 --     411 : 1    6 sky130_fd_sc_hd__buf_6    A =  11.26  Df = 125.2   -2.0 ps  S =  58.0 ps  Cin =  4.6 ff  Cout =  23.0 ff  Cmax = 785.5 ff  G =  482  
+ABC: Path  3 --     731 : 2    1 sky130_fd_sc_hd__nand2_4  A =  11.26  Df = 167.2   -2.9 ps  S =  37.2 ps  Cin =  8.7 ff  Cout =   4.6 ff  Cmax = 530.1 ff  G =   51  
+ABC: Path  4 --     733 : 2    1 sky130_fd_sc_hd__nand2_2  A =   6.26  Df = 210.4   -4.4 ps  S =  45.6 ps  Cin =  4.4 ff  Cout =   4.7 ff  Cmax = 295.7 ff  G =  100  
+ABC: Path  5 --     734 : 2    1 sky130_fd_sc_hd__nor2_2   A =   6.26  Df = 266.4  -28.2 ps  S =  58.4 ps  Cin =  4.4 ff  Cout =   2.4 ff  Cmax = 141.9 ff  G =   52  
+ABC: Path  6 --     735 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df = 325.6  -21.5 ps  S =  60.0 ps  Cin =  2.3 ff  Cout =   4.6 ff  Cmax = 166.6 ff  G =  189  
+ABC: Path  7 --     750 : 2    1 sky130_fd_sc_hd__nor2_2   A =   6.26  Df = 430.4  -78.5 ps  S =  80.0 ps  Cin =  4.4 ff  Cout =   4.6 ff  Cmax = 141.9 ff  G =  100  
+ABC: Path  8 --     757 : 2    4 sky130_fd_sc_hd__nand2_2  A =   6.26  Df = 501.7  -77.6 ps  S =  81.3 ps  Cin =  4.4 ff  Cout =  12.1 ff  Cmax = 295.7 ff  G =  259  
+ABC: Path  9 --     966 : 3    1 sky130_fd_sc_hd__o21bai_2 A =  11.26  Df = 601.1   -1.0 ps  S =  85.7 ps  Cin =  3.4 ff  Cout =   2.4 ff  Cmax = 140.1 ff  G =   68  
+ABC: Path 10 --     967 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df = 652.2   -1.4 ps  S =  44.8 ps  Cin =  2.3 ff  Cout =   2.4 ff  Cmax = 166.6 ff  G =   99  
+ABC: Path 11 --     968 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df = 699.2   -7.4 ps  S =  50.4 ps  Cin =  2.3 ff  Cout =   2.4 ff  Cmax = 166.6 ff  G =   99  
+ABC: Path 12 --     969 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df = 742.0   -4.7 ps  S =  53.4 ps  Cin =  2.3 ff  Cout =   2.4 ff  Cmax = 166.6 ff  G =   99  
+ABC: Path 13 --     970 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df = 789.2   -8.1 ps  S =  57.4 ps  Cin =  2.3 ff  Cout =   2.4 ff  Cmax = 166.6 ff  G =   99  
+ABC: Path 14 --     971 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df = 833.8   -4.2 ps  S =  61.7 ps  Cin =  2.3 ff  Cout =   2.4 ff  Cmax = 166.6 ff  G =   99  
+ABC: Path 15 --     972 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df = 883.8   -8.5 ps  S =  52.6 ps  Cin =  2.3 ff  Cout =   2.4 ff  Cmax = 166.6 ff  G =   99  
+ABC: Path 16 --     973 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df = 927.2   -4.9 ps  S =  53.4 ps  Cin =  2.3 ff  Cout =   2.4 ff  Cmax = 166.6 ff  G =   99  
+ABC: Path 17 --     974 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df = 974.4   -8.3 ps  S =  53.7 ps  Cin =  2.3 ff  Cout =   2.4 ff  Cmax = 166.6 ff  G =   99  
+ABC: Path 18 --     975 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df =1018.3   -4.9 ps  S =  50.6 ps  Cin =  2.3 ff  Cout =   2.4 ff  Cmax = 166.6 ff  G =   99  
+ABC: Path 19 --     976 : 2    1 sky130_fd_sc_hd__nand2_1  A =   3.75  Df =1079.3  -12.1 ps  S =  68.6 ps  Cin =  2.3 ff  Cout =   4.6 ff  Cmax = 166.6 ff  G =  191  
+ABC: Path 20 --     977 : 2    1 sky130_fd_sc_hd__nand2_2  A =   6.26  Df =1139.2   -1.4 ps  S =  76.9 ps  Cin =  4.4 ff  Cout =   8.9 ff  Cmax = 295.7 ff  G =  193  
+ABC: Path 21 --     979 : 3    1 sky130_fd_sc_hd__a21oi_4  A =  16.27  Df =1391.9 -158.7 ps  S = 275.2 ps  Cin =  8.8 ff  Cout =  33.4 ff  Cmax = 221.6 ff  G =  379  
+ABC: Start-point = pi18 (\sw [4]).  End-point = po58 (\match_addr [0]).
+ABC: netlist                       : i/o =  309/   62  lat =    0  nd =   617  edge =   1382  area =3025.05  delay =1035.25  lev = 21
+ABC: + write_blif /tmp/yosys-abc-eOM2s2/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+135.2.2. Re-integrating ABC results.
+ABC RESULTS:   sky130_fd_sc_hd__a211oi_1 cells:        6
+ABC RESULTS:   sky130_fd_sc_hd__a211oi_2 cells:        6
+ABC RESULTS:   sky130_fd_sc_hd__a21oi_1 cells:       31
+ABC RESULTS:   sky130_fd_sc_hd__a21oi_2 cells:        3
+ABC RESULTS:   sky130_fd_sc_hd__a21oi_4 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__a221oi_1 cells:       11
+ABC RESULTS:   sky130_fd_sc_hd__a221oi_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__a22o_1 cells:       10
+ABC RESULTS:   sky130_fd_sc_hd__a22oi_1 cells:        3
+ABC RESULTS:   sky130_fd_sc_hd__and2_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__and3b_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__buf_1 cells:       14
+ABC RESULTS:   sky130_fd_sc_hd__buf_2 cells:       10
+ABC RESULTS:   sky130_fd_sc_hd__buf_4 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__buf_6 cells:        6
+ABC RESULTS:   sky130_fd_sc_hd__inv_1 cells:       32
+ABC RESULTS:   sky130_fd_sc_hd__inv_2 cells:       12
+ABC RESULTS:   sky130_fd_sc_hd__inv_4 cells:        5
+ABC RESULTS:   sky130_fd_sc_hd__inv_8 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__nand2_1 cells:      275
+ABC RESULTS:   sky130_fd_sc_hd__nand2_2 cells:        6
+ABC RESULTS:   sky130_fd_sc_hd__nand2_4 cells:        4
+ABC RESULTS:   sky130_fd_sc_hd__nand3_1 cells:        5
+ABC RESULTS:   sky130_fd_sc_hd__nand3_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__nand4_1 cells:       22
+ABC RESULTS:   sky130_fd_sc_hd__nand4_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__nor2_1 cells:       93
+ABC RESULTS:   sky130_fd_sc_hd__nor2_2 cells:       10
+ABC RESULTS:   sky130_fd_sc_hd__nor3_1 cells:        3
+ABC RESULTS:   sky130_fd_sc_hd__nor3b_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__nor4_4 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__o2111ai_1 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__o211a_1 cells:        5
+ABC RESULTS:   sky130_fd_sc_hd__o21a_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__o21ai_0 cells:       11
+ABC RESULTS:   sky130_fd_sc_hd__o21ai_1 cells:        4
+ABC RESULTS:   sky130_fd_sc_hd__o21ba_2 cells:        7
+ABC RESULTS:   sky130_fd_sc_hd__o21bai_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__o21bai_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__o22ai_1 cells:        2
+ABC RESULTS:        internal signals:      838
+ABC RESULTS:           input signals:      309
+ABC RESULTS:          output signals:       62
+Removing temp directory.
+Removing global temp directory.
+
+136. Executing SETUNDEF pass (replace undef values with defined constants).
+
+137. Executing HILOMAP pass (mapping to constant drivers).
+
+138. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+139. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tcam_top..
+Removed 1 unused cells and 1213 unused wires.
+<suppressed ~3 debug messages>
+
+140. Executing INSBUF pass (insert buffer cells for connected wires).
+
+141. Executing CHECK pass (checking for obvious problems).
+Checking module tcam_top...
+Found and reported 0 problems.
+{
+   "creator": "Yosys 0.70 (git sha1 28ba3cb92, Release, GNU /usr/bin/c++ 13.3.0)",
+   "invocation": "stat -json -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/868b83371aed4976ab11585f170f1d00.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/4552561e1cf548a697e5efd1bae8720e.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/01c3567afa6342b4bb8ab13026062249.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/0fb8e7d2d26d43afad6d3bac31e2476d.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/5a7534528fb641a09e464b02714dfba2.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/8f3e60c547004af4930f11e8f4b222e9.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/51ebbe28212449f2bb8ff448ff4d6eca.lib -liberty /foss/designs/runs/RUN_2026-10-30_16-56-25/tmp/a4ec089560be46748249fca786908d96.lib ",
+   "modules": {
+      "\\tcam_top": {
+         "num_wires":         915,
+         "num_wire_bits":     927,
+         "num_pub_wires":     304,
+         "num_pub_wire_bits": 316,
+         "num_ports":         8,
+         "num_port_bits":     20,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         913,
+         "num_submodules":       0,
+         "area":              11514.793600,
+         "sequential_area":    8488.140800,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a211oi_1": 6,
+            "sky130_fd_sc_hd__a211oi_2": 6,
+            "sky130_fd_sc_hd__a21oi_1": 31,
+            "sky130_fd_sc_hd__a21oi_2": 3,
+            "sky130_fd_sc_hd__a21oi_4": 1,
+            "sky130_fd_sc_hd__a221oi_1": 11,
+            "sky130_fd_sc_hd__a221oi_2": 1,
+            "sky130_fd_sc_hd__a22o_1": 10,
+            "sky130_fd_sc_hd__a22oi_1": 3,
+            "sky130_fd_sc_hd__and2_1": 1,
+            "sky130_fd_sc_hd__and3b_1": 1,
+            "sky130_fd_sc_hd__buf_1": 14,
+            "sky130_fd_sc_hd__buf_2": 10,
+            "sky130_fd_sc_hd__buf_4": 2,
+            "sky130_fd_sc_hd__buf_6": 6,
+            "sky130_fd_sc_hd__dfxtp_1": 40,
+            "sky130_fd_sc_hd__edfxtp_1": 256,
+            "sky130_fd_sc_hd__inv_1": 32,
+            "sky130_fd_sc_hd__inv_2": 12,
+            "sky130_fd_sc_hd__inv_4": 5,
+            "sky130_fd_sc_hd__inv_8": 2,
+            "sky130_fd_sc_hd__nand2_1": 275,
+            "sky130_fd_sc_hd__nand2_2": 6,
+            "sky130_fd_sc_hd__nand2_4": 4,
+            "sky130_fd_sc_hd__nand3_1": 5,
+            "sky130_fd_sc_hd__nand3_2": 2,
+            "sky130_fd_sc_hd__nand4_1": 22,
+            "sky130_fd_sc_hd__nand4_2": 2,
+            "sky130_fd_sc_hd__nor2_1": 93,
+            "sky130_fd_sc_hd__nor2_2": 10,
+            "sky130_fd_sc_hd__nor3_1": 3,
+            "sky130_fd_sc_hd__nor3b_2": 2,
+            "sky130_fd_sc_hd__nor4_4": 2,
+            "sky130_fd_sc_hd__o2111ai_1": 2,
+            "sky130_fd_sc_hd__o211a_1": 5,
+            "sky130_fd_sc_hd__o21a_1": 1,
+            "sky130_fd_sc_hd__o21ai_0": 11,
+            "sky130_fd_sc_hd__o21ai_1": 4,
+            "sky130_fd_sc_hd__o21ba_2": 7,
+            "sky130_fd_sc_hd__o21bai_1": 1,
+            "sky130_fd_sc_hd__o21bai_2": 1,
+            "sky130_fd_sc_hd__o22ai_1": 2
+         }
+      }
+   },
+      "design": {
+         "num_wires":         915,
+         "num_wire_bits":     927,
+         "num_pub_wires":     304,
+         "num_pub_wire_bits": 316,
+         "num_ports":         8,
+         "num_port_bits":     20,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         913,
+         "num_submodules":       0,
+         "area":              11514.793600,
+         "sequential_area":    8488.140800,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a211oi_1": 6,
+            "sky130_fd_sc_hd__a211oi_2": 6,
+            "sky130_fd_sc_hd__a21oi_1": 31,
+            "sky130_fd_sc_hd__a21oi_2": 3,
+            "sky130_fd_sc_hd__a21oi_4": 1,
+            "sky130_fd_sc_hd__a221oi_1": 11,
+            "sky130_fd_sc_hd__a221oi_2": 1,
+            "sky130_fd_sc_hd__a22o_1": 10,
+            "sky130_fd_sc_hd__a22oi_1": 3,
+            "sky130_fd_sc_hd__and2_1": 1,
+            "sky130_fd_sc_hd__and3b_1": 1,
+            "sky130_fd_sc_hd__buf_1": 14,
+            "sky130_fd_sc_hd__buf_2": 10,
+            "sky130_fd_sc_hd__buf_4": 2,
+            "sky130_fd_sc_hd__buf_6": 6,
+            "sky130_fd_sc_hd__dfxtp_1": 40,
+            "sky130_fd_sc_hd__edfxtp_1": 256,
+            "sky130_fd_sc_hd__inv_1": 32,
+            "sky130_fd_sc_hd__inv_2": 12,
+            "sky130_fd_sc_hd__inv_4": 5,
+            "sky130_fd_sc_hd__inv_8": 2,
+            "sky130_fd_sc_hd__nand2_1": 275,
+            "sky130_fd_sc_hd__nand2_2": 6,
+            "sky130_fd_sc_hd__nand2_4": 4,
+            "sky130_fd_sc_hd__nand3_1": 5,
+            "sky130_fd_sc_hd__nand3_2": 2,
+            "sky130_fd_sc_hd__nand4_1": 22,
+            "sky130_fd_sc_hd__nand4_2": 2,
+            "sky130_fd_sc_hd__nor2_1": 93,
+            "sky130_fd_sc_hd__nor2_2": 10,
+            "sky130_fd_sc_hd__nor3_1": 3,
+            "sky130_fd_sc_hd__nor3b_2": 2,
+            "sky130_fd_sc_hd__nor4_4": 2,
+            "sky130_fd_sc_hd__o2111ai_1": 2,
+            "sky130_fd_sc_hd__o211a_1": 5,
+            "sky130_fd_sc_hd__o21a_1": 1,
+            "sky130_fd_sc_hd__o21ai_0": 11,
+            "sky130_fd_sc_hd__o21ai_1": 4,
+            "sky130_fd_sc_hd__o21ba_2": 7,
+            "sky130_fd_sc_hd__o21bai_1": 1,
+            "sky130_fd_sc_hd__o21bai_2": 1,
+            "sky130_fd_sc_hd__o22ai_1": 2
+         }
+      }
+}
+
+142. Printing statistics.
+
+=== tcam_top ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      915        - wires
+      927        - wire bits
+      304        - public wires
+      316        - public wire bits
+        8        - ports
+       20        - port bits
+      913 1.15E+04 cells
+        6   45.043   sky130_fd_sc_hd__a211oi_1
+        6   75.072   sky130_fd_sc_hd__a211oi_2
+       31  155.149   sky130_fd_sc_hd__a21oi_1
+        3   26.275   sky130_fd_sc_hd__a21oi_2
+        1   16.266   sky130_fd_sc_hd__a21oi_4
+       11   96.342   sky130_fd_sc_hd__a221oi_1
+        1   15.014   sky130_fd_sc_hd__a221oi_2
+       10   87.584   sky130_fd_sc_hd__a22o_1
+        3   22.522   sky130_fd_sc_hd__a22oi_1
+        1    6.256   sky130_fd_sc_hd__and2_1
+        1    8.758   sky130_fd_sc_hd__and3b_1
+       14    52.55   sky130_fd_sc_hd__buf_1
+       10   50.048   sky130_fd_sc_hd__buf_2
+        2   15.014   sky130_fd_sc_hd__buf_4
+        6   67.565   sky130_fd_sc_hd__buf_6
+       40  800.768   sky130_fd_sc_hd__dfxtp_1
+      256 7.69E+03   sky130_fd_sc_hd__edfxtp_1
+       32  120.115   sky130_fd_sc_hd__inv_1
+       12   45.043   sky130_fd_sc_hd__inv_2
+        5    31.28   sky130_fd_sc_hd__inv_4
+        2   22.522   sky130_fd_sc_hd__inv_8
+      275  1032.24   sky130_fd_sc_hd__nand2_1
+        6   37.536   sky130_fd_sc_hd__nand2_2
+        4   45.043   sky130_fd_sc_hd__nand2_4
+        5   25.024   sky130_fd_sc_hd__nand3_1
+        2   20.019   sky130_fd_sc_hd__nand3_2
+       22  137.632   sky130_fd_sc_hd__nand4_1
+        2   25.024   sky130_fd_sc_hd__nand4_2
+       93  349.085   sky130_fd_sc_hd__nor2_1
+       10    62.56   sky130_fd_sc_hd__nor2_2
+        3   15.014   sky130_fd_sc_hd__nor3_1
+        2   25.024   sky130_fd_sc_hd__nor3b_2
+        2   42.541   sky130_fd_sc_hd__nor4_4
+        2   17.517   sky130_fd_sc_hd__o2111ai_1
+        5   50.048   sky130_fd_sc_hd__o211a_1
+        1    7.507   sky130_fd_sc_hd__o21a_1
+       11   55.053   sky130_fd_sc_hd__o21ai_0
+        4   20.019   sky130_fd_sc_hd__o21ai_1
+        7   70.067   sky130_fd_sc_hd__o21ba_2
+        1    7.507   sky130_fd_sc_hd__o21bai_1
+        1   11.261   sky130_fd_sc_hd__o21bai_2
+        2   12.512   sky130_fd_sc_hd__o22ai_1
+
+   Chip area for module '\tcam_top': 11514.793600
+     of which used for sequential elements: 8488.140800 (73.72%)
+
+143. Executing Verilog backend.
+Dumping module `\tcam_top'.
+
+144. Executing JSON backend.

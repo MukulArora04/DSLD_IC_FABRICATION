@@ -1,0 +1,16 @@
+# SKY130 (sky130_fd_sc_hd, tt 1.8 V) mapped synthesis + quick area estimate for tcam_top.
+# Usage:
+#   cd synthesis
+#   cp $PDK_ROOT/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib .
+#   yosys synth.ys
+# This is an estimate only; the signoff area/DRC/LVS numbers come from the OpenLane run (../config.json).
+read_verilog ../rtl/tcam_top.v ../rtl/tcam_ctrl.v ../rtl/tcam_array.v ../rtl/priority_encoder.v
+hierarchy -check -top tcam_top
+synth -top tcam_top -flatten
+dfflegalize -cell $_DFF_P_ x -cell $_DFFE_PP_ x
+techmap -map ff_map.v
+read_liberty -lib -ignore_miss_dir -setattr blackbox sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+opt_clean
+tee -o stat_sky130.txt stat -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog -noattr tcam_top_synth.v

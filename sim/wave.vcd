@@ -1,0 +1,1718 @@
+$date
+	Fri Oct 30 17:57:01 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_wave $end
+$var wire 1 ! multi_match $end
+$var wire 1 " match_valid $end
+$var wire 4 # match_addr [3:0] $end
+$var reg 4 $ addr [3:0] $end
+$var reg 1 % clk $end
+$var reg 6 & data [5:0] $end
+$var reg 2 ' op [1:0] $end
+$var reg 1 ( rst $end
+$scope module dut $end
+$var wire 4 ) addr [3:0] $end
+$var wire 1 % clk $end
+$var wire 6 * data [5:0] $end
+$var wire 2 + op [1:0] $end
+$var wire 1 ( rst $end
+$var wire 8 , sw [7:0] $end
+$var wire 16 - rule_sh [15:0] $end
+$var wire 1 ! multi_match $end
+$var wire 16 . ml [15:0] $end
+$var wire 1 " match_valid $end
+$var wire 4 / match_addr [3:0] $end
+$var wire 1 0 commit $end
+$scope module u_arr $end
+$var wire 1 % clk $end
+$var wire 1 ( rst $end
+$var wire 4 1 wr_addr [3:0] $end
+$var wire 16 2 wr_rule [15:0] $end
+$var wire 8 3 sw [7:0] $end
+$var wire 16 4 ml [15:0] $end
+$var wire 1 0 commit $end
+$var reg 16 5 valid [15:0] $end
+$scope begin g_ent[0] $end
+$var wire 8 6 mb [7:0] $end
+$var parameter 2 7 i $end
+$scope begin g_bit[0] $end
+$var wire 1 8 r1 $end
+$var wire 1 9 r0 $end
+$var parameter 2 : j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 ; r1 $end
+$var wire 1 < r0 $end
+$var parameter 2 = j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 > r1 $end
+$var wire 1 ? r0 $end
+$var parameter 3 @ j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 A r1 $end
+$var wire 1 B r0 $end
+$var parameter 3 C j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 D r1 $end
+$var wire 1 E r0 $end
+$var parameter 4 F j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 G r1 $end
+$var wire 1 H r0 $end
+$var parameter 4 I j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 J r1 $end
+$var wire 1 K r0 $end
+$var parameter 4 L j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 M r1 $end
+$var wire 1 N r0 $end
+$var parameter 4 O j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[1] $end
+$var wire 8 P mb [7:0] $end
+$var parameter 2 Q i $end
+$scope begin g_bit[0] $end
+$var wire 1 R r1 $end
+$var wire 1 S r0 $end
+$var parameter 2 T j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 U r1 $end
+$var wire 1 V r0 $end
+$var parameter 2 W j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 X r1 $end
+$var wire 1 Y r0 $end
+$var parameter 3 Z j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 [ r1 $end
+$var wire 1 \ r0 $end
+$var parameter 3 ] j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 ^ r1 $end
+$var wire 1 _ r0 $end
+$var parameter 4 ` j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 a r1 $end
+$var wire 1 b r0 $end
+$var parameter 4 c j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 d r1 $end
+$var wire 1 e r0 $end
+$var parameter 4 f j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 g r1 $end
+$var wire 1 h r0 $end
+$var parameter 4 i j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[2] $end
+$var wire 8 j mb [7:0] $end
+$var parameter 3 k i $end
+$scope begin g_bit[0] $end
+$var wire 1 l r1 $end
+$var wire 1 m r0 $end
+$var parameter 2 n j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 o r1 $end
+$var wire 1 p r0 $end
+$var parameter 2 q j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 r r1 $end
+$var wire 1 s r0 $end
+$var parameter 3 t j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 u r1 $end
+$var wire 1 v r0 $end
+$var parameter 3 w j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 x r1 $end
+$var wire 1 y r0 $end
+$var parameter 4 z j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 { r1 $end
+$var wire 1 | r0 $end
+$var parameter 4 } j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 ~ r1 $end
+$var wire 1 !" r0 $end
+$var parameter 4 "" j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 #" r1 $end
+$var wire 1 $" r0 $end
+$var parameter 4 %" j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[3] $end
+$var wire 8 &" mb [7:0] $end
+$var parameter 3 '" i $end
+$scope begin g_bit[0] $end
+$var wire 1 (" r1 $end
+$var wire 1 )" r0 $end
+$var parameter 2 *" j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 +" r1 $end
+$var wire 1 ," r0 $end
+$var parameter 2 -" j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 ." r1 $end
+$var wire 1 /" r0 $end
+$var parameter 3 0" j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 1" r1 $end
+$var wire 1 2" r0 $end
+$var parameter 3 3" j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 4" r1 $end
+$var wire 1 5" r0 $end
+$var parameter 4 6" j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 7" r1 $end
+$var wire 1 8" r0 $end
+$var parameter 4 9" j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 :" r1 $end
+$var wire 1 ;" r0 $end
+$var parameter 4 <" j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 =" r1 $end
+$var wire 1 >" r0 $end
+$var parameter 4 ?" j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[4] $end
+$var wire 8 @" mb [7:0] $end
+$var parameter 4 A" i $end
+$scope begin g_bit[0] $end
+$var wire 1 B" r1 $end
+$var wire 1 C" r0 $end
+$var parameter 2 D" j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 E" r1 $end
+$var wire 1 F" r0 $end
+$var parameter 2 G" j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 H" r1 $end
+$var wire 1 I" r0 $end
+$var parameter 3 J" j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 K" r1 $end
+$var wire 1 L" r0 $end
+$var parameter 3 M" j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 N" r1 $end
+$var wire 1 O" r0 $end
+$var parameter 4 P" j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 Q" r1 $end
+$var wire 1 R" r0 $end
+$var parameter 4 S" j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 T" r1 $end
+$var wire 1 U" r0 $end
+$var parameter 4 V" j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 W" r1 $end
+$var wire 1 X" r0 $end
+$var parameter 4 Y" j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[5] $end
+$var wire 8 Z" mb [7:0] $end
+$var parameter 4 [" i $end
+$scope begin g_bit[0] $end
+$var wire 1 \" r1 $end
+$var wire 1 ]" r0 $end
+$var parameter 2 ^" j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 _" r1 $end
+$var wire 1 `" r0 $end
+$var parameter 2 a" j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 b" r1 $end
+$var wire 1 c" r0 $end
+$var parameter 3 d" j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 e" r1 $end
+$var wire 1 f" r0 $end
+$var parameter 3 g" j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 h" r1 $end
+$var wire 1 i" r0 $end
+$var parameter 4 j" j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 k" r1 $end
+$var wire 1 l" r0 $end
+$var parameter 4 m" j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 n" r1 $end
+$var wire 1 o" r0 $end
+$var parameter 4 p" j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 q" r1 $end
+$var wire 1 r" r0 $end
+$var parameter 4 s" j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[6] $end
+$var wire 8 t" mb [7:0] $end
+$var parameter 4 u" i $end
+$scope begin g_bit[0] $end
+$var wire 1 v" r1 $end
+$var wire 1 w" r0 $end
+$var parameter 2 x" j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 y" r1 $end
+$var wire 1 z" r0 $end
+$var parameter 2 {" j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 |" r1 $end
+$var wire 1 }" r0 $end
+$var parameter 3 ~" j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 !# r1 $end
+$var wire 1 "# r0 $end
+$var parameter 3 ## j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 $# r1 $end
+$var wire 1 %# r0 $end
+$var parameter 4 &# j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 '# r1 $end
+$var wire 1 (# r0 $end
+$var parameter 4 )# j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 *# r1 $end
+$var wire 1 +# r0 $end
+$var parameter 4 ,# j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 -# r1 $end
+$var wire 1 .# r0 $end
+$var parameter 4 /# j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[7] $end
+$var wire 8 0# mb [7:0] $end
+$var parameter 4 1# i $end
+$scope begin g_bit[0] $end
+$var wire 1 2# r1 $end
+$var wire 1 3# r0 $end
+$var parameter 2 4# j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 5# r1 $end
+$var wire 1 6# r0 $end
+$var parameter 2 7# j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 8# r1 $end
+$var wire 1 9# r0 $end
+$var parameter 3 :# j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 ;# r1 $end
+$var wire 1 <# r0 $end
+$var parameter 3 =# j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 ># r1 $end
+$var wire 1 ?# r0 $end
+$var parameter 4 @# j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 A# r1 $end
+$var wire 1 B# r0 $end
+$var parameter 4 C# j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 D# r1 $end
+$var wire 1 E# r0 $end
+$var parameter 4 F# j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 G# r1 $end
+$var wire 1 H# r0 $end
+$var parameter 4 I# j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[8] $end
+$var wire 8 J# mb [7:0] $end
+$var parameter 5 K# i $end
+$scope begin g_bit[0] $end
+$var wire 1 L# r1 $end
+$var wire 1 M# r0 $end
+$var parameter 2 N# j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 O# r1 $end
+$var wire 1 P# r0 $end
+$var parameter 2 Q# j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 R# r1 $end
+$var wire 1 S# r0 $end
+$var parameter 3 T# j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 U# r1 $end
+$var wire 1 V# r0 $end
+$var parameter 3 W# j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 X# r1 $end
+$var wire 1 Y# r0 $end
+$var parameter 4 Z# j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 [# r1 $end
+$var wire 1 \# r0 $end
+$var parameter 4 ]# j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 ^# r1 $end
+$var wire 1 _# r0 $end
+$var parameter 4 `# j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 a# r1 $end
+$var wire 1 b# r0 $end
+$var parameter 4 c# j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[9] $end
+$var wire 8 d# mb [7:0] $end
+$var parameter 5 e# i $end
+$scope begin g_bit[0] $end
+$var wire 1 f# r1 $end
+$var wire 1 g# r0 $end
+$var parameter 2 h# j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 i# r1 $end
+$var wire 1 j# r0 $end
+$var parameter 2 k# j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 l# r1 $end
+$var wire 1 m# r0 $end
+$var parameter 3 n# j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 o# r1 $end
+$var wire 1 p# r0 $end
+$var parameter 3 q# j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 r# r1 $end
+$var wire 1 s# r0 $end
+$var parameter 4 t# j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 u# r1 $end
+$var wire 1 v# r0 $end
+$var parameter 4 w# j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 x# r1 $end
+$var wire 1 y# r0 $end
+$var parameter 4 z# j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 {# r1 $end
+$var wire 1 |# r0 $end
+$var parameter 4 }# j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[10] $end
+$var wire 8 ~# mb [7:0] $end
+$var parameter 5 !$ i $end
+$scope begin g_bit[0] $end
+$var wire 1 "$ r1 $end
+$var wire 1 #$ r0 $end
+$var parameter 2 $$ j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 %$ r1 $end
+$var wire 1 &$ r0 $end
+$var parameter 2 '$ j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 ($ r1 $end
+$var wire 1 )$ r0 $end
+$var parameter 3 *$ j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 +$ r1 $end
+$var wire 1 ,$ r0 $end
+$var parameter 3 -$ j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 .$ r1 $end
+$var wire 1 /$ r0 $end
+$var parameter 4 0$ j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 1$ r1 $end
+$var wire 1 2$ r0 $end
+$var parameter 4 3$ j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 4$ r1 $end
+$var wire 1 5$ r0 $end
+$var parameter 4 6$ j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 7$ r1 $end
+$var wire 1 8$ r0 $end
+$var parameter 4 9$ j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[11] $end
+$var wire 8 :$ mb [7:0] $end
+$var parameter 5 ;$ i $end
+$scope begin g_bit[0] $end
+$var wire 1 <$ r1 $end
+$var wire 1 =$ r0 $end
+$var parameter 2 >$ j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 ?$ r1 $end
+$var wire 1 @$ r0 $end
+$var parameter 2 A$ j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 B$ r1 $end
+$var wire 1 C$ r0 $end
+$var parameter 3 D$ j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 E$ r1 $end
+$var wire 1 F$ r0 $end
+$var parameter 3 G$ j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 H$ r1 $end
+$var wire 1 I$ r0 $end
+$var parameter 4 J$ j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 K$ r1 $end
+$var wire 1 L$ r0 $end
+$var parameter 4 M$ j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 N$ r1 $end
+$var wire 1 O$ r0 $end
+$var parameter 4 P$ j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 Q$ r1 $end
+$var wire 1 R$ r0 $end
+$var parameter 4 S$ j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[12] $end
+$var wire 8 T$ mb [7:0] $end
+$var parameter 5 U$ i $end
+$scope begin g_bit[0] $end
+$var wire 1 V$ r1 $end
+$var wire 1 W$ r0 $end
+$var parameter 2 X$ j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 Y$ r1 $end
+$var wire 1 Z$ r0 $end
+$var parameter 2 [$ j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 \$ r1 $end
+$var wire 1 ]$ r0 $end
+$var parameter 3 ^$ j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 _$ r1 $end
+$var wire 1 `$ r0 $end
+$var parameter 3 a$ j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 b$ r1 $end
+$var wire 1 c$ r0 $end
+$var parameter 4 d$ j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 e$ r1 $end
+$var wire 1 f$ r0 $end
+$var parameter 4 g$ j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 h$ r1 $end
+$var wire 1 i$ r0 $end
+$var parameter 4 j$ j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 k$ r1 $end
+$var wire 1 l$ r0 $end
+$var parameter 4 m$ j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[13] $end
+$var wire 8 n$ mb [7:0] $end
+$var parameter 5 o$ i $end
+$scope begin g_bit[0] $end
+$var wire 1 p$ r1 $end
+$var wire 1 q$ r0 $end
+$var parameter 2 r$ j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 s$ r1 $end
+$var wire 1 t$ r0 $end
+$var parameter 2 u$ j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 v$ r1 $end
+$var wire 1 w$ r0 $end
+$var parameter 3 x$ j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 y$ r1 $end
+$var wire 1 z$ r0 $end
+$var parameter 3 {$ j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 |$ r1 $end
+$var wire 1 }$ r0 $end
+$var parameter 4 ~$ j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 !% r1 $end
+$var wire 1 "% r0 $end
+$var parameter 4 #% j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 $% r1 $end
+$var wire 1 %% r0 $end
+$var parameter 4 &% j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 '% r1 $end
+$var wire 1 (% r0 $end
+$var parameter 4 )% j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[14] $end
+$var wire 8 *% mb [7:0] $end
+$var parameter 5 +% i $end
+$scope begin g_bit[0] $end
+$var wire 1 ,% r1 $end
+$var wire 1 -% r0 $end
+$var parameter 2 .% j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 /% r1 $end
+$var wire 1 0% r0 $end
+$var parameter 2 1% j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 2% r1 $end
+$var wire 1 3% r0 $end
+$var parameter 3 4% j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 5% r1 $end
+$var wire 1 6% r0 $end
+$var parameter 3 7% j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 8% r1 $end
+$var wire 1 9% r0 $end
+$var parameter 4 :% j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 ;% r1 $end
+$var wire 1 <% r0 $end
+$var parameter 4 =% j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 >% r1 $end
+$var wire 1 ?% r0 $end
+$var parameter 4 @% j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 A% r1 $end
+$var wire 1 B% r0 $end
+$var parameter 4 C% j $end
+$upscope $end
+$upscope $end
+$scope begin g_ent[15] $end
+$var wire 8 D% mb [7:0] $end
+$var parameter 5 E% i $end
+$scope begin g_bit[0] $end
+$var wire 1 F% r1 $end
+$var wire 1 G% r0 $end
+$var parameter 2 H% j $end
+$upscope $end
+$scope begin g_bit[1] $end
+$var wire 1 I% r1 $end
+$var wire 1 J% r0 $end
+$var parameter 2 K% j $end
+$upscope $end
+$scope begin g_bit[2] $end
+$var wire 1 L% r1 $end
+$var wire 1 M% r0 $end
+$var parameter 3 N% j $end
+$upscope $end
+$scope begin g_bit[3] $end
+$var wire 1 O% r1 $end
+$var wire 1 P% r0 $end
+$var parameter 3 Q% j $end
+$upscope $end
+$scope begin g_bit[4] $end
+$var wire 1 R% r1 $end
+$var wire 1 S% r0 $end
+$var parameter 4 T% j $end
+$upscope $end
+$scope begin g_bit[5] $end
+$var wire 1 U% r1 $end
+$var wire 1 V% r0 $end
+$var parameter 4 W% j $end
+$upscope $end
+$scope begin g_bit[6] $end
+$var wire 1 X% r1 $end
+$var wire 1 Y% r0 $end
+$var parameter 4 Z% j $end
+$upscope $end
+$scope begin g_bit[7] $end
+$var wire 1 [% r1 $end
+$var wire 1 \% r0 $end
+$var parameter 4 ]% j $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module u_ctrl $end
+$var wire 1 % clk $end
+$var wire 6 ^% data [5:0] $end
+$var wire 2 _% op [1:0] $end
+$var wire 1 ( rst $end
+$var wire 1 0 commit $end
+$var reg 16 `% rule_sh [15:0] $end
+$var reg 8 a% sw [7:0] $end
+$upscope $end
+$scope module u_pe $end
+$var wire 16 b% ml [15:0] $end
+$var wire 1 " valid $end
+$var wire 1 ! multi $end
+$var reg 4 c% addr [3:0] $end
+$var integer 32 d% k [31:0] $end
+$upscope $end
+$upscope $end
+$scope task do_search $end
+$var reg 8 e% s [7:0] $end
+$upscope $end
+$scope task load_rule $end
+$var reg 4 f% a [3:0] $end
+$var reg 16 g% r [15:0] $end
+$upscope $end
+$scope task step $end
+$var reg 4 h% a [3:0] $end
+$var reg 6 i% d [5:0] $end
+$var reg 2 j% o [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111 ]%
+b110 Z%
+b101 W%
+b100 T%
+b11 Q%
+b10 N%
+b1 K%
+b0 H%
+b1111 E%
+b111 C%
+b110 @%
+b101 =%
+b100 :%
+b11 7%
+b10 4%
+b1 1%
+b0 .%
+b1110 +%
+b111 )%
+b110 &%
+b101 #%
+b100 ~$
+b11 {$
+b10 x$
+b1 u$
+b0 r$
+b1101 o$
+b111 m$
+b110 j$
+b101 g$
+b100 d$
+b11 a$
+b10 ^$
+b1 [$
+b0 X$
+b1100 U$
+b111 S$
+b110 P$
+b101 M$
+b100 J$
+b11 G$
+b10 D$
+b1 A$
+b0 >$
+b1011 ;$
+b111 9$
+b110 6$
+b101 3$
+b100 0$
+b11 -$
+b10 *$
+b1 '$
+b0 $$
+b1010 !$
+b111 }#
+b110 z#
+b101 w#
+b100 t#
+b11 q#
+b10 n#
+b1 k#
+b0 h#
+b1001 e#
+b111 c#
+b110 `#
+b101 ]#
+b100 Z#
+b11 W#
+b10 T#
+b1 Q#
+b0 N#
+b1000 K#
+b111 I#
+b110 F#
+b101 C#
+b100 @#
+b11 =#
+b10 :#
+b1 7#
+b0 4#
+b111 1#
+b111 /#
+b110 ,#
+b101 )#
+b100 &#
+b11 ##
+b10 ~"
+b1 {"
+b0 x"
+b110 u"
+b111 s"
+b110 p"
+b101 m"
+b100 j"
+b11 g"
+b10 d"
+b1 a"
+b0 ^"
+b101 ["
+b111 Y"
+b110 V"
+b101 S"
+b100 P"
+b11 M"
+b10 J"
+b1 G"
+b0 D"
+b100 A"
+b111 ?"
+b110 <"
+b101 9"
+b100 6"
+b11 3"
+b10 0"
+b1 -"
+b0 *"
+b11 '"
+b111 %"
+b110 ""
+b101 }
+b100 z
+b11 w
+b10 t
+b1 q
+b0 n
+b10 k
+b111 i
+b110 f
+b101 c
+b100 `
+b11 ]
+b10 Z
+b1 W
+b0 T
+b1 Q
+b111 O
+b110 L
+b101 I
+b100 F
+b11 C
+b10 @
+b1 =
+b0 :
+b0 7
+$end
+#0
+$dumpvars
+bx j%
+bx i%
+bx h%
+bx g%
+bx f%
+bx e%
+bx d%
+bx c%
+bx b%
+bx a%
+bx `%
+b0 _%
+b0 ^%
+x\%
+x[%
+xY%
+xX%
+xV%
+xU%
+xS%
+xR%
+xP%
+xO%
+xM%
+xL%
+xJ%
+xI%
+xG%
+xF%
+bx D%
+xB%
+xA%
+x?%
+x>%
+x<%
+x;%
+x9%
+x8%
+x6%
+x5%
+x3%
+x2%
+x0%
+x/%
+x-%
+x,%
+bx *%
+x(%
+x'%
+x%%
+x$%
+x"%
+x!%
+x}$
+x|$
+xz$
+xy$
+xw$
+xv$
+xt$
+xs$
+xq$
+xp$
+bx n$
+xl$
+xk$
+xi$
+xh$
+xf$
+xe$
+xc$
+xb$
+x`$
+x_$
+x]$
+x\$
+xZ$
+xY$
+xW$
+xV$
+bx T$
+xR$
+xQ$
+xO$
+xN$
+xL$
+xK$
+xI$
+xH$
+xF$
+xE$
+xC$
+xB$
+x@$
+x?$
+x=$
+x<$
+bx :$
+x8$
+x7$
+x5$
+x4$
+x2$
+x1$
+x/$
+x.$
+x,$
+x+$
+x)$
+x($
+x&$
+x%$
+x#$
+x"$
+bx ~#
+x|#
+x{#
+xy#
+xx#
+xv#
+xu#
+xs#
+xr#
+xp#
+xo#
+xm#
+xl#
+xj#
+xi#
+xg#
+xf#
+bx d#
+xb#
+xa#
+x_#
+x^#
+x\#
+x[#
+xY#
+xX#
+xV#
+xU#
+xS#
+xR#
+xP#
+xO#
+xM#
+xL#
+bx J#
+xH#
+xG#
+xE#
+xD#
+xB#
+xA#
+x?#
+x>#
+x<#
+x;#
+x9#
+x8#
+x6#
+x5#
+x3#
+x2#
+bx 0#
+x.#
+x-#
+x+#
+x*#
+x(#
+x'#
+x%#
+x$#
+x"#
+x!#
+x}"
+x|"
+xz"
+xy"
+xw"
+xv"
+bx t"
+xr"
+xq"
+xo"
+xn"
+xl"
+xk"
+xi"
+xh"
+xf"
+xe"
+xc"
+xb"
+x`"
+x_"
+x]"
+x\"
+bx Z"
+xX"
+xW"
+xU"
+xT"
+xR"
+xQ"
+xO"
+xN"
+xL"
+xK"
+xI"
+xH"
+xF"
+xE"
+xC"
+xB"
+bx @"
+x>"
+x="
+x;"
+x:"
+x8"
+x7"
+x5"
+x4"
+x2"
+x1"
+x/"
+x."
+x,"
+x+"
+x)"
+x("
+bx &"
+x$"
+x#"
+x!"
+x~
+x|
+x{
+xy
+xx
+xv
+xu
+xs
+xr
+xp
+xo
+xm
+xl
+bx j
+xh
+xg
+xe
+xd
+xb
+xa
+x_
+x^
+x\
+x[
+xY
+xX
+xV
+xU
+xS
+xR
+bx P
+xN
+xM
+xK
+xJ
+xH
+xG
+xE
+xD
+xB
+xA
+x?
+x>
+x<
+x;
+x9
+x8
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+b0 1
+00
+bx /
+bx .
+bx -
+bx ,
+b0 +
+b0 *
+b0 )
+1(
+b0 '
+b0 &
+0%
+b0 $
+bx #
+x"
+x!
+$end
+#50000
+0!
+b11111111111111111111111111111111 d%
+b0 #
+b0 /
+b0 c%
+0"
+b0 .
+b0 4
+b0 b%
+b0 -
+b0 2
+b0 `%
+b0 ,
+b0 3
+b0 a%
+b0 5
+1%
+#100000
+0%
+#150000
+1%
+#200000
+0%
+#250000
+1%
+#300000
+b0 i%
+b0 h%
+b0 j%
+0(
+0%
+#350000
+1%
+#400000
+0%
+#450000
+1%
+#451000
+b101 i%
+b11 h%
+b1 j%
+b101010101010101 g%
+b11 f%
+#500000
+b101 &
+b101 *
+b101 ^%
+b11 $
+b11 )
+b11 1
+b1 '
+b1 +
+b1 _%
+0%
+#550000
+b101 -
+b101 2
+b101 `%
+1%
+#551000
+b10101 i%
+#600000
+b10101 &
+b10101 *
+b10101 ^%
+0%
+#650000
+b101010101 -
+b101010101 2
+b101010101 `%
+1%
+#700000
+0%
+#750000
+b101010101010101 -
+b101010101010101 2
+b101010101010101 `%
+1%
+#751000
+b0 i%
+b11 j%
+#800000
+b0 &
+b0 *
+b0 ^%
+10
+b11 '
+b11 +
+b11 _%
+0%
+#850000
+b11 #
+b11 /
+b11 c%
+b11111111 &"
+0!
+b11111111111111111111111111111111 d%
+1"
+b1000 .
+b1000 4
+b1000 b%
+0("
+1)"
+0+"
+1,"
+0."
+1/"
+01"
+12"
+04"
+15"
+07"
+18"
+0:"
+1;"
+0="
+1>"
+b1000 5
+1%
+#851000
+b1010 i%
+b101 h%
+b1 j%
+b1010101010101010 g%
+b101 f%
+#900000
+b1010 &
+b1010 *
+b1010 ^%
+b101 $
+b101 )
+b101 1
+00
+b1 '
+b1 +
+b1 _%
+0%
+#950000
+b101010101001010 -
+b101010101001010 2
+b101010101001010 `%
+1%
+#951000
+b101010 i%
+#1000000
+b101010 &
+b101010 *
+b101010 ^%
+0%
+#1050000
+b101001010101010 -
+b101001010101010 2
+b101001010101010 `%
+1%
+#1100000
+0%
+#1150000
+b1010101010101010 -
+b1010101010101010 2
+b1010101010101010 `%
+1%
+#1151000
+b0 i%
+b11 j%
+#1200000
+b0 &
+b0 *
+b0 ^%
+10
+b11 '
+b11 +
+b11 _%
+0%
+#1250000
+b0 Z"
+0!
+b11111111111111111111111111111111 d%
+b11 #
+b11 /
+b11 c%
+b1000 .
+b1000 4
+b1000 b%
+1\"
+0]"
+1_"
+0`"
+1b"
+0c"
+1e"
+0f"
+1h"
+0i"
+1k"
+0l"
+1n"
+0o"
+1q"
+0r"
+b101000 5
+1%
+#1251000
+b0 h%
+b10 j%
+b0 e%
+#1300000
+b0 $
+b0 )
+b0 1
+00
+b10 '
+b10 +
+b10 _%
+0%
+#1350000
+1%
+#1400000
+0%
+#1450000
+1%
+#1451000
+b0 j%
+#1500000
+b0 '
+b0 +
+b0 _%
+0%
+#1550000
+1%
+#1551000
+b11 i%
+b10 j%
+b11111111 e%
+#1600000
+b11 &
+b11 *
+b11 ^%
+b10 '
+b10 +
+b10 _%
+0%
+#1650000
+b11111111111111111111111111111111 d%
+b0 #
+b0 /
+b0 c%
+0"
+b0 .
+b0 4
+b0 b%
+b11111100 &"
+b11 Z"
+b11 ,
+b11 3
+b11 a%
+1%
+#1651000
+b111111 i%
+#1700000
+b111111 &
+b111111 *
+b111111 ^%
+0%
+#1750000
+b101 #
+b101 /
+b101 c%
+b11111111111111111111111111111111 d%
+1"
+b100000 .
+b100000 4
+b100000 b%
+b0 &"
+b11111111 Z"
+b11111111 ,
+b11111111 3
+b11111111 a%
+1%
+#1751000
+b0 i%
+b0 j%
+#1800000
+b0 &
+b0 *
+b0 ^%
+b0 '
+b0 +
+b0 _%
+0%
+#1850000
+1%
+#1851000
+b10 j%
+b1111 e%
+#1900000
+b10 '
+b10 +
+b10 _%
+0%
+#1950000
+b11111111111111111111111111111111 d%
+b0 #
+b0 /
+b0 c%
+0"
+b0 .
+b0 4
+b0 b%
+b111111 &"
+b11000000 Z"
+b11000000 ,
+b11000000 3
+b11000000 a%
+1%
+#1951000
+b1111 i%
+#2000000
+b1111 &
+b1111 *
+b1111 ^%
+0%
+#2050000
+b11110000 &"
+b1111 Z"
+b1111 ,
+b1111 3
+b1111 a%
+1%
+#2051000
+b0 i%
+b0 j%
+#2100000
+b0 &
+b0 *
+b0 ^%
+b0 '
+b0 +
+b0 _%
+0%
+#2150000
+1%
+#2151000
+b101 i%
+b10 h%
+b1 j%
+b101000000000000 g%
+b10 f%
+#2200000
+b101 &
+b101 *
+b101 ^%
+b10 $
+b10 )
+b10 1
+b1 '
+b1 +
+b1 _%
+0%
+#2250000
+b1010101010000101 -
+b1010101010000101 2
+b1010101010000101 `%
+1%
+#2251000
+b0 i%
+#2300000
+b0 &
+b0 *
+b0 ^%
+0%
+#2350000
+b1010000101000000 -
+b1010000101000000 2
+b1010000101000000 `%
+1%
+#2400000
+0%
+#2450000
+b101000000000000 -
+b101000000000000 2
+b101000000000000 `%
+1%
+#2451000
+b11 j%
+#2500000
+10
+b11 '
+b11 +
+b11 _%
+0%
+#2550000
+b10 #
+b10 /
+b10 c%
+0!
+b11111111111111111111111111111111 d%
+b11111111 j
+1"
+b100 .
+b100 4
+b100 b%
+0l
+0m
+0o
+0p
+0r
+0s
+0u
+0v
+0x
+0y
+0{
+0|
+0~
+1!"
+0#"
+1$"
+b101100 5
+1%
+#2551000
+b0 h%
+b10 j%
+b0 e%
+#2600000
+b0 $
+b0 )
+b0 1
+00
+b10 '
+b10 +
+b10 _%
+0%
+#2650000
+b11111111111111111111111111111111 d%
+b0 #
+b0 /
+b0 c%
+0"
+b0 .
+b0 4
+b0 b%
+b111111 &"
+b111111 j
+b11000000 Z"
+b11000000 ,
+b11000000 3
+b11000000 a%
+1%
+#2700000
+0%
+#2750000
+1!
+b10 #
+b10 /
+b10 c%
+b11111111111111111111111111111111 d%
+1"
+b1100 .
+b1100 4
+b1100 b%
+b11111111 &"
+b11111111 j
+b0 Z"
+b0 ,
+b0 3
+b0 a%
+1%
+#2751000
+b0 j%
+#2800000
+b0 '
+b0 +
+b0 _%
+0%
+#2850000
+1%
+#2900000
+0%
+#2950000
+1%
+#3000000
+0%
+#3050000
+1%
+#3051000

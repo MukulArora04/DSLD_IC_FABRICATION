@@ -1,0 +1,14 @@
+PASS T0 empty after reset
+PASS T1a exact 0x00 -> 3
+PASS T1b exact 0xFF -> 5
+PASS T1c 0x0F no match
+PASS T2a wildcard hit
+PASS T2b wildcard miss
+PASS T3 priority -> 2
+PASS T4a invalid cell skipped
+PASS T4b all-X matches anything
+PASS T5 overwrite entry 1 (no match)
+PASS b overwritten entry matches 0xFF
+PASS T6 reset clears entries
+*** ALL TESTS PASSED (412 checks) ***
+tb_tcam.v:163: $finish called at 287151000 (1ps)
