@@ -1,1 +1,0 @@
-ruby /usr/local/lib/python3.12/dist-packages/librelane/scripts/klayout/xor.drc --output /foss/designs/runs/RUN_2026-10-30_16-45-26/63-klayout-xor/xor.xml --top tcam_top --threads 4 --ignore 81/14 /foss/designs/runs/RUN_2026-10-30_16-45-26/58-magic-streamout/tcam_top.magic.gds /foss/designs/runs/RUN_2026-10-30_16-45-26/59-klayout-streamout/tcam_top.klayout.gds
